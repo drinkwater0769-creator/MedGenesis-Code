@@ -1,0 +1,246 @@
+{
+  "schema_version": "clinicalrep.source-contract.v2",
+  "task_id": "Respiratory_000",
+  "paper_pmid": "40230221",
+  "paper_doi": "10.1111/dom.16407",
+  "source_class": "credentialed",
+  "dataset": "UK Biobank",
+  "paper_identity_changed": false,
+  "source_correction_reason": "Participant-level UK Biobank source; paper-specific preparation and scientific validation still required.",
+  "source_references": [
+    "https://onlinelibrary.wiley.com/doi/10.1111/dom.16407",
+    "https://biobank.ndph.ox.ac.uk/showcase/pub.cgi?id=15499",
+    "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=22407",
+    "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=22408",
+    "https://biobank.ndph.ox.ac.uk/showcase/ukb/docs/AbdoBodyCompMethod.pdf",
+    "https://biobank.ndph.ox.ac.uk/showcase/",
+    "https://biobank.ndph.ox.ac.uk/ukb/exinfo.cgi?src=Data_providers_and_dates.html",
+    "https://www.ukbiobank.ac.uk/about-us/how-we-work/access-to-uk-biobank-data/"
+  ],
+  "candidate_ukb_fields": [
+    {
+      "field_id": "31",
+      "description": "sex candidate covariate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=31",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "48",
+      "description": "waist-circumference comparator candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=48",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "53",
+      "description": "assessment visit date candidate for MRI time origin",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=53",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "54",
+      "description": "assessment centre candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=54",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "189",
+      "description": "Townsend-deprivation candidate covariate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=189",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "12223",
+      "description": "abdominal MRI measuring-method candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=12223",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "12224",
+      "description": "abdominal MRI completion candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=12224",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "20116",
+      "description": "smoking-status candidate covariate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=20116",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "21000",
+      "description": "ethnic-background candidate covariate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=21000",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "21001",
+      "description": "BMI comparator candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=21001",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "21003",
+      "description": "age-at-assessment candidate covariate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=21003",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "22407",
+      "description": "visceral adipose tissue volume (VAT), paper exposure candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=22407",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "22408",
+      "description": "abdominal subcutaneous adipose tissue volume (ASAT), paper exposure candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=22408",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "40000",
+      "description": "death-date array candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=40000",
+      "instances": "all",
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "40001",
+      "description": "underlying cause-of-death array candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=40001",
+      "instances": "all",
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "40002",
+      "description": "contributory cause-of-death array candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=40002",
+      "instances": "all",
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "41270",
+      "description": "hospital inpatient ICD-10 diagnosis array candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=41270",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "41280",
+      "description": "hospital inpatient ICD-10 first-date array candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=41280",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "130068",
+      "description": "current UKB first-occurrence date for ICD-10 A40, candidate only",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=130068",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "130069",
+      "description": "current UKB first-occurrence source for ICD-10 A40, candidate only",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=130069",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "130070",
+      "description": "current UKB first-occurrence date for ICD-10 A41, candidate only",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=130070",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "130071",
+      "description": "current UKB first-occurrence source for ICD-10 A41, candidate only",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=130071",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    }
+  ],
+  "candidate_field_map_complete": false,
+  "supported_execution_profiles": [
+    "ukb-candidate-input-v1"
+  ],
+  "full_paper_reproduction_validated": false,
+  "formal_score_eligible": false,
+  "blockers": [
+    "The exact paper cohort, variable recodes, endpoint algorithm and model specification have not all been independently frozen and validated."
+  ],
+  "provenance": "Curated from local paper-source dossiers and method/field audits; no participant values or prior scores included."
+}

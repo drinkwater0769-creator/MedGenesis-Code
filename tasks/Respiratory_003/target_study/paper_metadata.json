@@ -1,0 +1,36 @@
+{
+  "task_id": "Respiratory_003",
+  "source_study_label": "Multi-ancestry genome-wide association analyses improve resolution of genes and pathways influencing lung function and chronic obstructive pulmonary disease risk",
+  "release_status": "ukbiobank_literature_grounded_v0.3",
+  "pubmed": {
+    "pmid": "36914875",
+    "title": "Multi-ancestry genome-wide association analyses improve resolution of genes and pathways influencing lung function and chronic obstructive pulmonary disease risk",
+    "journal": "Nat Genet",
+    "pubdate": "2023 Mar",
+    "doi": "10.1038/s41588-023-01314-0",
+    "authors": [
+      "Shrine N",
+      "Izquierdo AG",
+      "Chen J",
+      "Packer R",
+      "Hall RJ",
+      "Guyatt AL",
+      "Batini C",
+      "Thompson RJ",
+      "Pavuluri C",
+      "Malik V",
+      "Hobbs BD",
+      "Moll M"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36914875/"
+  },
+  "data_source": {
+    "name": "UK Biobank",
+    "access": "credentialed",
+    "url": "https://www.ukbiobank.ac.uk/enable-your-research/apply-for-access",
+    "description": "UK Biobank controlled-access prospective cohort with linked health records, biomarkers, imaging, genomics, and mortality outcomes."
+  },
+  "primary_endpoint": "lung function and COPD risk prediction from multi-ancestry genetic signals",
+  "benchmark_execution_status": "metadata_bound_to_ukbiobank; UKB field map and locked extract required for numeric reproduction",
+  "redistribution_note": "Do not redistribute UK Biobank participant-level records. Use approved UK Biobank access or a governed derived extract."
+}

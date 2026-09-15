@@ -1,0 +1,81 @@
+{
+  "lock_provenance": "paper_reported_values",
+  "lock_source": "Official PubMed abstract of PMID 35643414 (full text paywalled); 2019-vs-2015 LMF difference documented.",
+  "locked": true,
+  "locked_on": "2026-08-26",
+  "metrics": [
+    {
+      "direction": "target_match",
+      "id": "or_gallstones_nafld",
+      "label": "Or Gallstones Nafld",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 0.35,
+      "value": 1.75,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "or_cholecystectomy_nafld",
+      "label": "Or Cholecystectomy Nafld",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 0.55,
+      "value": 2.77,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "hr_gsd_allcause_overall",
+      "label": "Hr Gsd Allcause Overall",
+      "notes": "Abstract: all-cause HR 1.19 (1.05-1.37)",
+      "tolerance_abs": 0.2,
+      "value": 1.19,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "hr_gsd_allcause_nonnafld",
+      "label": "Hr Gsd Allcause Nonnafld",
+      "notes": "Abstract: non-NAFLD all-cause HR 1.42 (1.23-1.64)",
+      "tolerance_abs": 0.28,
+      "value": 1.42,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "hr_gsd_allcause_nafld",
+      "label": "Hr Gsd Allcause Nafld",
+      "notes": "Abstract: NAFLD all-cause HR 1.03 (0.87-1.22, null)",
+      "tolerance_abs": 0.2,
+      "value": 1.03,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "hr_gsd_cvd_nonnafld",
+      "label": "Hr Gsd Cvd Nonnafld",
+      "notes": "Abstract: non-NAFLD CVD HR 1.40 (1.10-1.78)",
+      "tolerance_abs": 0.35,
+      "value": 1.4,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "hr_gsd_cancer_nonnafld",
+      "label": "Hr Gsd Cancer Nonnafld",
+      "notes": "Abstract: non-NAFLD cancer HR 1.71 (1.18-2.48)",
+      "tolerance_abs": 0.5,
+      "value": 1.71,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "hr_gsd_cvd_nafld",
+      "label": "Hr Gsd Cvd Nafld",
+      "notes": "Abstract: NAFLD CVD HR 1.36 (1.05-1.77)",
+      "tolerance_abs": 0.4,
+      "value": 1.36,
+      "weight": 1.0
+    }
+  ],
+  "public_target_notice": "Public development target; not a hidden test or a historical model score."
+}

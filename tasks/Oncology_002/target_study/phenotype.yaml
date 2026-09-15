@@ -1,0 +1,10 @@
+task_id: Oncology_002
+phenotype_name: AdjuvantChemoBenefit
+clinical_domain: Oncology and cancer genomics
+primary_endpoint: disease-free survival
+index_date: source-study-specific index date reconstructed from target methods
+follow_up: source-study-specific window with censoring rules explicitly stated
+exposure_or_predictor: source-study-specific exposure, model score, treatment, biomarker, or trajectory group
+outcome_definition: disease-free survival
+rediscovery_target: Recover the reported average treatment effect and high-risk subgroup benefit.
+new_discovery_target: Flag subgroups where treatment effect is uncertain rather than overclaiming benefit.

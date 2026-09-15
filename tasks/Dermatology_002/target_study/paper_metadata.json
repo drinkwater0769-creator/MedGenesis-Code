@@ -1,0 +1,23 @@
+{
+  "task_id": "Dermatology_002",
+  "source_study_label": "Associations of combined lifestyle and genetic risks with incident psoriasis: A prospective cohort study among UK Biobank participants of European ancestry.",
+  "release_status": "figure2d_domain_aligned_v0.4",
+  "pubmed": {
+    "pmid": "35427684",
+    "title": "Associations of combined lifestyle and genetic risks with incident psoriasis: A prospective cohort study among UK Biobank participants of European ancestry.",
+    "journal": "J Am Acad Dermatol",
+    "pubdate": "2022 Aug",
+    "doi": "10.1016/j.jaad.2022.04.006",
+    "authors": [],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35427684/"
+  },
+  "data_source": {
+    "name": "UK Biobank",
+    "access": "credentialed",
+    "url": "https://www.ukbiobank.ac.uk/enable-your-research/apply-for-access",
+    "description": "UK Biobank controlled-access prospective cohort with linked health records, biomarkers, imaging, genomics, and mortality outcomes."
+  },
+  "primary_endpoint": "incident psoriasis by combined lifestyle and genetic risk",
+  "benchmark_execution_status": "metadata_bound_to_ukbiobank; UKB field map and locked extract required for numeric reproduction",
+  "redistribution_note": "Do not redistribute UK Biobank participant-level records. Use approved UK Biobank access or a governed derived extract."
+}

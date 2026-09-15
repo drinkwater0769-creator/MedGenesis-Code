@@ -1,0 +1,23 @@
+{
+  "task_id": "Endocrinology_001",
+  "source_study_label": "Abdominal obesity, body mass index, and hypertension in US adults: NHANES 2007-2010",
+  "release_status": "figure2d_domain_aligned_v0.4",
+  "pubmed": {
+    "pmid": "22895451",
+    "title": "Abdominal obesity, body mass index, and hypertension in US adults: NHANES 2007-2010",
+    "journal": "Am J Hypertens",
+    "pubdate": "2012 Dec",
+    "doi": "10.1038/ajh.2012.120",
+    "authors": [],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/22895451/"
+  },
+  "data_source": {
+    "name": "NHANES",
+    "access": "open",
+    "url": "https://wwwn.cdc.gov/nchs/nhanes/",
+    "description": "CDC National Health and Nutrition Examination Survey public-use files."
+  },
+  "primary_endpoint": "hypertension in relation to abdominal obesity and BMI",
+  "benchmark_execution_status": "metadata_bound; source extractor or locked extract required for numeric reproduction",
+  "redistribution_note": "Do not redistribute copyrighted full text or controlled patient-level data. Use official source access or a locked derived extract."
+}

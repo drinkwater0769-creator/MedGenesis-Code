@@ -1,0 +1,11 @@
+{
+  "task_id": "Neurology_001",
+  "phenotype_name": "Neurology_001_source_endpoint",
+  "primary_endpoint": "ischemic stroke risk predicted by plasma proteomics",
+  "outcome_definition": "ischemic stroke risk predicted by plasma proteomics",
+  "source_contract": "../data/source_contract.json",
+  "implementation_profile": null,
+  "full_paper_definition_status": "not_frozen",
+  "rediscovery_target": "Reconstruct the source study analysis for: ischemic stroke risk predicted by plasma proteomics. Declare any deviations or missing modules.",
+  "new_discovery_target": "Perform one prespecified, data-supported sensitivity or subgroup analysis; distinguish it from source reproduction and report uncertainty."
+}

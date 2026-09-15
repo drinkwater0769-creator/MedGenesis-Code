@@ -1,0 +1,251 @@
+{
+  "release_id": "0.4.2-public.4",
+  "tasks": [
+    {
+      "task_id": "Cardiology_000",
+      "source_class": "credentialed",
+      "dataset": "UK Biobank",
+      "candidate_field_count": 28,
+      "execution_profiles": [
+        "ukb-candidate-input-v1"
+      ],
+      "formal_score_eligible": false
+    },
+    {
+      "task_id": "Cardiology_001",
+      "source_class": "credentialed",
+      "dataset": "UK Biobank",
+      "candidate_field_count": 16,
+      "execution_profiles": [
+        "ukb-candidate-input-v1"
+      ],
+      "formal_score_eligible": false
+    },
+    {
+      "task_id": "Cardiology_002",
+      "source_class": "credentialed",
+      "dataset": "UK Biobank",
+      "candidate_field_count": 27,
+      "execution_profiles": [
+        "ukb-candidate-input-v1"
+      ],
+      "formal_score_eligible": false
+    },
+    {
+      "task_id": "Dermatology_001",
+      "source_class": "mixed",
+      "dataset": "UK Biobank and OpenGWAS summary statistics",
+      "candidate_field_count": 23,
+      "execution_profiles": [
+        "ukb-candidate-input-v1"
+      ],
+      "formal_score_eligible": false
+    },
+    {
+      "task_id": "Dermatology_002",
+      "source_class": "credentialed",
+      "dataset": "UK Biobank",
+      "candidate_field_count": 29,
+      "execution_profiles": [
+        "ukb-candidate-input-v1"
+      ],
+      "formal_score_eligible": false
+    },
+    {
+      "task_id": "Dermatology_003",
+      "source_class": "repository",
+      "dataset": "Neale Lab round-2 UK Biobank GWAS summary statistics and public functional annotation resources",
+      "candidate_field_count": 0,
+      "execution_profiles": [],
+      "formal_score_eligible": false
+    },
+    {
+      "task_id": "Gastroenterology_002",
+      "source_class": "mixed",
+      "dataset": "Four metabolomics discovery and validation cohorts including UK Biobank",
+      "candidate_field_count": 23,
+      "execution_profiles": [
+        "ukb-candidate-input-v1"
+      ],
+      "formal_score_eligible": false
+    },
+    {
+      "task_id": "Gastroenterology_003",
+      "source_class": "credentialed",
+      "dataset": "UK Biobank",
+      "candidate_field_count": 33,
+      "execution_profiles": [
+        "ukb-candidate-input-v1"
+      ],
+      "formal_score_eligible": false
+    },
+    {
+      "task_id": "Hematology_000",
+      "source_class": "credentialed",
+      "dataset": "UK Biobank",
+      "candidate_field_count": 13,
+      "execution_profiles": [
+        "ukb-candidate-input-v1"
+      ],
+      "formal_score_eligible": false
+    },
+    {
+      "task_id": "Hematology_002",
+      "source_class": "mixed",
+      "dataset": "UK Biobank and Geisinger multi-cohort genomic analyses",
+      "candidate_field_count": 19,
+      "execution_profiles": [
+        "ukb-candidate-input-v1"
+      ],
+      "formal_score_eligible": false
+    },
+    {
+      "task_id": "Hematology_003",
+      "source_class": "credentialed",
+      "dataset": "UK Biobank",
+      "candidate_field_count": 20,
+      "execution_profiles": [
+        "ukb-candidate-input-v1"
+      ],
+      "formal_score_eligible": false
+    },
+    {
+      "task_id": "Immunology_001",
+      "source_class": "mixed",
+      "dataset": "NHANES 1999-2018 and UK Biobank",
+      "candidate_field_count": 29,
+      "execution_profiles": [
+        "ukb-candidate-input-v1"
+      ],
+      "formal_score_eligible": false
+    },
+    {
+      "task_id": "Immunology_002",
+      "source_class": "credentialed",
+      "dataset": "UK Biobank",
+      "candidate_field_count": 40,
+      "execution_profiles": [
+        "ukb-candidate-input-v1"
+      ],
+      "formal_score_eligible": false
+    },
+    {
+      "task_id": "Immunology_003",
+      "source_class": "credentialed",
+      "dataset": "UK Biobank",
+      "candidate_field_count": 19,
+      "execution_profiles": [
+        "ukb-candidate-input-v1"
+      ],
+      "formal_score_eligible": false
+    },
+    {
+      "task_id": "InfectiousDisease_000",
+      "source_class": "repository",
+      "dataset": "GWAS Catalog inflammatory-protein and sepsis outcome summary statistics",
+      "candidate_field_count": 0,
+      "execution_profiles": [],
+      "formal_score_eligible": false
+    },
+    {
+      "task_id": "InfectiousDisease_001",
+      "source_class": "credentialed",
+      "dataset": "UK Biobank",
+      "candidate_field_count": 13,
+      "execution_profiles": [
+        "ukb-candidate-input-v1"
+      ],
+      "formal_score_eligible": false
+    },
+    {
+      "task_id": "InfectiousDisease_002",
+      "source_class": "credentialed",
+      "dataset": "UK Biobank",
+      "candidate_field_count": 18,
+      "execution_profiles": [
+        "ukb-candidate-input-v1"
+      ],
+      "formal_score_eligible": false
+    },
+    {
+      "task_id": "InfectiousDisease_003",
+      "source_class": "credentialed",
+      "dataset": "UK Biobank",
+      "candidate_field_count": 30,
+      "execution_profiles": [
+        "ukb-candidate-input-v1"
+      ],
+      "formal_score_eligible": false
+    },
+    {
+      "task_id": "Neurology_000",
+      "source_class": "credentialed",
+      "dataset": "UK Biobank",
+      "candidate_field_count": 28,
+      "execution_profiles": [
+        "neurology000-crude-v1"
+      ],
+      "formal_score_eligible": false
+    },
+    {
+      "task_id": "Neurology_001",
+      "source_class": "credentialed",
+      "dataset": "UK Biobank",
+      "candidate_field_count": 37,
+      "execution_profiles": [
+        "ukb-candidate-input-v1"
+      ],
+      "formal_score_eligible": false
+    },
+    {
+      "task_id": "Neurology_003",
+      "source_class": "mixed",
+      "dataset": "GIGASTROKE multi-cohort summary statistics and governed validation cohorts",
+      "candidate_field_count": 23,
+      "execution_profiles": [
+        "ukb-candidate-input-v1"
+      ],
+      "formal_score_eligible": false
+    },
+    {
+      "task_id": "Respiratory_000",
+      "source_class": "credentialed",
+      "dataset": "UK Biobank",
+      "candidate_field_count": 22,
+      "execution_profiles": [
+        "ukb-candidate-input-v1"
+      ],
+      "formal_score_eligible": false
+    },
+    {
+      "task_id": "Respiratory_001",
+      "source_class": "credentialed",
+      "dataset": "UK Biobank",
+      "candidate_field_count": 19,
+      "execution_profiles": [
+        "ukb-candidate-input-v1"
+      ],
+      "formal_score_eligible": false
+    },
+    {
+      "task_id": "Respiratory_002",
+      "source_class": "credentialed",
+      "dataset": "UK Biobank",
+      "candidate_field_count": 27,
+      "execution_profiles": [
+        "ukb-candidate-input-v1"
+      ],
+      "formal_score_eligible": false
+    },
+    {
+      "task_id": "Respiratory_003",
+      "source_class": "mixed",
+      "dataset": "49-cohort multi-ancestry lung-function GWAS summary statistics and governed cohorts",
+      "candidate_field_count": 23,
+      "execution_profiles": [
+        "ukb-candidate-input-v1"
+      ],
+      "formal_score_eligible": false
+    }
+  ]
+}

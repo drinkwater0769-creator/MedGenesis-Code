@@ -1,0 +1,11 @@
+{
+  "task_id": "Respiratory_002",
+  "phenotype_name": "Respiratory_002_source_endpoint",
+  "primary_endpoint": "cardiovascular outcomes associated with preserved-ratio impaired spirometry",
+  "outcome_definition": "cardiovascular outcomes associated with preserved-ratio impaired spirometry",
+  "source_contract": "../data/source_contract.json",
+  "implementation_profile": null,
+  "full_paper_definition_status": "not_frozen",
+  "rediscovery_target": "Reconstruct the source study analysis for: cardiovascular outcomes associated with preserved-ratio impaired spirometry. Declare any deviations or missing modules.",
+  "new_discovery_target": "Perform one prespecified, data-supported sensitivity or subgroup analysis; distinguish it from source reproduction and report uncertainty."
+}

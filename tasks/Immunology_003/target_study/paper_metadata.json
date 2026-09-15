@@ -1,0 +1,23 @@
+{
+  "task_id": "Immunology_003",
+  "source_study_label": "Cardiovascular Health, Genetic Susceptibility, and the Risk of Incident Autoimmune Disorders in the UK Biobank: A Prospective Cohort Study.",
+  "release_status": "figure2d_domain_aligned_v0.4",
+  "pubmed": {
+    "pmid": "40371604",
+    "title": "Cardiovascular Health, Genetic Susceptibility, and the Risk of Incident Autoimmune Disorders in the UK Biobank: A Prospective Cohort Study.",
+    "journal": "J Am Heart Assoc",
+    "pubdate": "2025 May 20",
+    "doi": "10.1161/JAHA.124.039451",
+    "authors": [],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40371604/"
+  },
+  "data_source": {
+    "name": "UK Biobank",
+    "access": "credentialed",
+    "url": "https://www.ukbiobank.ac.uk/enable-your-research/apply-for-access",
+    "description": "UK Biobank controlled-access prospective cohort with linked health records, biomarkers, imaging, genomics, and mortality outcomes."
+  },
+  "primary_endpoint": "incident autoimmune disorders by cardiovascular health and genetic susceptibility",
+  "benchmark_execution_status": "metadata_bound_to_ukbiobank; UKB field map and locked extract required for numeric reproduction",
+  "redistribution_note": "Do not redistribute UK Biobank participant-level records. Use approved UK Biobank access or a governed derived extract."
+}

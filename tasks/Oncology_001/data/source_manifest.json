@@ -1,0 +1,33 @@
+{
+ "bound_paper": {
+  "doi": "10.1038/nature11412",
+  "pmid": "23000897",
+  "title": "Comprehensive molecular portraits of human breast tumours"
+ },
+ "dataset": "TCGA/GDC",
+ "driver_genes": [
+  "TP53",
+  "PIK3CA",
+  "GATA3",
+  "MAP3K1",
+  "CDH1",
+  "MLL3",
+  "MAP2K4"
+ ],
+ "extract": {
+  "analysis": "tcga_project_profile",
+  "output": "data/analytic_extract.csv",
+  "reference_runner": "clinicalclawbench.open_data.tcga_project.prepare_project_profile",
+  "script": "scripts/prepare_open_data_task.py"
+ },
+ "gdc_projects": [
+  "TCGA-BRCA"
+ ],
+ "license_note": "Open-access GDC data; comply with NIH GDC data use policies.",
+ "paper_specific": true,
+ "provider": "tcga_gdc",
+ "source_home": "https://portal.gdc.cancer.gov/",
+ "source_system": "NCI GDC API: clinical cases + masked somatic MAF",
+ "status": "runnable_open_data_paper_specific",
+ "task_id": "Oncology_001"
+}

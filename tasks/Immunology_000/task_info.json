@@ -1,0 +1,101 @@
+{
+  "task_id": "Immunology_000",
+  "title": "Reproduce: Lycopene reduces mortality in people with systemic lupus erythematosus: A pilot study based on the third national health and nutrition examination survey",
+  "benchmark": "ClinicalRepBench",
+  "track": "Public",
+  "domain": "Immunology",
+  "domain_code": "Immunology",
+  "domain_index": 6,
+  "task_index_within_domain": 0,
+  "data_access": "open",
+  "source_release": "redacted_public_scaffold",
+  "primary_question": "Can an autonomous clinical-research agent reproduce the main analysis of PMID 26762689 (Lycopene reduces mortality in people with systemic lupus erythematosus: A pilot study based on the third national health and nutrition examination survey) using NHANES or its governed benchmark extract?",
+  "task": "Reproduce the clinical-research workflow of PMID 26762689: Lycopene reduces mortality in people with systemic lupus erythematosus: A pilot study based on the third national health and nutrition examination survey. Primary endpoint: mortality in people with systemic lupus erythematosus. Use NHANES or a locked benchmark extract derived from it. Report cohort construction, variables, statistical methods, the main reproduction result, sensitivity analyses, limitations, and one bounded new-discovery extension.",
+  "endpoint": "mortality in people with systemic lupus erythematosus",
+  "rediscovery_target": "Recover reported biomarker and clinical predictors of flare.",
+  "new_discovery_target": "Identify whether trajectory features improve prediction over most recent visit alone.",
+  "data": [
+    {
+      "name": "NHANES",
+      "path": "data/",
+      "type": "source_dataset_or_locked_extract",
+      "description": "CDC National Health and Nutrition Examination Survey public-use files.",
+      "access": "open",
+      "url": "https://wwwn.cdc.gov/nchs/nhanes/"
+    }
+  ],
+  "deliverables": [
+    "submission.json",
+    "report/report.md",
+    "artifacts/primary_metrics.json",
+    "artifacts/tables/table1.csv",
+    "artifacts/tables/table2.csv",
+    "artifacts/figures/figure1.svg"
+  ],
+  "allowed_tools": [
+    "python",
+    "r",
+    "sql",
+    "literature_search"
+  ],
+  "disallowed_tools": [
+    "paper_title_lookup_when_title_is_redacted",
+    "patient_reidentification",
+    "unsupported_causal_claims"
+  ],
+  "evaluation": {
+    "objective_weight": 0.7,
+    "subjective_weight": 0.2,
+    "strobe_weight": 0.1,
+    "penalty_cap": 40.0,
+    "metrics_weight": 0.05,
+    "checklist_weight": 0.9,
+    "paper_baseline": 0.5,
+    "paper_ceiling": 0.9,
+    "strobe_required": true,
+    "strobe_items": [
+      "cohort",
+      "variables",
+      "bias",
+      "study_size",
+      "statistical_methods",
+      "limitations",
+      "generalizability"
+    ],
+    "phi_whitelist": [
+      "patient_id",
+      "study_id",
+      "encounter_id"
+    ],
+    "final_score_mode": "researchclawbench_rubric",
+    "gate_weight": 0.05,
+    "human_level_score": 50.0,
+    "figure_panel": "Figure 2D",
+    "scoring_profile": "figure2d_researchclawbench_v1",
+    "calibration_note": "ClinicalRepBench Figure 2D calibration: 0-100 score, 50 approximates trained human paper-level reproduction; static metrics, format-only reports, and source-generic prose are capped by rubric critical checks.",
+    "reproducibility_weight": 0.0,
+    "metric_alignment_floor": 0.05,
+    "zero_metric_alignment_cap": 0.2,
+    "missing_analysis_code_cap": 0.45,
+    "synthetic_placeholder_analysis_cap": 0.25,
+    "weak_reproducibility_threshold": 0.5,
+    "weak_reproducibility_cap": 0.3
+  },
+  "tags": [
+    "clinicalrepbench",
+    "paper_reproduction",
+    "immunology",
+    "mortalityinpeoplewithsystemiclup"
+  ],
+  "resource_budget": {
+    "time_seconds": 3600,
+    "tokens_total": 1200000,
+    "_note": "ClinicalRepBench paper-reproduction task; source materials are redacted in the public scaffold."
+  },
+  "source_pmid": "26762689",
+  "source_doi": "10.3109/09546634.2015.1133879",
+  "source_journal": "J Dermatolog Treat",
+  "source_pubdate": "2016 Oct",
+  "source_year": "2016",
+  "primary_dataset": "NHANES"
+}

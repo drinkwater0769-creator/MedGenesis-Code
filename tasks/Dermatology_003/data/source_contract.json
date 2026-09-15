@@ -1,0 +1,32 @@
+{
+  "schema_version": "clinicalrep.source-contract.v2",
+  "task_id": "Dermatology_003",
+  "paper_pmid": "39624183",
+  "paper_doi": "10.1016/j.xjidi.2024.100322",
+  "source_class": "repository",
+  "dataset": "Neale Lab round-2 UK Biobank GWAS summary statistics and public functional annotation resources",
+  "paper_identity_changed": false,
+  "source_correction_reason": "Primary paper verification shows analysis of public Neale Lab round-2 UK Biobank GWAS summary statistics rather than direct participant-level UK Biobank analysis.",
+  "source_references": [
+    "https://pubmed.ncbi.nlm.nih.gov/39624183/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC11609433/",
+    "https://doi.org/10.1016/j.xjidi.2024.100322",
+    "https://www.nealelab.is/uk-biobank/",
+    "https://www.nealelab.is/uk-biobank/faq",
+    "https://www.ukbiobank.ac.uk/about-us/how-we-work/access-to-uk-biobank-data/",
+    "https://ldlink.nih.gov/?tab=snpclip",
+    "https://genome.ucsc.edu/",
+    "https://www.proteinatlas.org/about/download",
+    "https://geneontology.org/docs/go-enrichment-analysis/"
+  ],
+  "candidate_ukb_fields": [],
+  "candidate_field_map_complete": false,
+  "supported_execution_profiles": [],
+  "full_paper_reproduction_validated": false,
+  "formal_score_eligible": false,
+  "blockers": [
+    "Participant-level UK Biobank exports are not the source for this task; exact repository accessions and analysis scope must be frozen.",
+    "The exact paper cohort, variable recodes, endpoint algorithm and model specification have not all been independently frozen and validated."
+  ],
+  "provenance": "Curated from local paper-source dossiers and method/field audits; no participant values or prior scores included."
+}

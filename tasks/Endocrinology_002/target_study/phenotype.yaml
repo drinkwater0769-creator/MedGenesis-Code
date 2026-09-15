@@ -1,0 +1,10 @@
+task_id: Endocrinology_002
+phenotype_name: ThyroidCardioRisk
+clinical_domain: Endocrine and metabolic disease
+primary_endpoint: incident atrial fibrillation or cardiovascular event
+index_date: source-study-specific index date reconstructed from target methods
+follow_up: source-study-specific window with censoring rules explicitly stated
+exposure_or_predictor: source-study-specific exposure, model score, treatment, biomarker, or trajectory group
+outcome_definition: incident atrial fibrillation or cardiovascular event
+rediscovery_target: Recover the reported nonlinear risk pattern across thyroid function categories.
+new_discovery_target: Assess whether risk is concentrated among older adults or those with baseline heart disease.

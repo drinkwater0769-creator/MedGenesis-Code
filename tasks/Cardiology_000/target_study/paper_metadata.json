@@ -1,0 +1,23 @@
+{
+  "task_id": "Cardiology_000",
+  "source_study_label": "Associations between triglyceride-glucose-related indices and all-cause and cardiovascular mortality among individuals with atrial fibrillation and metabolic syndrome: a cohort study of the UK biobank",
+  "release_status": "figure2d_domain_aligned_v0.4",
+  "pubmed": {
+    "pmid": "41163015",
+    "title": "Associations between triglyceride-glucose-related indices and all-cause and cardiovascular mortality among individuals with atrial fibrillation and metabolic syndrome: a cohort study of the UK biobank",
+    "journal": "Cardiovasc Diabetol",
+    "pubdate": "2025 Oct 29",
+    "doi": "10.1186/s12933-025-02963-7",
+    "authors": [],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41163015/"
+  },
+  "data_source": {
+    "name": "UK Biobank",
+    "access": "credentialed",
+    "url": "https://www.ukbiobank.ac.uk/enable-your-research/apply-for-access",
+    "description": "UK Biobank controlled-access prospective cohort with linked health records, biomarkers, imaging, genomics, and mortality outcomes."
+  },
+  "primary_endpoint": "all-cause and cardiovascular mortality among UK Biobank participants with atrial fibrillation and metabolic syndrome",
+  "benchmark_execution_status": "metadata_bound_to_ukbiobank; UKB field map and locked extract required for numeric reproduction",
+  "redistribution_note": "Do not redistribute UK Biobank participant-level records. Use approved UK Biobank access or a governed derived extract."
+}

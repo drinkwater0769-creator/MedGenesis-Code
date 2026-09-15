@@ -1,0 +1,37 @@
+{
+ "bound_paper": {
+  "doi": "10.1038/nature11252",
+  "pmid": "22810696",
+  "title": "Comprehensive molecular characterization of human colon and rectal cancer"
+ },
+ "dataset": "TCGA/GDC",
+ "driver_genes": [
+  "APC",
+  "TP53",
+  "KRAS",
+  "PIK3CA",
+  "SMAD4",
+  "FBXW7",
+  "TCF7L2",
+  "NRAS",
+  "BRAF"
+ ],
+ "extract": {
+  "analysis": "tcga_project_profile",
+  "output": "data/analytic_extract.csv",
+  "reference_runner": "clinicalclawbench.open_data.tcga_project.prepare_project_profile",
+  "script": "scripts/prepare_open_data_task.py"
+ },
+ "gdc_projects": [
+  "TCGA-COAD",
+  "TCGA-READ"
+ ],
+ "hypermutation_cutoff": 250,
+ "license_note": "Open-access GDC data; comply with NIH GDC data use policies.",
+ "paper_specific": true,
+ "provider": "tcga_gdc",
+ "source_home": "https://portal.gdc.cancer.gov/",
+ "source_system": "NCI GDC API: clinical cases + masked somatic MAF",
+ "status": "runnable_open_data_paper_specific",
+ "task_id": "Oncology_002"
+}

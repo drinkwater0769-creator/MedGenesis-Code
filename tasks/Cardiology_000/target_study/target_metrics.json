@@ -1,0 +1,90 @@
+{
+  "lock_provenance": "paper_reported_values",
+  "lock_source": "Abstract and PMC full text (PMC12573834) of PMID 41163015.",
+  "locked": true,
+  "locked_on": "2026-08-27",
+  "metrics": [
+    {
+      "direction": "target_match",
+      "id": "cohort_n",
+      "label": "Cohort N",
+      "notes": "Development target with inherited tolerance. Consult the source paper; this release does not include internal reproduction results.",
+      "tolerance_abs": 1200,
+      "value": 2535,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "n_deaths_allcause",
+      "label": "N Deaths Allcause",
+      "notes": "Full text: 956 all-cause deaths to 2023-12-31",
+      "tolerance_abs": 200,
+      "value": 956,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "n_deaths_cvd",
+      "label": "N Deaths Cvd",
+      "notes": "Full text: 385 cardiovascular deaths",
+      "tolerance_abs": 100,
+      "value": 385,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "mean_followup_years",
+      "label": "Mean Followup Years",
+      "notes": "Abstract: mean follow-up 12.7 years",
+      "tolerance_abs": 1.0,
+      "value": 12.7,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "hr_tyg_q4_vs_q2_allcause",
+      "label": "Hr Tyg Q4 Vs Q2 Allcause",
+      "notes": "Table 2: TyG Q4 vs Q2 all-cause HR 1.40 (1.17-1.69)",
+      "tolerance_abs": 0.25,
+      "value": 1.4,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "hr_tyg_q4_vs_q2_cvd",
+      "label": "Hr Tyg Q4 Vs Q2 Cvd",
+      "notes": "Table 2: TyG Q4 vs Q2 cardiovascular HR 1.47 (1.10-1.95)",
+      "tolerance_abs": 0.35,
+      "value": 1.47,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "hr_tyg_bmi_per_sd_allcause",
+      "label": "Hr Tyg Bmi Per Sd Allcause",
+      "notes": "Text: per-SD TyG-BMI all-cause HR 1.24 (1.15-1.34)",
+      "tolerance_abs": 0.15,
+      "value": 1.24,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "hr_tyg_wc_per_sd_allcause",
+      "label": "Hr Tyg Wc Per Sd Allcause",
+      "notes": "Text: per-SD TyG-WC HR 1.25 (1.16-1.35)",
+      "tolerance_abs": 0.15,
+      "value": 1.25,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "hr_tyg_whtr_per_sd_allcause",
+      "label": "Hr Tyg Whtr Per Sd Allcause",
+      "notes": "Text: per-SD TyG-WHtR HR 1.30 (1.21-1.40)",
+      "tolerance_abs": 0.15,
+      "value": 1.3,
+      "weight": 1.0
+    }
+  ],
+  "public_target_notice": "Public development target; not a hidden test or a historical model score."
+}

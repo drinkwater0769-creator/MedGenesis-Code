@@ -1,0 +1,42 @@
+{
+  "benchmark_id": "ClinicalRepBench-40",
+  "task_root": "tasks",
+  "task_count": 40,
+  "domain_count": 10,
+  "tasks_per_domain": 4,
+  "scoring_dimensions": [
+    "quantitative_reasoning",
+    "statistical_understanding",
+    "clinical_domain_knowledge",
+    "evidence_synthesis",
+    "critical_appraisal",
+    "causal_reasoning"
+  ],
+  "human_reference_score": 50,
+  "version": "0.4.1-source-contracts",
+  "literature_bound_tasks": 40,
+  "literature_map": "tasks/clinicalrepbench_literature_map.json",
+  "execution_status": "Use per-task source contracts and validated named profiles; full-paper/formal readiness is not implied.",
+  "open_data_task_count": 15,
+  "release_id": "0.4.2-public.4",
+  "release_status": "public-development",
+  "score_protocol": "local-rubric-v3-evidence",
+  "historical_results_included": false,
+  "numeric_boundary_tasks": [
+    "Cardiology_002",
+    "Dermatology_003",
+    "Hematology_002",
+    "Hematology_003",
+    "InfectiousDisease_000",
+    "Neurology_001",
+    "Respiratory_003"
+  ],
+  "source_class_counts": {
+    "open": 15,
+    "credentialed": 17,
+    "mixed": 6,
+    "repository": 2
+  },
+  "formal_score_eligible_task_ids": [],
+  "human_reference_status": "Design interpretation only; no empirical human calibration is included"
+}

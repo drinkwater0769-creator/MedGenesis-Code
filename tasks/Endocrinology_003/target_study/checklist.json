@@ -1,0 +1,392 @@
+[
+  {
+    "id": "source_cohort_and_dataset_reconstruction",
+    "type": "text",
+    "content": "Reconstruct the NHANES source cohort for Endocrinology_003, including source-study identity, eligibility criteria, cohort denominator, exposure or predictor definitions, endpoint ascertainment, and leakage prevention.",
+    "keywords": [
+      "nhanes",
+      "survey",
+      "pmid 37755728",
+      "37755728",
+      "10.1001/jamacardio.2023.3241",
+      "cohort",
+      "eligibility",
+      "endpoint"
+    ],
+    "weight": 22.0,
+    "critical_miss_cap": 0.2,
+    "checks": [
+      {
+        "id": "source_study_identity",
+        "source": "report",
+        "any": [
+          "pmid 37755728",
+          "37755728",
+          "10.1001/jamacardio.2023.3241",
+          "prevalence",
+          "overlap",
+          "cardiac"
+        ],
+        "critical": true
+      },
+      {
+        "id": "primary_dataset_named",
+        "source": "report",
+        "any": [
+          "nhanes",
+          "survey"
+        ],
+        "critical": true
+      },
+      {
+        "id": "cohort_construction_described",
+        "source": "report",
+        "any": [
+          "cohort",
+          "eligibility",
+          "inclusion",
+          "exclusion",
+          "analytic sample"
+        ],
+        "critical": true
+      },
+      {
+        "id": "endpoint_terms_present",
+        "source": "report",
+        "any": [
+          "prevalence",
+          "overlap",
+          "cardiac",
+          "renal",
+          "metabolic"
+        ]
+      },
+      {
+        "id": "denominator_or_followup",
+        "source": "report",
+        "any": [
+          "denominator",
+          "follow-up",
+          "followup",
+          "person-years",
+          "study size",
+          "sample size"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "method_implementation_and_statistics",
+    "type": "text",
+    "content": "Implement the source-paper statistical workflow with executable analysis code, explicit covariates, missing-data handling, sensitivity analyses, and model assumptions rather than a narrative-only summary.",
+    "keywords": [
+      "analysis code",
+      "covariates",
+      "missingness",
+      "sensitivity",
+      "statistics"
+    ],
+    "weight": 24.0,
+    "critical_miss_cap": 0.25,
+    "checks": [
+      {
+        "id": "analysis_code_present",
+        "type": "artifact_exists",
+        "path": "code/analysis.py",
+        "critical": true
+      },
+      {
+        "id": "statistical_method_named",
+        "source": "report",
+        "any": [
+          "regression",
+          "cox",
+          "hazard ratio",
+          "odds ratio",
+          "confidence interval",
+          "p-value",
+          "kaplan",
+          "sensitivity",
+          "calibration",
+          "subgroup"
+        ],
+        "critical": true
+      },
+      {
+        "id": "covariates_or_adjustment",
+        "source": "report",
+        "any": [
+          "covariate",
+          "adjusted",
+          "multivariable",
+          "confounder",
+          "propensity"
+        ]
+      },
+      {
+        "id": "missing_data_handling",
+        "source": "report",
+        "any": [
+          "missing",
+          "complete-case",
+          "imputation",
+          "endpoint availability"
+        ]
+      },
+      {
+        "id": "sensitivity_analysis",
+        "source": "report",
+        "any": [
+          "sensitivity",
+          "robustness",
+          "assumption",
+          "subgroup"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "source_result_alignment",
+    "type": "text",
+    "content": "Align the reproduction to the source paper by reporting the main effect direction, uncertainty, subgroup or sensitivity results, and a table comparing reproduced values with the original claims.",
+    "keywords": [
+      "re-discovery",
+      "source alignment",
+      "main effect",
+      "uncertainty",
+      "comparison table"
+    ],
+    "weight": 24.0,
+    "critical_miss_cap": 0.25,
+    "checks": [
+      {
+        "id": "rediscovery_has_source_context",
+        "source": "report",
+        "all": [
+          "re-discovery"
+        ],
+        "critical": true
+      },
+      {
+        "id": "source_result_language",
+        "source": "report",
+        "any": [
+          "source paper",
+          "original study",
+          "reported",
+          "reproduced",
+          "main finding"
+        ],
+        "critical": true
+      },
+      {
+        "id": "effect_uncertainty_reported",
+        "source": "report",
+        "any": [
+          "confidence interval",
+          "95%",
+          "p-value",
+          "hazard ratio",
+          "odds ratio",
+          "risk ratio"
+        ],
+        "critical": true
+      },
+      {
+        "id": "alignment_table_depth",
+        "type": "csv_min_rows",
+        "path": "artifacts/tables/table2.csv",
+        "min_rows": 3
+      },
+      {
+        "id": "dataset_or_domain_specific_result",
+        "source": "report",
+        "any": [
+          "nhanes",
+          "survey",
+          "endocrinology"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bounded_new_discovery_extension",
+    "type": "text",
+    "content": "Add one bounded new-discovery extension that is analysis-backed, uncertainty-aware, and explicitly separated from clinical actionability.",
+    "keywords": [
+      "new-discovery",
+      "bounded",
+      "uncertainty",
+      "subgroup",
+      "clinical actionability"
+    ],
+    "weight": 10.0,
+    "critical_miss_cap": 0.3,
+    "checks": [
+      {
+        "id": "new_discovery_section",
+        "source": "report",
+        "all": [
+          "new-discovery"
+        ]
+      },
+      {
+        "id": "bounded_claim",
+        "source": "report",
+        "any": [
+          "bounded",
+          "hypothesis-generating",
+          "not causal",
+          "not clinical decision",
+          "not actionable"
+        ],
+        "critical": true
+      },
+      {
+        "id": "uncertainty_or_sensitivity",
+        "source": "report",
+        "any": [
+          "confidence interval",
+          "p-value",
+          "uncertainty",
+          "sensitivity",
+          "subgroup"
+        ],
+        "critical": true
+      },
+      {
+        "id": "extension_artifact",
+        "type": "artifact_exists",
+        "path": "artifacts/tables/table2.csv"
+      }
+    ]
+  },
+  {
+    "id": "clinical_rigor_and_safety",
+    "type": "text",
+    "content": "Discuss bias, confounding, missingness, generalizability, causal limits, and why benchmark findings are not patient-level clinical guidance.",
+    "keywords": [
+      "bias",
+      "confounding",
+      "missingness",
+      "generalizability",
+      "clinical safety"
+    ],
+    "weight": 10.0,
+    "critical_miss_cap": 0.25,
+    "checks": [
+      {
+        "id": "bias_or_confounding",
+        "source": "report",
+        "any": [
+          "bias",
+          "confounding",
+          "confounder",
+          "observational"
+        ],
+        "critical": true
+      },
+      {
+        "id": "missingness_or_endpoint_limits",
+        "source": "report",
+        "any": [
+          "missingness",
+          "missing",
+          "endpoint availability",
+          "incomplete"
+        ]
+      },
+      {
+        "id": "generalizability",
+        "source": "report",
+        "any": [
+          "generalizability",
+          "external validity",
+          "single cohort",
+          "selection"
+        ]
+      },
+      {
+        "id": "clinical_safety_boundary",
+        "source": "report",
+        "any": [
+          "not guide patient care",
+          "not a clinical decision",
+          "not actionable",
+          "clinical safety"
+        ],
+        "critical": true
+      }
+    ]
+  },
+  {
+    "id": "reproducible_artifacts_and_code",
+    "type": "text",
+    "content": "Provide executable code and non-empty tables/figures that substantively support the reproduction.",
+    "keywords": [
+      "code",
+      "table1",
+      "table2",
+      "figure1",
+      "reproducibility"
+    ],
+    "weight": 6.0,
+    "critical_miss_cap": 0.35,
+    "checks": [
+      {
+        "id": "analysis_code_exists",
+        "type": "artifact_exists",
+        "path": "code/analysis.py",
+        "critical": true
+      },
+      {
+        "id": "cohort_table_exists",
+        "type": "artifact_exists",
+        "path": "artifacts/tables/table1.csv"
+      },
+      {
+        "id": "result_table_has_rows",
+        "type": "csv_min_rows",
+        "path": "artifacts/tables/table2.csv",
+        "min_rows": 3,
+        "critical": true
+      },
+      {
+        "id": "primary_figure_exists",
+        "type": "artifact_exists",
+        "path": "artifacts/figures/figure1.svg"
+      }
+    ]
+  },
+  {
+    "id": "artifact_fidelity",
+    "type": "text",
+    "content": "Ensure artifacts are connected to the source-paper cohort, method, and primary result rather than merely present as placeholder files.",
+    "keywords": [
+      "artifact fidelity",
+      "cohort table",
+      "result table",
+      "primary figure"
+    ],
+    "weight": 4.0,
+    "checks": [
+      {
+        "id": "cohort_table_nonempty",
+        "type": "csv_min_rows",
+        "path": "artifacts/tables/table1.csv",
+        "min_rows": 3
+      },
+      {
+        "id": "result_table_nonempty",
+        "type": "csv_min_rows",
+        "path": "artifacts/tables/table2.csv",
+        "min_rows": 3
+      },
+      {
+        "id": "figure_present",
+        "type": "artifact_exists",
+        "path": "artifacts/figures/figure1.svg"
+      }
+    ]
+  }
+]

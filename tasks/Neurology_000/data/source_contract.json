@@ -1,0 +1,311 @@
+{
+  "schema_version": "clinicalrep.source-contract.v2",
+  "task_id": "Neurology_000",
+  "paper_pmid": "35445560",
+  "paper_doi": "10.1002/jcsm.12857",
+  "source_class": "credentialed",
+  "dataset": "UK Biobank",
+  "paper_identity_changed": false,
+  "source_correction_reason": "Participant-level UK Biobank source; paper-specific preparation and scientific validation still required.",
+  "source_references": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC9178163/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC9178163/#support-information-section",
+    "https://biobank.ndph.ox.ac.uk/crystal/field.cgi?id=46",
+    "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=47",
+    "https://biobank.ndph.ox.ac.uk/showcase/",
+    "https://biobank.ndph.ox.ac.uk/ukb/exinfo.cgi?src=Data_providers_and_dates.html",
+    "https://www.ukbiobank.ac.uk/about-us/how-we-work/access-to-uk-biobank-data/",
+    "https://www.ukbiobank.ac.uk/enable-your-research/apply-for-access"
+  ],
+  "candidate_ukb_fields": [
+    {
+      "field_id": "31",
+      "description": "sex",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=31",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "34",
+      "description": "year_of_birth",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=34",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "46",
+      "description": "left_handgrip_baseline_kg",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=46",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "47",
+      "description": "right_handgrip_baseline_kg",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=47",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "50",
+      "description": "standing_height_cm",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=50",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "52",
+      "description": "month_of_birth",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=52",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "53",
+      "description": "baseline_assessment_date",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=53",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "189",
+      "description": "townsend_deprivation",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=189",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "924",
+      "description": "walking_pace",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=924",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "1070",
+      "description": "television_viewing",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=1070",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "1160",
+      "description": "sleep_duration",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=1160",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "1558",
+      "description": "alcohol_frequency",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=1558",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "2188",
+      "description": "long_standing_illness",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=2188",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "20001",
+      "description": "self_reported_cancer",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=20001",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "20002",
+      "description": "baseline_self_reported_non_cancer_conditions",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=20002",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "20009",
+      "description": "self_reported_condition_age_onset",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=20009",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "20044",
+      "description": "left_grip_skip_reason",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=20044",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "20045",
+      "description": "right_grip_skip_reason",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=20045",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "20116",
+      "description": "smoking_status",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=20116",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "21000",
+      "description": "ethnicity",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=21000",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "21001",
+      "description": "bmi",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=21001",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "21002",
+      "description": "weight_kg",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=21002",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "21022",
+      "description": "age_at_recruitment_crosscheck",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=21022",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "40000",
+      "description": "death_date",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=40000",
+      "instances": "all",
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "40001",
+      "description": "underlying_cause_of_death_icd10",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=40001",
+      "instances": "all",
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "40002",
+      "description": "contributory_cause_of_death_icd10",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=40002",
+      "instances": "all",
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "41270",
+      "description": "hospital_icd10_diagnoses",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=41270",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "41280",
+      "description": "hospital_icd10_first_dates",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=41280",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    }
+  ],
+  "candidate_field_map_complete": false,
+  "supported_execution_profiles": [
+    "neurology000-crude-v1"
+  ],
+  "full_paper_reproduction_validated": false,
+  "formal_score_eligible": false,
+  "blockers": [
+    "Townsend field 189 delivery and paper Models 1-3",
+    "authoritative baseline exclusion code list",
+    "historical linked-data snapshot and withdrawal refresh",
+    "exact paper age-sex quintile algorithm",
+    "mortality contributory-cause adjudication",
+    "independent reference, method review and external prospective freeze"
+  ],
+  "provenance": "Curated from local paper-source dossiers and method/field audits; no participant values or prior scores included."
+}

@@ -1,0 +1,23 @@
+task_id: Endocrinology_003
+phenotype_name: CRMConditionOverlap
+clinical_domain: Endocrine and metabolic disease
+primary_endpoint: weighted prevalence and overlap of cardiac, renal, and metabolic (CRM) conditions
+index_date: NHANES examination date (serial cross-sectional; no follow-up)
+follow_up: none (serial cross-sectional survey design; trend assessed across survey periods 1999-2002 vs 2015-March 2020)
+exposure_or_predictor: CRM condition burden (count and pairwise overlap of CVD, CKD, T2D)
+outcome_definition: >
+  CVD = self-reported congestive heart failure, coronary heart disease, angina,
+  myocardial infarction, or stroke (MCQ160B-F); CKD = eGFR < 60 mL/min/1.73m2
+  (CKD-EPI 2021 race-free creatinine equation) or urinary albumin-to-creatinine
+  ratio >= 30 mg/g; T2D = self-reported diabetes diagnosis (DIQ010) or HbA1c >= 6.5%.
+cohort: MEC-examined, nonpregnant US adults aged >= 20 years
+weighting: >
+  Combined Jan 2015 - Mar 2020 MEC weights per NCHS guidance
+  (2/5.2 x WTMEC2YR; 3.2/5.2 x WTMECPRP); 1999-2002 uses WTMEC4YR.
+rediscovery_target: >
+  Recover the reported prevalence and overlap pattern: 26.3% >=1, 8.0% >=2,
+  1.5% all 3; dyad ordering CKD+T2D > CVD+T2D > CVD+CKD; elderly subset counts;
+  and the 1999-2002 to 2015-2020 multimorbidity increase.
+new_discovery_target: >
+  Bounded descriptive extension within survey support (e.g., CRM multimorbidity
+  stratified by income-to-poverty ratio), reported as hypothesis-generating only.

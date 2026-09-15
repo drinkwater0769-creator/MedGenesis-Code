@@ -1,0 +1,357 @@
+{
+  "schema_version": "clinicalrep.source-contract.v2",
+  "task_id": "Gastroenterology_003",
+  "paper_pmid": "38630500",
+  "paper_doi": "10.1097/HEP.0000000000000879",
+  "source_class": "credentialed",
+  "dataset": "UK Biobank",
+  "paper_identity_changed": false,
+  "source_correction_reason": "Participant-level UK Biobank source; paper-specific preparation and scientific validation still required.",
+  "source_references": [
+    "https://doi.org/10.1097/HEP.0000000000000879",
+    "https://biobank.ndph.ox.ac.uk/showcase/pub.cgi?id=9871",
+    "https://biobank.ndph.ox.ac.uk/showcase/app.cgi?id=92718",
+    "https://biobank.ndph.ox.ac.uk/showcase/label.cgi?id=220",
+    "https://biobank.ndph.ox.ac.uk/ukb/ukb/docs/nmrm_phase3_companion.pdf",
+    "https://biobank.ndph.ox.ac.uk/showcase/ukb/docs/nmrm_companion_doc.pdf",
+    "https://biobank.ndph.ox.ac.uk/showcase/",
+    "https://biobank.ndph.ox.ac.uk/ukb/exinfo.cgi?src=Data_providers_and_dates.html",
+    "https://www.ukbiobank.ac.uk/enable-your-research/apply-for-access"
+  ],
+  "candidate_ukb_fields": [
+    {
+      "field_id": "48",
+      "description": "waist circumference candidate for waist/hip ratio",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=48",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "49",
+      "description": "hip circumference candidate for waist/hip ratio",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=49",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "20116",
+      "description": "smoking status candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=20116",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "20282",
+      "description": "processing batch",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=20282",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "20283",
+      "description": "resolved plate swaps",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=20283",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "21022",
+      "description": "age at recruitment candidate for FIB-4",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=21022",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "22000",
+      "description": "genotype measurement batch/context candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=22000",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "22001",
+      "description": "genetic sex/context candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=22001",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "22006",
+      "description": "genetic ancestry/context candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=22006",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "22009",
+      "description": "genetic principal components/context candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=22009",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "23649",
+      "description": "shipment plate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=23649",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "23650",
+      "description": "spectrometer",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=23650",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "23651",
+      "description": "measurement quality flagged",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=23651",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "23652",
+      "description": "high lactate processing flag",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=23652",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "23653",
+      "description": "high pyruvate processing flag",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=23653",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "23654",
+      "description": "low glucose processing flag",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=23654",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "23655",
+      "description": "low protein processing flag",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=23655",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "23658",
+      "description": "sample measured date/time",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=23658",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "23659",
+      "description": "sample prepared date/time",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=23659",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "23660",
+      "description": "well position within plate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=23660",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "30080",
+      "description": "platelet count; nomogram and FIB-4 candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=30080",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "30620",
+      "description": "ALT candidate for FIB-4",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=30620",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "30650",
+      "description": "AST; nomogram and FIB-4 candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=30650",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "40000",
+      "description": "death date candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=40000",
+      "instances": "all",
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "40001",
+      "description": "underlying cause of death candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=40001",
+      "instances": "all",
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "40002",
+      "description": "contributory cause of death candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=40002",
+      "instances": "all",
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "40005",
+      "description": "cancer diagnosis date candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=40005",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "40006",
+      "description": "cancer ICD-10 type candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=40006",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "40011",
+      "description": "cancer histology candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=40011",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "41270",
+      "description": "inpatient ICD-10 diagnosis candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=41270",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "41271",
+      "description": "inpatient ICD-9 diagnosis candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=41271",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "41280",
+      "description": "inpatient ICD-10 first-date candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=41280",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "41281",
+      "description": "inpatient ICD-9 first-date candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=41281",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    }
+  ],
+  "candidate_field_map_complete": false,
+  "supported_execution_profiles": [
+    "ukb-candidate-input-v1"
+  ],
+  "full_paper_reproduction_validated": false,
+  "formal_score_eligible": false,
+  "blockers": [
+    "The exact paper cohort, variable recodes, endpoint algorithm and model specification have not all been independently frozen and validated."
+  ],
+  "provenance": "Curated from local paper-source dossiers and method/field audits; no participant values or prior scores included."
+}

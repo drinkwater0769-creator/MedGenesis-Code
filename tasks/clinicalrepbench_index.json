@@ -1,0 +1,488 @@
+{
+  "benchmark_id": "ClinicalRepBench-40",
+  "name": "ClinicalRepBench",
+  "version": "0.4.1-source-contracts",
+  "generated_on": "2026-05-12",
+  "design": "40 end-to-end clinical paper-reproduction tasks across the 10 Figure 2D clinical domains, 4 tasks per domain.",
+  "scoring": {
+    "scale": "0-100",
+    "human_reference": 50,
+    "dimensions": [
+      "Quantitative reasoning",
+      "Statistical understanding",
+      "Clinical-domain knowledge",
+      "Evidence synthesis",
+      "Critical appraisal",
+      "Causal reasoning"
+    ],
+    "components": [
+      "Re-Discovery",
+      "New-Discovery"
+    ]
+  },
+  "domains": [
+    {
+      "domain_code": "Oncology",
+      "domain": "Oncology",
+      "domain_index": 1
+    },
+    {
+      "domain_code": "Cardiology",
+      "domain": "Cardiology",
+      "domain_index": 2
+    },
+    {
+      "domain_code": "Neurology",
+      "domain": "Neurology",
+      "domain_index": 3
+    },
+    {
+      "domain_code": "InfectiousDisease",
+      "domain": "Infectious Disease",
+      "domain_index": 4
+    },
+    {
+      "domain_code": "Endocrinology",
+      "domain": "Endocrinology",
+      "domain_index": 5
+    },
+    {
+      "domain_code": "Immunology",
+      "domain": "Immunology",
+      "domain_index": 6
+    },
+    {
+      "domain_code": "Respiratory",
+      "domain": "Respiratory",
+      "domain_index": 7
+    },
+    {
+      "domain_code": "Gastroenterology",
+      "domain": "Gastroenterology",
+      "domain_index": 8
+    },
+    {
+      "domain_code": "Hematology",
+      "domain": "Hematology",
+      "domain_index": 9
+    },
+    {
+      "domain_code": "Dermatology",
+      "domain": "Dermatology",
+      "domain_index": 10
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "Oncology_000",
+      "domain": "Oncology",
+      "title": "Comprehensive molecular profiling of lung adenocarcinoma",
+      "endpoint": "molecular subtype and survival in lung adenocarcinoma",
+      "track": "Public",
+      "data_access": "open",
+      "path": "tasks/Oncology_000"
+    },
+    {
+      "task_id": "Oncology_001",
+      "domain": "Oncology",
+      "title": "Comprehensive molecular portraits of human breast tumours",
+      "endpoint": "breast cancer molecular subtype and outcome",
+      "track": "Public",
+      "data_access": "open",
+      "path": "tasks/Oncology_001"
+    },
+    {
+      "task_id": "Oncology_002",
+      "domain": "Oncology",
+      "title": "Comprehensive molecular characterization of human colon and rectal cancer",
+      "endpoint": "colon and rectal cancer molecular characterization and clinical associations",
+      "track": "Public",
+      "data_access": "open",
+      "path": "tasks/Oncology_002"
+    },
+    {
+      "task_id": "Oncology_003",
+      "domain": "Oncology",
+      "title": "Comprehensive and Integrative Genomic Characterization of Hepatocellular Carcinoma",
+      "endpoint": "hepatocellular carcinoma molecular class and clinical outcome",
+      "track": "Public",
+      "data_access": "open",
+      "path": "tasks/Oncology_003"
+    },
+    {
+      "task_id": "Cardiology_000",
+      "domain": "Cardiology",
+      "title": "Associations between triglyceride-glucose-related indices and all-cause and cardiovascular mortality among individuals with atrial fibrillation and metabolic syndrome: a cohort study of the UK biobank",
+      "endpoint": "all-cause and cardiovascular mortality among UK Biobank participants with atrial fibrillation and metabolic syndrome",
+      "track": "Restricted",
+      "data_access": "credentialed",
+      "path": "tasks/Cardiology_000",
+      "dataset": "UK Biobank",
+      "formal_score_eligible": false
+    },
+    {
+      "task_id": "Cardiology_001",
+      "domain": "Cardiology",
+      "title": "Association of estimated glucose disposal rate with atrial fibrillation, heart failure and cardiovascular mortality in patients with diabetes: a prospective cohort study from the UK Biobank",
+      "endpoint": "atrial fibrillation, heart failure, and cardiovascular mortality among UK Biobank participants with diabetes",
+      "track": "Restricted",
+      "data_access": "credentialed",
+      "path": "tasks/Cardiology_001",
+      "dataset": "UK Biobank",
+      "formal_score_eligible": false
+    },
+    {
+      "task_id": "Cardiology_002",
+      "domain": "Cardiology",
+      "title": "Large-scale plasma proteomics in the UK Biobank modestly improves prediction of major cardiovascular events in a population without previous cardiovascular disease",
+      "endpoint": "major cardiovascular events predicted by plasma proteomics in UK Biobank",
+      "track": "Restricted",
+      "data_access": "credentialed",
+      "path": "tasks/Cardiology_002",
+      "dataset": "UK Biobank",
+      "formal_score_eligible": false
+    },
+    {
+      "task_id": "Cardiology_003",
+      "domain": "Cardiology",
+      "title": "Blood Pressure and Cardiovascular Disease Mortality Among US Adults: A Sex-Stratified Analysis, 1999-2019",
+      "endpoint": "cardiovascular disease mortality among US adults",
+      "track": "Public",
+      "data_access": "open",
+      "path": "tasks/Cardiology_003"
+    },
+    {
+      "task_id": "Neurology_000",
+      "domain": "Neurology",
+      "title": "Handgrip strength and all-cause dementia incidence and mortality: findings from the UK Biobank prospective cohort study",
+      "endpoint": "all-cause dementia incidence and mortality",
+      "track": "Restricted",
+      "data_access": "credentialed",
+      "path": "tasks/Neurology_000",
+      "dataset": "UK Biobank",
+      "formal_score_eligible": false
+    },
+    {
+      "task_id": "Neurology_001",
+      "domain": "Neurology",
+      "title": "Large-Scale Plasma Proteomics Profiles for Predicting Ischemic Stroke Risk in the General Population",
+      "endpoint": "ischemic stroke risk predicted by plasma proteomics",
+      "track": "Restricted",
+      "data_access": "credentialed",
+      "path": "tasks/Neurology_001",
+      "dataset": "UK Biobank",
+      "formal_score_eligible": false
+    },
+    {
+      "task_id": "Neurology_002",
+      "domain": "Neurology",
+      "title": "Association of periodontitis with all-cause and cause-specific mortality among individuals with depression: a population-based study",
+      "endpoint": "all-cause and cause-specific mortality among individuals with depression",
+      "track": "Public",
+      "data_access": "open",
+      "path": "tasks/Neurology_002"
+    },
+    {
+      "task_id": "Neurology_003",
+      "domain": "Neurology",
+      "title": "Stroke genetics informs drug discovery and risk prediction across ancestries",
+      "endpoint": "stroke and stroke-subtype risk prediction using genetic evidence",
+      "track": "Restricted",
+      "data_access": "mixed",
+      "path": "tasks/Neurology_003",
+      "dataset": "GIGASTROKE multi-cohort summary statistics and governed validation cohorts",
+      "formal_score_eligible": false
+    },
+    {
+      "task_id": "InfectiousDisease_000",
+      "domain": "Infectious Disease",
+      "title": "INFLAMMATORY PROTEIN SIGNATURES OF SEPSIS RISK AND MORTALITY: A MENDELIAN RANDOMIZATION STUDY",
+      "endpoint": "sepsis risk and mortality associated with inflammatory protein signatures",
+      "track": "Restricted",
+      "data_access": "repository",
+      "path": "tasks/InfectiousDisease_000",
+      "dataset": "GWAS Catalog inflammatory-protein and sepsis outcome summary statistics",
+      "formal_score_eligible": false
+    },
+    {
+      "task_id": "InfectiousDisease_001",
+      "domain": "Infectious Disease",
+      "title": "Machine learning approach to dynamic risk modeling of mortality in COVID-19: a UK Biobank study",
+      "endpoint": "COVID-19 mortality risk modeled dynamically in UK Biobank",
+      "track": "Restricted",
+      "data_access": "credentialed",
+      "path": "tasks/InfectiousDisease_001",
+      "dataset": "UK Biobank",
+      "formal_score_eligible": false
+    },
+    {
+      "task_id": "InfectiousDisease_002",
+      "domain": "Infectious Disease",
+      "title": "Preexisting Comorbidities Predicting COVID-19 and Mortality in the UK Biobank Community Cohort",
+      "endpoint": "COVID-19 infection and mortality associated with preexisting comorbidities",
+      "track": "Restricted",
+      "data_access": "credentialed",
+      "path": "tasks/InfectiousDisease_002",
+      "dataset": "UK Biobank",
+      "formal_score_eligible": false
+    },
+    {
+      "task_id": "InfectiousDisease_003",
+      "domain": "Infectious Disease",
+      "title": "COVID-19 mortality in the UK Biobank cohort: revisiting and evaluating risk factors",
+      "endpoint": "COVID-19 mortality risk-factor reproduction in UK Biobank",
+      "track": "Restricted",
+      "data_access": "credentialed",
+      "path": "tasks/InfectiousDisease_003",
+      "dataset": "UK Biobank",
+      "formal_score_eligible": false
+    },
+    {
+      "task_id": "Endocrinology_000",
+      "domain": "Endocrinology",
+      "title": "Comparisons of the prediction models for undiagnosed diabetes between machine learning versus traditional statistical methods",
+      "endpoint": "undiagnosed diabetes prediction",
+      "track": "Public",
+      "data_access": "open",
+      "path": "tasks/Endocrinology_000"
+    },
+    {
+      "task_id": "Endocrinology_001",
+      "domain": "Endocrinology",
+      "title": "Abdominal obesity, body mass index, and hypertension in US adults: NHANES 2007-2010",
+      "endpoint": "hypertension in relation to abdominal obesity and BMI",
+      "track": "Public",
+      "data_access": "open",
+      "path": "tasks/Endocrinology_001"
+    },
+    {
+      "task_id": "Endocrinology_002",
+      "domain": "Endocrinology",
+      "title": "Impact of Thyroid Function on the Prevalence and Mortality of Metabolic Dysfunction-Associated Fatty Liver Disease",
+      "endpoint": "thyroid function, MAFLD prevalence, and mortality",
+      "track": "Public",
+      "data_access": "open",
+      "path": "tasks/Endocrinology_002"
+    },
+    {
+      "task_id": "Endocrinology_003",
+      "domain": "Endocrinology",
+      "title": "Prevalence and Overlap of Cardiac, Renal, and Metabolic Conditions in US Adults, 1999-2020",
+      "endpoint": "prevalence and overlap of cardiac, renal, and metabolic conditions",
+      "track": "Public",
+      "data_access": "open",
+      "path": "tasks/Endocrinology_003"
+    },
+    {
+      "task_id": "Immunology_000",
+      "domain": "Immunology",
+      "title": "Lycopene reduces mortality in people with systemic lupus erythematosus: A pilot study based on the third national health and nutrition examination survey",
+      "endpoint": "mortality in people with systemic lupus erythematosus",
+      "track": "Public",
+      "data_access": "open",
+      "path": "tasks/Immunology_000"
+    },
+    {
+      "task_id": "Immunology_001",
+      "domain": "Immunology",
+      "title": "Associations between biological ageing and the risk of, genetic susceptibility to, and life expectancy associated with rheumatoid arthritis: a secondary analysis of two observational studies.",
+      "endpoint": "incident rheumatoid arthritis and life expectancy associated with biological ageing",
+      "track": "Restricted",
+      "data_access": "mixed",
+      "path": "tasks/Immunology_001",
+      "dataset": "NHANES 1999-2018 and UK Biobank",
+      "formal_score_eligible": false
+    },
+    {
+      "task_id": "Immunology_002",
+      "domain": "Immunology",
+      "title": "Association of Combined Exposure to Ambient Air Pollutants, Genetic Risk, and Incident Rheumatoid Arthritis: A Prospective Cohort Study in the UK Biobank.",
+      "endpoint": "incident rheumatoid arthritis under combined air-pollution and genetic-risk exposure",
+      "track": "Restricted",
+      "data_access": "credentialed",
+      "path": "tasks/Immunology_002",
+      "dataset": "UK Biobank",
+      "formal_score_eligible": false
+    },
+    {
+      "task_id": "Immunology_003",
+      "domain": "Immunology",
+      "title": "Cardiovascular Health, Genetic Susceptibility, and the Risk of Incident Autoimmune Disorders in the UK Biobank: A Prospective Cohort Study.",
+      "endpoint": "incident autoimmune disorders by cardiovascular health and genetic susceptibility",
+      "track": "Restricted",
+      "data_access": "credentialed",
+      "path": "tasks/Immunology_003",
+      "dataset": "UK Biobank",
+      "formal_score_eligible": false
+    },
+    {
+      "task_id": "Respiratory_000",
+      "domain": "Respiratory",
+      "title": "Impact of abdominal fat distribution on sepsis: A comparison with traditional anthropometric indices in the UK Biobank study",
+      "endpoint": "incident sepsis risk associated with abdominal fat distribution",
+      "track": "Restricted",
+      "data_access": "credentialed",
+      "path": "tasks/Respiratory_000",
+      "dataset": "UK Biobank",
+      "formal_score_eligible": false
+    },
+    {
+      "task_id": "Respiratory_001",
+      "domain": "Respiratory",
+      "title": "Prevalence, risk factors, and clinical implications of preserved ratio impaired spirometry: a UK Biobank cohort analysis",
+      "endpoint": "clinical implications and outcomes of preserved-ratio impaired spirometry",
+      "track": "Restricted",
+      "data_access": "credentialed",
+      "path": "tasks/Respiratory_001",
+      "dataset": "UK Biobank",
+      "formal_score_eligible": false
+    },
+    {
+      "task_id": "Respiratory_002",
+      "domain": "Respiratory",
+      "title": "Preserved Ratio Impaired Spirometry in Relationship to Cardiovascular Outcomes: A Large Prospective Cohort Study",
+      "endpoint": "cardiovascular outcomes associated with preserved-ratio impaired spirometry",
+      "track": "Restricted",
+      "data_access": "credentialed",
+      "path": "tasks/Respiratory_002",
+      "dataset": "UK Biobank",
+      "formal_score_eligible": false
+    },
+    {
+      "task_id": "Respiratory_003",
+      "domain": "Respiratory",
+      "title": "Multi-ancestry genome-wide association analyses improve resolution of genes and pathways influencing lung function and chronic obstructive pulmonary disease risk",
+      "endpoint": "lung function and COPD risk prediction from multi-ancestry genetic signals",
+      "track": "Restricted",
+      "data_access": "mixed",
+      "path": "tasks/Respiratory_003",
+      "dataset": "49-cohort multi-ancestry lung-function GWAS summary statistics and governed cohorts",
+      "formal_score_eligible": false
+    },
+    {
+      "task_id": "Gastroenterology_000",
+      "domain": "Gastroenterology",
+      "title": "Association between triglyceride-glucose related indices and mortality among individuals with non-alcoholic fatty liver disease or metabolic dysfunction-associated steatotic liver disease",
+      "endpoint": "mortality in NAFLD/MASLD with triglyceride-glucose related indices",
+      "track": "Public",
+      "data_access": "open",
+      "path": "tasks/Gastroenterology_000"
+    },
+    {
+      "task_id": "Gastroenterology_001",
+      "domain": "Gastroenterology",
+      "title": "Gallstone Disease and Its Association With Nonalcoholic Fatty Liver Disease, All-Cause and Cause-Specific Mortality.",
+      "endpoint": "NAFLD and mortality patterns among individuals with gallstone disease",
+      "track": "Public",
+      "data_access": "open",
+      "path": "tasks/Gastroenterology_001"
+    },
+    {
+      "task_id": "Gastroenterology_002",
+      "domain": "Gastroenterology",
+      "title": "A metabolome-derived score predicts metabolic dysfunction-associated steatohepatitis and mortality from liver disease",
+      "endpoint": "metabolic dysfunction-associated steatohepatitis and liver-related mortality",
+      "track": "Restricted",
+      "data_access": "mixed",
+      "path": "tasks/Gastroenterology_002",
+      "dataset": "Four metabolomics discovery and validation cohorts including UK Biobank",
+      "formal_score_eligible": false
+    },
+    {
+      "task_id": "Gastroenterology_003",
+      "domain": "Gastroenterology",
+      "title": "Machine-learning-based plasma metabolomic profiles for predicting long-term complications of cirrhosis",
+      "endpoint": "long-term complications of cirrhosis predicted by plasma metabolomics",
+      "track": "Restricted",
+      "data_access": "credentialed",
+      "path": "tasks/Gastroenterology_003",
+      "dataset": "UK Biobank",
+      "formal_score_eligible": false
+    },
+    {
+      "task_id": "Hematology_000",
+      "domain": "Hematology",
+      "title": "Polygenic risk scores for prediction of cancer-associated venous thromboembolism in the UK Biobank cohort study",
+      "endpoint": "cancer-associated venous thromboembolism predicted by polygenic risk",
+      "track": "Restricted",
+      "data_access": "credentialed",
+      "path": "tasks/Hematology_000",
+      "dataset": "UK Biobank",
+      "formal_score_eligible": false
+    },
+    {
+      "task_id": "Hematology_001",
+      "domain": "Hematology",
+      "title": "Interaction between anemia and hyperuricemia in the risk of all-cause mortality in patients with chronic kidney disease",
+      "endpoint": "mortality in chronic kidney disease with anemia and hyperuricemia",
+      "track": "Public",
+      "data_access": "open",
+      "path": "tasks/Hematology_001"
+    },
+    {
+      "task_id": "Hematology_002",
+      "domain": "Hematology",
+      "title": "Common and rare variant associations with clonal haematopoiesis phenotypes",
+      "endpoint": "clonal hematopoiesis phenotypes and genetic associations",
+      "track": "Restricted",
+      "data_access": "mixed",
+      "path": "tasks/Hematology_002",
+      "dataset": "UK Biobank and Geisinger multi-cohort genomic analyses",
+      "formal_score_eligible": false
+    },
+    {
+      "task_id": "Hematology_003",
+      "domain": "Hematology",
+      "title": "JAK2-mutant clonal hematopoiesis is associated with venous thromboembolism.",
+      "endpoint": "venous thromboembolism among participants with JAK2-mutant clonal hematopoiesis",
+      "track": "Restricted",
+      "data_access": "credentialed",
+      "path": "tasks/Hematology_003",
+      "dataset": "UK Biobank",
+      "formal_score_eligible": false
+    },
+    {
+      "task_id": "Dermatology_000",
+      "domain": "Dermatology",
+      "title": "Analysis and mining of Dupilumab adverse events based on FAERS database.",
+      "endpoint": "dupilumab adverse-event reporting patterns in FAERS",
+      "track": "Public",
+      "data_access": "open",
+      "path": "tasks/Dermatology_000"
+    },
+    {
+      "task_id": "Dermatology_001",
+      "domain": "Dermatology",
+      "title": "Association Between Atopic Dermatitis, Asthma, and Serum Lipids: A UK Biobank Based Observational Study and Mendelian Randomization Analysis.",
+      "endpoint": "associations between atopic dermatitis, asthma, and serum lipid traits",
+      "track": "Restricted",
+      "data_access": "mixed",
+      "path": "tasks/Dermatology_001",
+      "dataset": "UK Biobank and OpenGWAS summary statistics",
+      "formal_score_eligible": false
+    },
+    {
+      "task_id": "Dermatology_002",
+      "domain": "Dermatology",
+      "title": "Associations of combined lifestyle and genetic risks with incident psoriasis: A prospective cohort study among UK Biobank participants of European ancestry.",
+      "endpoint": "incident psoriasis by combined lifestyle and genetic risk",
+      "track": "Restricted",
+      "data_access": "credentialed",
+      "path": "tasks/Dermatology_002",
+      "dataset": "UK Biobank",
+      "formal_score_eligible": false
+    },
+    {
+      "task_id": "Dermatology_003",
+      "domain": "Dermatology",
+      "title": "Identification of Associations with Dermatologic Diseases through a Focused GWAS of the UK Biobank.",
+      "endpoint": "genetic associations across dermatologic disease phenotypes",
+      "track": "Restricted",
+      "data_access": "repository",
+      "path": "tasks/Dermatology_003",
+      "dataset": "Neale Lab round-2 UK Biobank GWAS summary statistics and public functional annotation resources",
+      "formal_score_eligible": false
+    }
+  ],
+  "source_contract_note": "15 original open-data tasks, 17 direct UKB tasks, 6 multi-source tasks, 2 summary-statistics repository tasks."
+}

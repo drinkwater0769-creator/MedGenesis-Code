@@ -1,0 +1,141 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ClinicalClawBench Task Info",
+  "type": "object",
+  "required": [
+    "task_id",
+    "track",
+    "domain",
+    "data_access",
+    "primary_question",
+    "deliverables",
+    "evaluation"
+  ],
+  "properties": {
+    "task_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_\\-]+$"
+    },
+    "title": {
+      "type": "string"
+    },
+    "track": {
+      "type": "string",
+      "enum": [
+        "Public",
+        "Restricted"
+      ]
+    },
+    "domain": {
+      "type": "string"
+    },
+    "data_access": {
+      "type": "string",
+      "enum": [
+        "open",
+        "credentialed",
+        "secure_compute",
+        "mixed",
+        "repository"
+      ]
+    },
+    "primary_question": {
+      "type": "string"
+    },
+    "deliverables": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "allowed_tools": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "disallowed_tools": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evaluation": {
+      "type": "object",
+      "description": "Legacy component configuration plus local task-specific rubric and caps. See docs/SCORING.md; not a validated human-reference scale.",
+      "required": [
+        "objective_weight",
+        "subjective_weight",
+        "penalty_cap"
+      ],
+      "properties": {
+        "objective_weight": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "subjective_weight": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "strobe_weight": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "penalty_cap": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Maximum deductible penalty points on the 0-100 scale."
+        },
+        "metrics_weight": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "checklist_weight": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "paper_baseline": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Native composite score that maps to 50 (matches the original paper)."
+        },
+        "paper_ceiling": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Native composite score that maps to 100 (surpasses the original paper)."
+        },
+        "strobe_required": {
+          "type": "boolean"
+        },
+        "strobe_items": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "phi_whitelist": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Identifier tokens the PHI scanner should ignore (e.g. public survey IDs)."
+        }
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

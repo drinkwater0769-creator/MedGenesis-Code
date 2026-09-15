@@ -1,0 +1,11 @@
+{
+  "task_id": "Respiratory_003",
+  "phenotype_name": "Respiratory_003_source_endpoint",
+  "primary_endpoint": "lung function and COPD risk prediction from multi-ancestry genetic signals",
+  "outcome_definition": "lung function and COPD risk prediction from multi-ancestry genetic signals",
+  "source_contract": "../data/source_contract.json",
+  "implementation_profile": null,
+  "full_paper_definition_status": "not_frozen",
+  "rediscovery_target": "Reconstruct the source study analysis for: lung function and COPD risk prediction from multi-ancestry genetic signals. Declare any deviations or missing modules.",
+  "new_discovery_target": "Perform one prespecified, data-supported sensitivity or subgroup analysis; distinguish it from source reproduction and report uncertainty."
+}

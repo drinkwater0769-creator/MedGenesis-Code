@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ClinicalClawBench Submission Manifest",
+  "type": "object",
+  "required": [
+    "submission_version",
+    "task_id",
+    "report_path",
+    "metrics_path",
+    "artifacts"
+  ],
+  "properties": {
+    "submission_version": {
+      "type": "string"
+    },
+    "task_id": {
+      "type": "string"
+    },
+    "report_path": {
+      "type": "string"
+    },
+    "metrics_path": {
+      "type": "string"
+    },
+    "artifacts": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    }
+  }
+}

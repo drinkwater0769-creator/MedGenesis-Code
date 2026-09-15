@@ -1,0 +1,132 @@
+{
+  "locked": true,
+  "scoring": {
+    "mode": "research_sanity_with_critical_cap",
+    "critical_metric_ids": [
+      "death_event_pct",
+      "non_silent_mutation_n",
+      "sequenced_patient_n"
+    ],
+    "critical_miss_cap": 0.4
+  },
+  "metrics": [
+    {
+      "direction": "target_match",
+      "id": "death_event_pct",
+      "label": "Death Event Pct",
+      "notes": "Locked from the bundled open-data reference run.",
+      "tolerance_abs": 1.0,
+      "value": 33.2737,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "egfr_kras_exclusive_n",
+      "label": "Egfr Kras Exclusive N",
+      "notes": "Locked from the bundled open-data reference run.",
+      "tolerance_abs": 1.0,
+      "value": 222.0,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "egfr_kras_exclusive_pct_among_altered",
+      "label": "Egfr Kras Exclusive Pct Among Altered",
+      "notes": "Locked from the bundled open-data reference run.",
+      "tolerance_abs": 1.0,
+      "value": 99.5516,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "egfr_kras_overlap_n",
+      "label": "Egfr Kras Overlap N",
+      "notes": "Locked from the bundled open-data reference run.",
+      "tolerance_abs": 1.0,
+      "value": 1.0,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "egfr_mutated_pct",
+      "label": "Egfr Mutated Pct",
+      "notes": "Locked from the bundled open-data reference run.",
+      "tolerance_abs": 1.0,
+      "value": 13.4168,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "keap1_mutated_pct",
+      "label": "Keap1 Mutated Pct",
+      "notes": "Locked from the bundled open-data reference run.",
+      "tolerance_abs": 1.0,
+      "value": 17.5313,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "kras_mutated_pct",
+      "label": "Kras Mutated Pct",
+      "notes": "Locked from the bundled open-data reference run.",
+      "tolerance_abs": 1.0,
+      "value": 26.6547,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "luad_case_n",
+      "label": "Luad Case N",
+      "notes": "Locked from the bundled open-data reference run.",
+      "tolerance_abs": 1.0,
+      "value": 585.0,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "non_silent_mutation_n",
+      "label": "Non Silent Mutation N",
+      "notes": "Locked from the bundled open-data reference run.",
+      "tolerance_abs": 1.0,
+      "value": 147924.0,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "sequenced_patient_n",
+      "label": "Sequenced Patient N",
+      "notes": "Locked from the bundled open-data reference run.",
+      "tolerance_abs": 1.0,
+      "value": 559.0,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "stk11_mutated_pct",
+      "label": "Stk11 Mutated Pct",
+      "notes": "Locked from the bundled open-data reference run.",
+      "tolerance_abs": 1.0,
+      "value": 11.8068,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "tp53_mutated_pct",
+      "label": "Tp53 Mutated Pct",
+      "notes": "Locked from the bundled open-data reference run.",
+      "tolerance_abs": 1.0,
+      "value": 50.6261,
+      "weight": 1.0
+    }
+  ],
+  "reproducibility": {
+    "enabled": true,
+    "fixture": "tcga_luad_mini_raw_v2",
+    "metrics_path": "artifacts/primary_metrics.json",
+    "script_path": "code/analysis.py",
+    "timeout_seconds": 30
+  },
+  "scale_note": "Numeric target metrics are locked from the bundled open-data reference run and scored by absolute tolerance.",
+  "source": "open_data_reference_submission",
+  "public_target_notice": "Public development target; not a hidden test or a historical model score."
+}

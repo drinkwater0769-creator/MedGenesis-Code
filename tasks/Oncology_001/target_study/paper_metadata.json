@@ -1,0 +1,25 @@
+{
+  "task_id": "Oncology_001",
+  "source_study_label": "Comprehensive molecular portraits of human breast tumours",
+  "release_status": "literature_grounded_v0.2",
+  "pubmed": {
+    "pmid": "23000897",
+    "title": "Comprehensive molecular portraits of human breast tumours",
+    "journal": "Nature",
+    "pubdate": "2012 Oct 4",
+    "doi": "10.1038/nature11412",
+    "authors": [
+      "Cancer Genome Atlas Network"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23000897/"
+  },
+  "data_source": {
+    "name": "TCGA/GDC",
+    "access": "open",
+    "url": "https://portal.gdc.cancer.gov/",
+    "description": "NCI Genomic Data Commons / TCGA open harmonized molecular and clinical data."
+  },
+  "primary_endpoint": "breast cancer molecular subtype and outcome",
+  "benchmark_execution_status": "metadata_bound; source extractor or locked extract required for numeric reproduction",
+  "redistribution_note": "Do not redistribute copyrighted full text or controlled patient-level data. Use official source access or a locked derived extract."
+}

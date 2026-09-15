@@ -1,0 +1,10 @@
+task_id: Oncology_003
+phenotype_name: HCCRecurrence
+clinical_domain: Oncology and cancer genomics
+primary_endpoint: recurrence-free survival
+index_date: source-study-specific index date reconstructed from target methods
+follow_up: source-study-specific window with censoring rules explicitly stated
+exposure_or_predictor: source-study-specific exposure, model score, treatment, biomarker, or trajectory group
+outcome_definition: recurrence-free survival
+rediscovery_target: Reproduce the reported recurrence-risk score and calibration.
+new_discovery_target: Test whether dynamic post-treatment AFP trajectory refines recurrence prediction.

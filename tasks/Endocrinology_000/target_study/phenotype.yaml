@@ -1,0 +1,10 @@
+task_id: Endocrinology_000
+phenotype_name: DiabetesIncidentRisk
+clinical_domain: Endocrine and metabolic disease
+primary_endpoint: new type 2 diabetes diagnosis within 5 years
+index_date: source-study-specific index date reconstructed from target methods
+follow_up: source-study-specific window with censoring rules explicitly stated
+exposure_or_predictor: source-study-specific exposure, model score, treatment, biomarker, or trajectory group
+outcome_definition: new type 2 diabetes diagnosis within 5 years
+rediscovery_target: Recover the reported incremental value of biomarkers beyond BMI and family history.
+new_discovery_target: Evaluate whether the same threshold is equitable across age and sex strata.

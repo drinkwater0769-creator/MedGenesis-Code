@@ -1,0 +1,312 @@
+{
+ "bound_paper": {
+  "doi": "10.1001/jamacardio.2023.3241",
+  "pmid": "37755728",
+  "title": "Prevalence and Overlap of Cardiac, Renal, and Metabolic Conditions in US Adults, 1999-2020"
+ },
+ "components": [
+  {
+   "columns": [
+    "RIDAGEYR",
+    "RIAGENDR",
+    "RIDRETH1",
+    "RIDEXPRG",
+    "INDFMPIR",
+    "SDMVPSU",
+    "SDMVSTRA",
+    "WTMEC4YR"
+   ],
+   "component": "DEMO",
+   "cycle": "1999-2000",
+   "file": "DEMO.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/DEMO.xpt",
+   "year": 1999
+  },
+  {
+   "columns": [
+    "MCQ160B",
+    "MCQ160C",
+    "MCQ160D",
+    "MCQ160E",
+    "MCQ160F"
+   ],
+   "component": "MCQ",
+   "cycle": "1999-2000",
+   "file": "MCQ.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/MCQ.xpt",
+   "year": 1999
+  },
+  {
+   "columns": [
+    "DIQ010"
+   ],
+   "component": "DIQ",
+   "cycle": "1999-2000",
+   "file": "DIQ.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/DIQ.xpt",
+   "year": 1999
+  },
+  {
+   "columns": [
+    "LBXGH"
+   ],
+   "component": "GHB",
+   "cycle": "1999-2000",
+   "file": "LAB10.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB10.xpt",
+   "year": 1999
+  },
+  {
+   "columns": [
+    "LBXSCR"
+   ],
+   "component": "BIOPRO",
+   "cycle": "1999-2000",
+   "file": "LAB18.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB18.xpt",
+   "year": 1999
+  },
+  {
+   "columns": [
+    "URXUMA",
+    "URXUCR"
+   ],
+   "component": "ALB_CR",
+   "cycle": "1999-2000",
+   "file": "LAB16.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB16.xpt",
+   "year": 1999
+  },
+  {
+   "columns": [
+    "RIDAGEYR",
+    "RIAGENDR",
+    "RIDRETH1",
+    "RIDEXPRG",
+    "INDFMPIR",
+    "SDMVPSU",
+    "SDMVSTRA",
+    "WTMEC4YR"
+   ],
+   "component": "DEMO",
+   "cycle": "2001-2002",
+   "file": "DEMO_B.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/DEMO_B.xpt",
+   "year": 2001
+  },
+  {
+   "columns": [
+    "MCQ160B",
+    "MCQ160C",
+    "MCQ160D",
+    "MCQ160E",
+    "MCQ160F"
+   ],
+   "component": "MCQ",
+   "cycle": "2001-2002",
+   "file": "MCQ_B.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/MCQ_B.xpt",
+   "year": 2001
+  },
+  {
+   "columns": [
+    "DIQ010"
+   ],
+   "component": "DIQ",
+   "cycle": "2001-2002",
+   "file": "DIQ_B.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/DIQ_B.xpt",
+   "year": 2001
+  },
+  {
+   "columns": [
+    "LBXGH"
+   ],
+   "component": "GHB",
+   "cycle": "2001-2002",
+   "file": "L10_B.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L10_B.xpt",
+   "year": 2001
+  },
+  {
+   "columns": [
+    "LBXSCR"
+   ],
+   "component": "BIOPRO",
+   "cycle": "2001-2002",
+   "file": "L40_B.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L40_B.xpt",
+   "year": 2001
+  },
+  {
+   "columns": [
+    "URXUMA",
+    "URXUCR"
+   ],
+   "component": "ALB_CR",
+   "cycle": "2001-2002",
+   "file": "L16_B.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L16_B.xpt",
+   "year": 2001
+  },
+  {
+   "columns": [
+    "RIDAGEYR",
+    "RIAGENDR",
+    "RIDRETH1",
+    "RIDEXPRG",
+    "INDFMPIR",
+    "SDMVPSU",
+    "SDMVSTRA",
+    "WTMEC2YR"
+   ],
+   "component": "DEMO",
+   "cycle": "2015-2016",
+   "file": "DEMO_I.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DEMO_I.xpt",
+   "year": 2015
+  },
+  {
+   "columns": [
+    "MCQ160B",
+    "MCQ160C",
+    "MCQ160D",
+    "MCQ160E",
+    "MCQ160F"
+   ],
+   "component": "MCQ",
+   "cycle": "2015-2016",
+   "file": "MCQ_I.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/MCQ_I.xpt",
+   "year": 2015
+  },
+  {
+   "columns": [
+    "DIQ010"
+   ],
+   "component": "DIQ",
+   "cycle": "2015-2016",
+   "file": "DIQ_I.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DIQ_I.xpt",
+   "year": 2015
+  },
+  {
+   "columns": [
+    "LBXGH"
+   ],
+   "component": "GHB",
+   "cycle": "2015-2016",
+   "file": "GHB_I.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/GHB_I.xpt",
+   "year": 2015
+  },
+  {
+   "columns": [
+    "LBXSCR"
+   ],
+   "component": "BIOPRO",
+   "cycle": "2015-2016",
+   "file": "BIOPRO_I.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BIOPRO_I.xpt",
+   "year": 2015
+  },
+  {
+   "columns": [
+    "URXUMA",
+    "URXUCR"
+   ],
+   "component": "ALB_CR",
+   "cycle": "2015-2016",
+   "file": "ALB_CR_I.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/ALB_CR_I.xpt",
+   "year": 2015
+  },
+  {
+   "columns": [
+    "RIDAGEYR",
+    "RIAGENDR",
+    "RIDRETH1",
+    "RIDEXPRG",
+    "INDFMPIR",
+    "SDMVPSU",
+    "SDMVSTRA",
+    "WTMECPRP"
+   ],
+   "component": "DEMO",
+   "cycle": "2017-2020",
+   "file": "P_DEMO.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DEMO.xpt",
+   "year": 2017
+  },
+  {
+   "columns": [
+    "MCQ160B",
+    "MCQ160C",
+    "MCQ160D",
+    "MCQ160E",
+    "MCQ160F"
+   ],
+   "component": "MCQ",
+   "cycle": "2017-2020",
+   "file": "P_MCQ.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_MCQ.xpt",
+   "year": 2017
+  },
+  {
+   "columns": [
+    "DIQ010"
+   ],
+   "component": "DIQ",
+   "cycle": "2017-2020",
+   "file": "P_DIQ.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DIQ.xpt",
+   "year": 2017
+  },
+  {
+   "columns": [
+    "LBXGH"
+   ],
+   "component": "GHB",
+   "cycle": "2017-2020",
+   "file": "P_GHB.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_GHB.xpt",
+   "year": 2017
+  },
+  {
+   "columns": [
+    "LBXSCR"
+   ],
+   "component": "BIOPRO",
+   "cycle": "2017-2020",
+   "file": "P_BIOPRO.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_BIOPRO.xpt",
+   "year": 2017
+  },
+  {
+   "columns": [
+    "URXUMA",
+    "URXUCR"
+   ],
+   "component": "ALB_CR",
+   "cycle": "2017-2020",
+   "file": "P_ALB_CR.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_ALB_CR.xpt",
+   "year": 2017
+  }
+ ],
+ "dataset": "NHANES",
+ "extract": {
+  "analysis": "nhanes_crm_overlap",
+  "output": "data/analytic_extract.csv",
+  "reference_runner": "clinicalclawbench.open_data.prepare.run_open_data_reference",
+  "script": "scripts/prepare_open_data_task.py"
+ },
+ "license_note": "Public-use NHANES files; comply with CDC/NCHS analytic guidance.",
+ "paper_specific": true,
+ "provider": "nhanes",
+ "source_home": "https://wwwn.cdc.gov/nchs/nhanes/",
+ "source_system": "CDC NHANES public-use XPT files",
+ "status": "runnable_open_data_paper_specific",
+ "task_id": "Endocrinology_003",
+ "weighting_note": "Combined Jan2015-Mar2020 per NCHS guidance: 2/5.2 x WTMEC2YR (2015-2016) and 3.2/5.2 x WTMECPRP (2017-Mar2020); 1999-2002 uses WTMEC4YR. 1999-2000 serum creatinine recalibrated as 1.013 x Scr + 0.147."
+}

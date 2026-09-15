@@ -1,0 +1,23 @@
+{
+  "task_id": "InfectiousDisease_001",
+  "source_study_label": "Machine learning approach to dynamic risk modeling of mortality in COVID-19: a UK Biobank study",
+  "release_status": "figure2d_domain_aligned_v0.4",
+  "pubmed": {
+    "pmid": "34413324",
+    "title": "Machine learning approach to dynamic risk modeling of mortality in COVID-19: a UK Biobank study",
+    "journal": "Sci Rep",
+    "pubdate": "2021 Aug 19",
+    "doi": "10.1038/s41598-021-95136-x",
+    "authors": [],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34413324/"
+  },
+  "data_source": {
+    "name": "UK Biobank",
+    "access": "credentialed",
+    "url": "https://www.ukbiobank.ac.uk/enable-your-research/apply-for-access",
+    "description": "UK Biobank controlled-access prospective cohort with linked health records, biomarkers, imaging, genomics, and mortality outcomes."
+  },
+  "primary_endpoint": "COVID-19 mortality risk modeled dynamically in UK Biobank",
+  "benchmark_execution_status": "metadata_bound_to_ukbiobank; UKB field map and locked extract required for numeric reproduction",
+  "redistribution_note": "Do not redistribute UK Biobank participant-level records. Use approved UK Biobank access or a governed derived extract."
+}

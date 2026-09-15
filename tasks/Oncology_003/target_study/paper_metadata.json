@@ -1,0 +1,26 @@
+{
+  "task_id": "Oncology_003",
+  "source_study_label": "Comprehensive and Integrative Genomic Characterization of Hepatocellular Carcinoma",
+  "release_status": "literature_grounded_v0.2",
+  "pubmed": {
+    "pmid": "28622513",
+    "title": "Comprehensive and Integrative Genomic Characterization of Hepatocellular Carcinoma",
+    "journal": "Cell",
+    "pubdate": "2017 Jun 15",
+    "doi": "10.1016/j.cell.2017.05.046",
+    "authors": [
+      "Cancer Genome Atlas Research Network. Electronic address: wheeler@bcm.edu",
+      "Cancer Genome Atlas Research Network"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28622513/"
+  },
+  "data_source": {
+    "name": "TCGA/GDC",
+    "access": "open",
+    "url": "https://portal.gdc.cancer.gov/",
+    "description": "NCI Genomic Data Commons / TCGA open harmonized molecular and clinical data."
+  },
+  "primary_endpoint": "hepatocellular carcinoma molecular class and clinical outcome",
+  "benchmark_execution_status": "metadata_bound; source extractor or locked extract required for numeric reproduction",
+  "redistribution_note": "Do not redistribute copyrighted full text or controlled patient-level data. Use official source access or a locked derived extract."
+}

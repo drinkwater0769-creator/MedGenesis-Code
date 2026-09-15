@@ -1,0 +1,36 @@
+{
+  "lock_provenance": "paper_reported_values",
+  "lock_source": "Official PubMed abstract of PMID 35427684 (JAAD; full text paywalled).",
+  "locked": true,
+  "locked_on": "2026-08-27",
+  "metrics": [
+    {
+      "direction": "target_match",
+      "id": "hr_poor_lifestyle_high_genetic",
+      "label": "Hr Poor Lifestyle High Genetic",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 1.6,
+      "value": 4.625,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "paf_lifestyle_pct",
+      "label": "Paf Lifestyle Pct",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 10.0,
+      "value": 32.2,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "paf_genetic_pct",
+      "label": "Paf Genetic Pct",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 7.0,
+      "value": 13.0,
+      "weight": 1.0
+    }
+  ],
+  "public_target_notice": "Public development target; not a hidden test or a historical model score."
+}

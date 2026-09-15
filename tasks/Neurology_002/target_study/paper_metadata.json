@@ -1,0 +1,23 @@
+{
+  "task_id": "Neurology_002",
+  "source_study_label": "Association of periodontitis with all-cause and cause-specific mortality among individuals with depression: a population-based study",
+  "release_status": "figure2d_domain_aligned_v0.4",
+  "pubmed": {
+    "pmid": "39300119",
+    "title": "Association of periodontitis with all-cause and cause-specific mortality among individuals with depression: a population-based study",
+    "journal": "Sci Rep",
+    "pubdate": "2024 Sep 19",
+    "doi": "10.1038/s41598-024-72297-z",
+    "authors": [],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39300119/"
+  },
+  "data_source": {
+    "name": "NHANES",
+    "access": "open",
+    "url": "https://wwwn.cdc.gov/nchs/nhanes/",
+    "description": "CDC National Health and Nutrition Examination Survey public-use files."
+  },
+  "primary_endpoint": "all-cause and cause-specific mortality among individuals with depression",
+  "benchmark_execution_status": "metadata_bound; source extractor or locked extract required for numeric reproduction",
+  "redistribution_note": "Do not redistribute copyrighted full text or controlled patient-level data. Use official source access or a locked derived extract."
+}

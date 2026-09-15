@@ -1,0 +1,81 @@
+{
+  "lock_provenance": "paper_reported_values",
+  "lock_source": "Abstract and PMC full text (PMC10010395) of PMID 36913237.",
+  "locked": true,
+  "locked_on": "2026-08-27",
+  "metrics": [
+    {
+      "direction": "target_match",
+      "id": "cohort_n",
+      "label": "Cohort N",
+      "notes": "Development target with inherited tolerance. Consult the source paper; this release does not include internal reproduction results.",
+      "tolerance_abs": 75000,
+      "value": 342973,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "n_incident_ra",
+      "label": "N Incident Ra",
+      "notes": "Paper: 2,034 incident RA (hospital-era linkage). First-occurrence M05/M06 integrates GP and self-report sources and the cohort is larger, yielding 3,265 with censoring aligned to 2018-03.",
+      "tolerance_abs": 1400,
+      "value": 2034,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "hr_pm25_per_iqr",
+      "label": "Hr Pm25 Per Iqr",
+      "notes": "Paper: PM2.5 per-IQR HR 1.07 (1.01-1.13)",
+      "tolerance_abs": 0.08,
+      "value": 1.07,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "hr_pm25_10_per_iqr",
+      "label": "Hr Pm25 10 Per Iqr",
+      "notes": "Paper: PM2.5-10 per-IQR HR 1.00 (0.96-1.04)",
+      "tolerance_abs": 0.07,
+      "value": 1.0,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "hr_pm10_per_iqr",
+      "label": "Hr Pm10 Per Iqr",
+      "notes": "Paper: PM10 per-IQR HR 1.01 (0.96-1.07)",
+      "tolerance_abs": 0.08,
+      "value": 1.01,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "hr_no2_per_iqr",
+      "label": "Hr No2 Per Iqr",
+      "notes": "Paper: NO2 per-IQR HR 1.03 (0.98-1.09)",
+      "tolerance_abs": 0.08,
+      "value": 1.03,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "hr_nox_per_iqr",
+      "label": "Hr Nox Per Iqr",
+      "notes": "Paper: NOx per-IQR HR 1.07 (1.02-1.12)",
+      "tolerance_abs": 0.08,
+      "value": 1.07,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "hr_ap_score_q4_vs_q1",
+      "label": "Hr Ap Score Q4 Vs Q1",
+      "notes": "Paper: air-pollution score Q4 vs Q1 HR 1.14 (1.00-1.29)",
+      "tolerance_abs": 0.16,
+      "value": 1.14,
+      "weight": 1.0
+    }
+  ],
+  "public_target_notice": "Public development target; not a hidden test or a historical model score."
+}

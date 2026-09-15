@@ -1,0 +1,10 @@
+task_id: Dermatology_000
+phenotype_name: DrugSafetySignal
+clinical_domain: Health services research and pharmacoepidemiology
+primary_endpoint: adverse event reporting disproportionality and clinical plausibility
+index_date: source-study-specific index date reconstructed from target methods
+follow_up: source-study-specific window with censoring rules explicitly stated
+exposure_or_predictor: source-study-specific exposure, model score, treatment, biomarker, or trajectory group
+outcome_definition: adverse event reporting disproportionality and clinical plausibility
+rediscovery_target: Recover the reported safety signal and comparator pattern.
+new_discovery_target: Distinguish hypothesis-generating signals from causal evidence.

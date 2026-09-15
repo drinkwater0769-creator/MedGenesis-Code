@@ -1,0 +1,10 @@
+task_id: Oncology_000
+phenotype_name: LungAdenocarcinomaSurvival
+clinical_domain: Oncology and cancer genomics
+primary_endpoint: overall survival
+index_date: source-study-specific index date reconstructed from target methods
+follow_up: source-study-specific window with censoring rules explicitly stated
+exposure_or_predictor: source-study-specific exposure, model score, treatment, biomarker, or trajectory group
+outcome_definition: overall survival
+rediscovery_target: Reproduce prognostic separation by molecular subtype beyond TNM stage.
+new_discovery_target: Evaluate a clinically simpler risk score using only routinely available markers.

@@ -1,0 +1,45 @@
+{
+  "lock_provenance": "paper_reported_values",
+  "lock_source": "Cell 2017 (PMID 28622513): significantly mutated genes led by TP53 (~31%) and CTNNB1 (~27%) in 363 HCC cases.",
+  "locked": true,
+  "locked_on": "2026-08-27",
+  "metrics": [
+    {
+      "direction": "target_match",
+      "id": "pct_tp53",
+      "label": "Pct Tp53",
+      "notes": "Paper: TP53 ~31%",
+      "tolerance_abs": 7.0,
+      "value": 31.0,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "pct_ctnnb1",
+      "label": "Pct Ctnnb1",
+      "notes": "Paper: CTNNB1 ~27%",
+      "tolerance_abs": 7.0,
+      "value": 27.0,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "pct_alb",
+      "label": "Pct Alb",
+      "notes": "Paper: ALB ~13%",
+      "tolerance_abs": 6.0,
+      "value": 13.0,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "sequenced_patient_n",
+      "label": "Sequenced Patient N",
+      "notes": "Paper freeze: 363 cases; current GDC release similar",
+      "tolerance_abs": 120,
+      "value": 363,
+      "weight": 1.0
+    }
+  ],
+  "public_target_notice": "Public development target; not a hidden test or a historical model score."
+}

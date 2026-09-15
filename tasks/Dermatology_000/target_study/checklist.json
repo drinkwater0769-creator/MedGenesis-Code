@@ -1,0 +1,647 @@
+[
+  {
+    "id": "faers_scope_and_cohort",
+    "type": "text",
+    "weight": 22,
+    "critical_miss_cap": 0.2,
+    "content": "Reconstruct the source FAERS dupilumab cohort rather than using a generic open-data extract. The report must specify the Q2 2017-Q4 2023 source window, the 11,547,571 FAERS adverse-event reports screened, 5,335 suspected dupilumab reports, 307 Preferred Terms, 27 System Organ Classes, and report-level de-duplication/provenance.",
+    "checks": [
+      {
+        "id": "names_faers_dupilumab",
+        "source": "report",
+        "all": [
+          "FAERS",
+          "dupilumab"
+        ]
+      },
+      {
+        "id": "start_quarter",
+        "source": "any",
+        "critical": true,
+        "any": [
+          "2017Q2",
+          "Q2 2017",
+          "2017 Q2"
+        ]
+      },
+      {
+        "id": "end_quarter",
+        "source": "any",
+        "critical": true,
+        "any": [
+          "2023Q4",
+          "Q4 2023",
+          "2023 Q4"
+        ]
+      },
+      {
+        "id": "total_faers_reports",
+        "source": "any",
+        "critical": true,
+        "any": [
+          "11547571",
+          "11,547,571"
+        ]
+      },
+      {
+        "id": "suspected_dupilumab_reports",
+        "source": "any",
+        "critical": true,
+        "any": [
+          "5335",
+          "5,335"
+        ]
+      },
+      {
+        "id": "preferred_term_count",
+        "source": "any",
+        "critical": true,
+        "all": [
+          "307"
+        ],
+        "any": [
+          "Preferred Term",
+          "Preferred Terms",
+          "PT"
+        ]
+      },
+      {
+        "id": "system_organ_class_count",
+        "source": "any",
+        "critical": true,
+        "all": [
+          "27"
+        ],
+        "any": [
+          "System Organ Class",
+          "System Organ Classes",
+          "SOC"
+        ]
+      },
+      {
+        "id": "deduplication_or_report_identity",
+        "source": "any",
+        "any": [
+          "deduplic",
+          "duplicate",
+          "safetyreportid"
+        ]
+      },
+      {
+        "id": "quarterly_faers_provenance",
+        "source": "report",
+        "any": [
+          "quarterly",
+          "quarter",
+          "Q2",
+          "Q4"
+        ]
+      },
+      {
+        "id": "suspect_role_definition",
+        "source": "report",
+        "any": [
+          "primary suspect",
+          "suspected dupilumab",
+          "suspect drug"
+        ]
+      },
+      {
+        "id": "source_article_citation",
+        "source": "report",
+        "any": [
+          "PMID 40074775",
+          "40074775",
+          "10.1038/s41598-025-92330-z",
+          "Sci Rep"
+        ]
+      }
+    ],
+    "keywords": [
+      "FAERS",
+      "dupilumab",
+      "cohort",
+      "2017Q2",
+      "2023Q4"
+    ]
+  },
+  {
+    "id": "disproportionality_methods",
+    "type": "text",
+    "weight": 28,
+    "critical_miss_cap": 0.1,
+    "content": "Implement the actual pharmacovigilance analysis, including two-by-two case/non-case counts and all four source-style disproportionality families: ROR, PRR, BCPNN information component or IC025, and EBGM or EBGM05. A static table without these calculations is not sufficient.",
+    "checks": [
+      {
+        "id": "ror_implemented",
+        "source": "code",
+        "critical": true,
+        "any": [
+          "ror",
+          "reporting odds ratio"
+        ]
+      },
+      {
+        "id": "prr_implemented",
+        "source": "code",
+        "any": [
+          "prr",
+          "proportional reporting ratio"
+        ]
+      },
+      {
+        "id": "bcpnn_or_ic_implemented",
+        "source": "code",
+        "any": [
+          "bcpnn",
+          "information_component",
+          "information component",
+          "ic025"
+        ]
+      },
+      {
+        "id": "ebgm_implemented",
+        "source": "code",
+        "any": [
+          "ebgm",
+          "ebgm05"
+        ]
+      },
+      {
+        "id": "case_noncase_design",
+        "source": "any",
+        "critical": true,
+        "any": [
+          "case/non-case",
+          "case non-case",
+          "non_case",
+          "non-case",
+          "four-fold",
+          "two-by-two"
+        ]
+      },
+      {
+        "id": "lower_bounds_in_outputs",
+        "source": "any",
+        "any": [
+          "IC025",
+          "EBGM05",
+          "lower95",
+          "ci_lower",
+          "lower bound"
+        ]
+      },
+      {
+        "id": "disproportionality_named_in_report",
+        "source": "report",
+        "any": [
+          "disproportionality",
+          "Reporting Odds Ratio",
+          "ROR"
+        ]
+      },
+      {
+        "id": "meddra_or_pt_mapping",
+        "source": "report",
+        "any": [
+          "MedDRA",
+          "Preferred Term",
+          "Preferred Terms",
+          "PT"
+        ]
+      },
+      {
+        "id": "signal_thresholds_or_screening_rule",
+        "source": "report",
+        "any": [
+          "threshold",
+          "screening",
+          "signal criterion",
+          "positive signal"
+        ]
+      },
+      {
+        "id": "uncertainty_or_stability_method",
+        "source": "report",
+        "any": [
+          "confidence interval",
+          "credible interval",
+          "chi-square",
+          "Fisher",
+          "sensitivity"
+        ]
+      },
+      {
+        "id": "faers_ingestion_code",
+        "source": "code",
+        "any": [
+          "openFDA",
+          "api",
+          "download",
+          "DEMO",
+          "DRUG",
+          "REAC",
+          "OUTC",
+          "INDI",
+          "THER"
+        ]
+      },
+      {
+        "id": "uncertainty_formula_code",
+        "source": "code",
+        "any": [
+          "sqrt(",
+          "log(",
+          "variance",
+          "se_",
+          "fisher_exact",
+          "chi2",
+          "confidence_interval"
+        ]
+      }
+    ],
+    "keywords": [
+      "ROR",
+      "PRR",
+      "IC025",
+      "EBGM05",
+      "four-fold table"
+    ]
+  },
+  {
+    "id": "source_result_alignment",
+    "type": "text",
+    "weight": 32,
+    "critical_miss_cap": 0.25,
+    "content": "Recover the source article's main descriptive and signal findings, including sex, age, country, calendar-year distribution, common adverse events, and high-signal dermatology findings. Passing requires article-specific numbers and event names, not only generic safety language.",
+    "checks": [
+      {
+        "id": "sex_distribution",
+        "source": "report",
+        "all": [
+          "56.08",
+          "34.65"
+        ],
+        "any": [
+          "female",
+          "male"
+        ]
+      },
+      {
+        "id": "age_distribution",
+        "source": "report",
+        "all": [
+          "45-65",
+          "21.34"
+        ]
+      },
+      {
+        "id": "country_distribution",
+        "source": "report",
+        "all": [
+          "98.07"
+        ],
+        "any": [
+          "US",
+          "United States"
+        ]
+      },
+      {
+        "id": "calendar_year_distribution",
+        "source": "report",
+        "all": [
+          "34.25",
+          "0.42"
+        ],
+        "any": [
+          "2023",
+          "2017"
+        ]
+      },
+      {
+        "id": "common_events",
+        "source": "report",
+        "all": [
+          "pruritus",
+          "product use in unapproved indication",
+          "rash"
+        ]
+      },
+      {
+        "id": "high_signal_rebound_findings",
+        "source": "report",
+        "all": [
+          "rebound atopic dermatitis",
+          "rebound eczema",
+          "dermatitis atopic",
+          "dry skin"
+        ]
+      },
+      {
+        "id": "event_ranking_table_contains_metrics",
+        "source": "artifact",
+        "all": [
+          "ror",
+          "prr"
+        ],
+        "any": [
+          "ic025",
+          "ebgm05"
+        ]
+      },
+      {
+        "id": "event_ranking_table_has_source_signals",
+        "source": "artifact",
+        "any": [
+          "rebound atopic dermatitis",
+          "rebound eczema",
+          "dermatitis atopic",
+          "dry skin"
+        ]
+      },
+      {
+        "id": "soc_level_interpretation",
+        "source": "report",
+        "any": [
+          "Skin and subcutaneous tissue disorders",
+          "Eye disorders",
+          "General disorders",
+          "SOC"
+        ]
+      },
+      {
+        "id": "no_causal_overclaim_in_results",
+        "source": "report",
+        "all": [
+          "does not establish causality"
+        ]
+      },
+      {
+        "id": "table1_contains_demographic_alignment",
+        "source": "artifact",
+        "all": [
+          "56.08",
+          "21.34",
+          "98.07"
+        ]
+      }
+    ],
+    "keywords": [
+      "source alignment",
+      "preferred terms",
+      "system organ classes",
+      "signal strength"
+    ]
+  },
+  {
+    "id": "new_potential_ae_quality",
+    "type": "text",
+    "weight": 8,
+    "content": "Give a bounded new-discovery or extension analysis that remains pharmacovigilance-safe. It should discuss candidate newer or under-emphasized dupilumab adverse-event signals and explicitly frame them as hypotheses requiring clinical validation.",
+    "checks": [
+      {
+        "id": "ocular_candidates",
+        "source": "report",
+        "all": [
+          "dry eye",
+          "eye pruritus"
+        ],
+        "any": [
+          "ocular hyperaemia",
+          "ocular hyperemia",
+          "eye irritation",
+          "conjunctivitis"
+        ]
+      },
+      {
+        "id": "vision_or_sleep_candidates",
+        "source": "report",
+        "any": [
+          "vision blurred",
+          "sleep disorder"
+        ]
+      },
+      {
+        "id": "injection_site_candidates",
+        "source": "report",
+        "any": [
+          "injection site dryness",
+          "injection site eczema"
+        ]
+      },
+      {
+        "id": "hypothesis_generating_frame",
+        "source": "report",
+        "any": [
+          "hypothesis-generating",
+          "hypothesis generating",
+          "signal detection"
+        ]
+      },
+      {
+        "id": "validation_or_adjudication",
+        "source": "report",
+        "any": [
+          "clinical adjudication",
+          "clinical validation",
+          "prospective validation",
+          "chart review"
+        ]
+      }
+    ],
+    "keywords": [
+      "new signal",
+      "ocular",
+      "hypothesis-generating",
+      "uncertainty"
+    ]
+  },
+  {
+    "id": "limitations_and_clinical_safety",
+    "type": "text",
+    "weight": 5,
+    "content": "State the core FAERS limitations and clinical safety boundaries: spontaneous reporting bias, underreporting or stimulated reporting, missing denominator and incidence, confounding, absence of causality, and non-use as patient-level treatment guidance.",
+    "checks": [
+      {
+        "id": "spontaneous_reporting_system",
+        "source": "report",
+        "all": [
+          "spontaneous reporting"
+        ]
+      },
+      {
+        "id": "underreporting_or_stimulated_reporting",
+        "source": "report",
+        "any": [
+          "underreporting",
+          "stimulated reporting",
+          "reporting bias"
+        ]
+      },
+      {
+        "id": "missing_denominator_or_incidence",
+        "source": "report",
+        "any": [
+          "missing denominators",
+          "missing denominator",
+          "not incidence",
+          "incidence cannot"
+        ]
+      },
+      {
+        "id": "confounding_limitations",
+        "source": "report",
+        "any": [
+          "confounding by indication",
+          "co-medication",
+          "comedication",
+          "concomitant"
+        ]
+      },
+      {
+        "id": "no_causality",
+        "source": "report",
+        "any": [
+          "does not establish causality",
+          "not causal",
+          "cannot infer causality"
+        ]
+      },
+      {
+        "id": "clinical_safety_boundary",
+        "source": "report",
+        "any": [
+          "patient-level evidence",
+          "clinical decision tool",
+          "stop or start dupilumab",
+          "treatment decision"
+        ]
+      }
+    ],
+    "keywords": [
+      "limitations",
+      "confounding",
+      "underreporting",
+      "clinical safety"
+    ]
+  },
+  {
+    "id": "reproducible_artifacts_and_code",
+    "type": "text",
+    "weight": 3,
+    "content": "Provide runnable evidence artifacts instead of prose-only claims: primary metrics, table 1, table 2, figure 1, and analysis code that names FAERS/openFDA, dupilumab, and a report identifier.",
+    "checks": [
+      {
+        "id": "primary_metrics_exists",
+        "type": "artifact_exists",
+        "path": "artifacts/primary_metrics.json"
+      },
+      {
+        "id": "table1_exists",
+        "type": "artifact_exists",
+        "path": "artifacts/tables/table1.csv"
+      },
+      {
+        "id": "table2_exists",
+        "type": "artifact_exists",
+        "path": "artifacts/tables/table2.csv"
+      },
+      {
+        "id": "figure1_exists",
+        "type": "artifact_exists",
+        "path": "artifacts/figures/figure1.svg"
+      },
+      {
+        "id": "table2_has_rows",
+        "type": "csv_min_rows",
+        "path": "artifacts/tables/table2.csv",
+        "min_rows": 3
+      },
+      {
+        "id": "code_names_source_drug_identifier",
+        "source": "code",
+        "all": [
+          "dupilumab"
+        ],
+        "any": [
+          "FAERS",
+          "openFDA",
+          "safetyreportid"
+        ]
+      }
+    ],
+    "keywords": [
+      "code",
+      "reproducibility",
+      "tables",
+      "figures"
+    ]
+  },
+  {
+    "id": "artifact_fidelity",
+    "type": "text",
+    "weight": 2,
+    "content": "The report and artifacts must be internally aligned: expected manuscript sections are present, the signal table contains ranked drug-event terms, and the figure is explicitly about dupilumab FAERS pharmacovigilance rather than a placeholder.",
+    "checks": [
+      {
+        "id": "methods_section",
+        "source": "report",
+        "all": [
+          "## Methods"
+        ]
+      },
+      {
+        "id": "rediscovery_section",
+        "source": "report",
+        "all": [
+          "## Re-Discovery"
+        ]
+      },
+      {
+        "id": "new_discovery_section",
+        "source": "report",
+        "all": [
+          "## New-Discovery"
+        ]
+      },
+      {
+        "id": "limitations_section",
+        "source": "report",
+        "all": [
+          "## Limitations"
+        ]
+      },
+      {
+        "id": "clinical_safety_section",
+        "source": "report",
+        "all": [
+          "## Clinical Safety"
+        ]
+      },
+      {
+        "id": "artifact_signal_terms",
+        "source": "artifact",
+        "any": [
+          "pruritus",
+          "rash",
+          "conjunctivitis",
+          "rebound"
+        ]
+      },
+      {
+        "id": "figure_topic",
+        "source": "artifact",
+        "all": [
+          "Dupilumab",
+          "FAERS"
+        ]
+      }
+    ],
+    "keywords": [
+      "artifact fidelity",
+      "table1",
+      "table2",
+      "figure1"
+    ]
+  }
+]

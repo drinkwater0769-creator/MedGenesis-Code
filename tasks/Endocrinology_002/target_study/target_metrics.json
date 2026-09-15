@@ -1,0 +1,63 @@
+{
+  "lock_provenance": "paper_reported_values",
+  "lock_source": "Official PubMed abstract of PMID 36637992 (full text paywalled);",
+  "locked": true,
+  "locked_on": "2026-08-26",
+  "metrics": [
+    {
+      "direction": "target_match",
+      "id": "cohort_n",
+      "label": "Cohort N",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 1300,
+      "value": 10666,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "or_low_thyroid_mafld",
+      "label": "Or Low Thyroid Mafld",
+      "notes": "Abstract: low thyroid function OR 1.27 for MAFLD",
+      "tolerance_abs": 0.25,
+      "value": 1.27,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "hr_schypo_allcause_total",
+      "label": "Hr Schypo Allcause Total",
+      "notes": "Abstract: subclinical hypothyroidism, total population, all-cause HR 1.23",
+      "tolerance_abs": 0.3,
+      "value": 1.23,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "hr_schypo_cvd_total",
+      "label": "Hr Schypo Cvd Total",
+      "notes": "Abstract: total population cardiovascular HR 1.65",
+      "tolerance_abs": 0.45,
+      "value": 1.65,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "hr_schypo_allcause_mafld",
+      "label": "Hr Schypo Allcause Mafld",
+      "notes": "Abstract: MAFLD population all-cause HR 1.32",
+      "tolerance_abs": 0.35,
+      "value": 1.32,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "hr_schypo_cvd_mafld",
+      "label": "Hr Schypo Cvd Mafld",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 0.55,
+      "value": 1.99,
+      "weight": 1.0
+    }
+  ],
+  "public_target_notice": "Public development target; not a hidden test or a historical model score."
+}

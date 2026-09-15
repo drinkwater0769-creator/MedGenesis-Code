@@ -1,0 +1,216 @@
+{
+  "schema_version": "clinicalrep.source-contract.v2",
+  "task_id": "Respiratory_001",
+  "paper_pmid": "34739861",
+  "paper_doi": "10.1016/S2213-2600(21)00369-6",
+  "source_class": "credentialed",
+  "dataset": "UK Biobank",
+  "paper_identity_changed": false,
+  "source_correction_reason": "Participant-level UK Biobank source; paper-specific preparation and scientific validation still required.",
+  "source_references": [
+    "https://www.sciencedirect.com/science/article/pii/S2213260021003696",
+    "https://biobank.ndph.ox.ac.uk/ukb/pub.cgi?id=5608",
+    "https://doi.org/10.1016/S2213-2600(21",
+    "https://biobank.ndph.ox.ac.uk/ukb/ukb/docs/Spirometry.pdf",
+    "https://biobank.ndph.ox.ac.uk/ukb/label.cgi?id=100020",
+    "https://biobank.ndph.ox.ac.uk/showcase/",
+    "https://biobank.ndph.ox.ac.uk/ukb/exinfo.cgi?src=Data_providers_and_dates.html",
+    "https://www.ukbiobank.ac.uk/about-us/how-we-work/access-to-uk-biobank-data/"
+  ],
+  "candidate_ukb_fields": [
+    {
+      "field_id": "31",
+      "description": "sex",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=31",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "50",
+      "description": "standing height",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=50",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "189",
+      "description": "Townsend deprivation index",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=189",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "3061",
+      "description": "spirometry acceptability",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=3061",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "3062",
+      "description": "underlying FVC blows",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=3062",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "3063",
+      "description": "underlying FEV1 blows",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=3063",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "20116",
+      "description": "smoking status",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=20116",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "20150",
+      "description": "best FEV1 measure",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=20150",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "20151",
+      "description": "best FVC measure",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=20151",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "20152",
+      "description": "spirometry reproducibility",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=20152",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "20154",
+      "description": "UKB-derived percent-predicted FEV1",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=20154",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "21000",
+      "description": "ethnic background",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=21000",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "21001",
+      "description": "BMI",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=21001",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "21003",
+      "description": "age at assessment",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=21003",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "40000",
+      "description": "date of death",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=40000",
+      "instances": "all",
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "40001",
+      "description": "underlying primary cause of death",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=40001",
+      "instances": "all",
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "40002",
+      "description": "contributory causes of death",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=40002",
+      "instances": "all",
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "41270",
+      "description": "hospital inpatient diagnoses ICD-10",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=41270",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "41280",
+      "description": "first occurrence date of inpatient diagnoses ICD-10",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=41280",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    }
+  ],
+  "candidate_field_map_complete": false,
+  "supported_execution_profiles": [
+    "ukb-candidate-input-v1"
+  ],
+  "full_paper_reproduction_validated": false,
+  "formal_score_eligible": false,
+  "blockers": [
+    "The exact paper cohort, variable recodes, endpoint algorithm and model specification have not all been independently frozen and validated."
+  ],
+  "provenance": "Curated from local paper-source dossiers and method/field audits; no participant values or prior scores included."
+}

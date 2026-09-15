@@ -1,0 +1,23 @@
+{
+  "task_id": "Hematology_003",
+  "source_study_label": "JAK2-mutant clonal hematopoiesis is associated with venous thromboembolism.",
+  "release_status": "figure2d_domain_aligned_v0.4",
+  "pubmed": {
+    "pmid": "39102652",
+    "title": "JAK2-mutant clonal hematopoiesis is associated with venous thromboembolism.",
+    "journal": "Blood",
+    "pubdate": "2024 Nov 14",
+    "doi": "10.1182/blood.2024024187",
+    "authors": [],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39102652/"
+  },
+  "data_source": {
+    "name": "UK Biobank",
+    "access": "credentialed",
+    "url": "https://www.ukbiobank.ac.uk/enable-your-research/apply-for-access",
+    "description": "UK Biobank controlled-access prospective cohort with linked health records, biomarkers, imaging, genomics, and mortality outcomes."
+  },
+  "primary_endpoint": "venous thromboembolism among participants with JAK2-mutant clonal hematopoiesis",
+  "benchmark_execution_status": "metadata_bound_to_ukbiobank; UKB field map and locked extract required for numeric reproduction",
+  "redistribution_note": "Do not redistribute UK Biobank participant-level records. Use approved UK Biobank access or a governed derived extract."
+}

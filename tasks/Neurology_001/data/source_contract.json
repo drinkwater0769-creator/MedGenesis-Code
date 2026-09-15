@@ -1,0 +1,395 @@
+{
+  "schema_version": "clinicalrep.source-contract.v2",
+  "task_id": "Neurology_001",
+  "paper_pmid": "39704077",
+  "paper_doi": "10.1161/STROKEAHA.124.048654",
+  "source_class": "credentialed",
+  "dataset": "UK Biobank",
+  "paper_identity_changed": false,
+  "source_correction_reason": "Participant-level UK Biobank source; paper-specific preparation and scientific validation still required.",
+  "source_references": [
+    "https://www.ahajournals.org/doi/10.1161/STROKEAHA.124.048654",
+    "https://pubmed.ncbi.nlm.nih.gov/39704077/",
+    "https://www.ukbiobank.ac.uk/publications/large-scale-plasma-proteomics-profiles-for-predicting-ischemic-stroke-risk-in-the-general-population-2/",
+    "https://www.ukbiobank.ac.uk/projects/large-scale-proteomic-profiling-to-facilitate-genetics-guided-drug-discovery-and-precision-medicine-the-uk-biobank-pharma-proteomics-project-ukb-ppp/",
+    "https://www.ukbiobank.ac.uk/about-our-data/types-of-data/biomarker-data/",
+    "https://www.ukbiobank.ac.uk/wp-content/uploads/2025/01/Access-procedures.pdf",
+    "https://community.ukbiobank.ac.uk/hc/en-gb/articles/31972311370013-Guidance-on-Data-Downloads-and-Exemptions"
+  ],
+  "candidate_ukb_fields": [
+    {
+      "field_id": "31",
+      "description": "sex",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=31",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "48",
+      "description": "waist circumference for waist-to-hip ratio",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=48",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "49",
+      "description": "hip circumference for waist-to-hip ratio",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=49",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "53",
+      "description": "Field 53",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=53",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "54",
+      "description": "Field 54",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=54",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "93",
+      "description": "manual systolic blood pressure candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=93",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "94",
+      "description": "manual diastolic blood pressure candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=94",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "2443",
+      "description": "diabetes candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=2443",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "4079",
+      "description": "automated diastolic blood pressure candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=4079",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "4080",
+      "description": "automated systolic blood pressure candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=4080",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "6153",
+      "description": "antihypertensive medication candidate for male questionnaire",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=6153",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "6177",
+      "description": "antihypertensive medication candidate for female questionnaire",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=6177",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "20002",
+      "description": "coronary heart disease self-report candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=20002",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "20116",
+      "description": "smoking",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=20116",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "21022",
+      "description": "age",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=21022",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "22006",
+      "description": "Field 22006",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=22006",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "22009",
+      "description": "Field 22009",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=22009",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "22020",
+      "description": "Field 22020",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=22020",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "22021",
+      "description": "Field 22021",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=22021",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "22027",
+      "description": "Field 22027",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=22027",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "30690",
+      "description": "total cholesterol",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=30690",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "30700",
+      "description": "creatinine candidate for eGFR",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=30700",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "30760",
+      "description": "HDL cholesterol",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=30760",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "30900",
+      "description": "Field 30900",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=30900",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "30901",
+      "description": "Field 30901",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=30901",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "30902",
+      "description": "Field 30902",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=30902",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "30903",
+      "description": "Field 30903",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=30903",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "30904",
+      "description": "Field 30904",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=30904",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "40000",
+      "description": "death date candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=40000",
+      "instances": "all",
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "40001",
+      "description": "underlying cause of death candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=40001",
+      "instances": "all",
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "40002",
+      "description": "contributory causes of death candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=40002",
+      "instances": "all",
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "41270",
+      "description": "hospital inpatient ICD-10 diagnoses candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=41270",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "41271",
+      "description": "hospital inpatient ICD-9 diagnoses candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=41271",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "41280",
+      "description": "hospital inpatient ICD-10 first dates candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=41280",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "41281",
+      "description": "hospital inpatient ICD-9 first dates candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=41281",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "42008",
+      "description": "current algorithmic date of ischaemic stroke",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=42008",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "42009",
+      "description": "current algorithmic source of ischaemic stroke report",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=42009",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    }
+  ],
+  "candidate_field_map_complete": false,
+  "supported_execution_profiles": [
+    "ukb-candidate-input-v1"
+  ],
+  "full_paper_reproduction_validated": false,
+  "formal_score_eligible": false,
+  "blockers": [
+    "The exact paper cohort, variable recodes, endpoint algorithm and model specification have not all been independently frozen and validated."
+  ],
+  "provenance": "Curated from local paper-source dossiers and method/field audits; no participant values or prior scores included."
+}

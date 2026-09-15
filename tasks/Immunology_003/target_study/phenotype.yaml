@@ -1,0 +1,11 @@
+{
+  "task_id": "Immunology_003",
+  "phenotype_name": "Immunology_003_source_endpoint",
+  "primary_endpoint": "incident autoimmune disorders by cardiovascular health and genetic susceptibility",
+  "outcome_definition": "incident autoimmune disorders by cardiovascular health and genetic susceptibility",
+  "source_contract": "../data/source_contract.json",
+  "implementation_profile": null,
+  "full_paper_definition_status": "not_frozen",
+  "rediscovery_target": "Reconstruct the source study analysis for: incident autoimmune disorders by cardiovascular health and genetic susceptibility. Declare any deviations or missing modules.",
+  "new_discovery_target": "Perform one prespecified, data-supported sensitivity or subgroup analysis; distinguish it from source reproduction and report uncertainty."
+}

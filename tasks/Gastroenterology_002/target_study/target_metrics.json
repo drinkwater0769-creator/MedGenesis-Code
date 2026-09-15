@@ -1,0 +1,27 @@
+{
+  "lock_provenance": "paper_reported_values",
+  "lock_source": "Inherited target provenance; see paper_metadata.json for the source paper and task data documentation for current requirements. Historical execution narratives are not distributed; target completeness and scientific equivalence remain unverified.",
+  "locked": true,
+  "locked_on": "2026-08-27",
+  "metrics": [
+    {
+      "direction": "target_match",
+      "id": "cohort_n",
+      "label": "Cohort N",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 2000,
+      "value": 111673,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "hr_high_vs_low_proxy",
+      "label": "Hr High Vs Low Proxy",
+      "notes": "No numeric UKB HR is published in the open abstract; the equal-weight component proxy yields 4.54 (high vs low tertile, liver-related death), reproducing the qualitative 'markedly higher mortality' claim. Tolerance set wide because this is a proxy-score descriptive anchor, not a published value.",
+      "tolerance_abs": 99.0,
+      "value": 4.54,
+      "weight": 1.0
+    }
+  ],
+  "public_target_notice": "Public development target; not a hidden test or a historical model score."
+}

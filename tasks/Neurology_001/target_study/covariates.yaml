@@ -1,0 +1,6 @@
+{
+  "task_id": "Neurology_001",
+  "status": "paper_specific_covariate_contract_required",
+  "source_contract": "../data/source_contract.json",
+  "note": "No generic age/sex template is asserted to equal the paper model. Read the source paper and declared execution-profile scope."
+}

@@ -1,0 +1,11 @@
+{
+  "task_id": "Neurology_000",
+  "phenotype_name": "Neurology_000_source_endpoint",
+  "primary_endpoint": "all-cause dementia incidence and mortality",
+  "outcome_definition": "all-cause dementia incidence and mortality",
+  "source_contract": "../data/source_contract.json",
+  "implementation_profile": "neurology000-crude-v1",
+  "full_paper_definition_status": "not_frozen",
+  "rediscovery_target": "Reconstruct the source study analysis for: all-cause dementia incidence and mortality. Declare any deviations or missing modules.",
+  "new_discovery_target": "Perform one prespecified, data-supported sensitivity or subgroup analysis; distinguish it from source reproduction and report uncertainty."
+}

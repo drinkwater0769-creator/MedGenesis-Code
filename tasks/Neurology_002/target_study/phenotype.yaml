@@ -1,0 +1,10 @@
+task_id: Neurology_002
+phenotype_name: DepressionRelapse
+clinical_domain: Neurology and psychiatry
+primary_endpoint: relapse within 12 months
+index_date: source-study-specific index date reconstructed from target methods
+follow_up: source-study-specific window with censoring rules explicitly stated
+exposure_or_predictor: source-study-specific exposure, model score, treatment, biomarker, or trajectory group
+outcome_definition: relapse within 12 months
+rediscovery_target: Recover the reported relapse-risk factors after apparent response.
+new_discovery_target: Identify warning signals for relapse without implying causal treatment failure.

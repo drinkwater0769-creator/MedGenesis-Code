@@ -1,0 +1,11 @@
+{
+  "task_id": "Immunology_001",
+  "phenotype_name": "Immunology_001_source_endpoint",
+  "primary_endpoint": "incident rheumatoid arthritis and life expectancy associated with biological ageing",
+  "outcome_definition": "incident rheumatoid arthritis and life expectancy associated with biological ageing",
+  "source_contract": "../data/source_contract.json",
+  "implementation_profile": null,
+  "full_paper_definition_status": "not_frozen",
+  "rediscovery_target": "Reconstruct the source study analysis for: incident rheumatoid arthritis and life expectancy associated with biological ageing. Declare any deviations or missing modules.",
+  "new_discovery_target": "Perform one prespecified, data-supported sensitivity or subgroup analysis; distinguish it from source reproduction and report uncertainty."
+}

@@ -1,0 +1,23 @@
+{
+  "task_id": "Endocrinology_003",
+  "source_study_label": "Prevalence and Overlap of Cardiac, Renal, and Metabolic Conditions in US Adults, 1999-2020",
+  "release_status": "figure2d_domain_aligned_v0.4",
+  "pubmed": {
+    "pmid": "37755728",
+    "title": "Prevalence and Overlap of Cardiac, Renal, and Metabolic Conditions in US Adults, 1999-2020",
+    "journal": "JAMA Cardiol",
+    "pubdate": "2023 Nov 1",
+    "doi": "10.1001/jamacardio.2023.3241",
+    "authors": [],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37755728/"
+  },
+  "data_source": {
+    "name": "NHANES",
+    "access": "open",
+    "url": "https://wwwn.cdc.gov/nchs/nhanes/",
+    "description": "CDC National Health and Nutrition Examination Survey public-use files."
+  },
+  "primary_endpoint": "prevalence and overlap of cardiac, renal, and metabolic conditions",
+  "benchmark_execution_status": "metadata_bound; source extractor or locked extract required for numeric reproduction",
+  "redistribution_note": "Do not redistribute copyrighted full text or controlled patient-level data. Use official source access or a locked derived extract."
+}

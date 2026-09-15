@@ -1,0 +1,27 @@
+{
+  "lock_provenance": "paper_reported_values",
+  "lock_source": "Full PubMed abstract of PMID 38081205 (Lancet Healthy Longev; full text paywalled).",
+  "locked": true,
+  "locked_on": "2026-08-27",
+  "metrics": [
+    {
+      "direction": "target_match",
+      "id": "or_phenoage_accel_prevalent_ra",
+      "label": "Or Phenoage Accel Prevalent Ra",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 0.35,
+      "value": 2.71,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "hr_phenoage_accel_incident_ra",
+      "label": "Hr Phenoage Accel Incident Ra",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 0.2,
+      "value": 1.7,
+      "weight": 1.0
+    }
+  ],
+  "public_target_notice": "Public development target; not a hidden test or a historical model score."
+}

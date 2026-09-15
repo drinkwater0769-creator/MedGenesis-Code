@@ -1,0 +1,18 @@
+task_id: Oncology_002
+core_covariates:
+  - age
+  - sex
+  - calendar_period
+  - comorbidity_burden
+  - baseline_disease_severity
+  - prior_healthcare_utilization
+  - treatment_or_exposure_status
+  - site_or_data_source
+missingness_strategy:
+  primary: multiple_imputation_or_prespecified_complete_case_analysis
+  sensitivity: missing_indicator_or_inverse_probability_weighting_when_appropriate
+subgroups:
+  - age_group
+  - sex
+  - baseline_risk_stratum
+  - data_source_or_site

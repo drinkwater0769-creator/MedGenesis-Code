@@ -1,0 +1,11 @@
+{
+  "task_id": "Gastroenterology_002",
+  "phenotype_name": "Gastroenterology_002_source_endpoint",
+  "primary_endpoint": "metabolic dysfunction-associated steatohepatitis and liver-related mortality",
+  "outcome_definition": "metabolic dysfunction-associated steatohepatitis and liver-related mortality",
+  "source_contract": "../data/source_contract.json",
+  "implementation_profile": null,
+  "full_paper_definition_status": "not_frozen",
+  "rediscovery_target": "Reconstruct the source study analysis for: metabolic dysfunction-associated steatohepatitis and liver-related mortality. Declare any deviations or missing modules.",
+  "new_discovery_target": "Perform one prespecified, data-supported sensitivity or subgroup analysis; distinguish it from source reproduction and report uncertainty."
+}

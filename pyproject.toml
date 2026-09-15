@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "clinicalrepbench"
+version = "0.4.2.dev2"
+description = "Clinical paper-reproduction tasks and local evaluation tools."
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.23", "pandas>=1.5"]
+
+[project.optional-dependencies]
+analysis = ["statsmodels>=0.14", "scikit-learn>=1.2", "lifelines>=0.27"]
+ukb = ["pyarrow>=12", "pandas>=2"]
+
+[project.scripts]
+ccb = "clinicalclawbench.cli:main"
+
+[tool.setuptools]
+license-files = ["LICENSE", "NOTICE.md", "LICENSES/*.txt"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

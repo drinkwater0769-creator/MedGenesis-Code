@@ -1,0 +1,191 @@
+{
+  "schema_version": "clinicalrep.source-contract.v2",
+  "task_id": "Cardiology_001",
+  "paper_pmid": "40756509",
+  "paper_doi": "10.3389/fendo.2025.1579836",
+  "source_class": "credentialed",
+  "dataset": "UK Biobank",
+  "paper_identity_changed": false,
+  "source_correction_reason": "Participant-level UK Biobank source; paper-specific preparation and scientific validation still required.",
+  "source_references": [
+    "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2025.1579836/full",
+    "https://biobank.ndph.ox.ac.uk/ukb/pub.cgi?id=16145",
+    "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2025.1579836/full#supplementary-material",
+    "https://biobank.ndph.ox.ac.uk/showcase/",
+    "https://biobank.ndph.ox.ac.uk/ukb/exinfo.cgi?src=Data_providers_and_dates.html",
+    "https://www.ukbiobank.ac.uk/about-us/how-we-work/access-to-uk-biobank-data/",
+    "https://community.ukbiobank.ac.uk/hc/en-gb/articles/15453619166749-How-to-Complete-an-access-application"
+  ],
+  "candidate_ukb_fields": [
+    {
+      "field_id": "48",
+      "description": "Field 48",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=48",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "53",
+      "description": "Field 53",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=53",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "93",
+      "description": "Field 93",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=93",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "94",
+      "description": "Field 94",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=94",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "4079",
+      "description": "Field 4079",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=4079",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "4080",
+      "description": "Field 4080",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=4080",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "6153",
+      "description": "Field 6153",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=6153",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "6177",
+      "description": "Field 6177",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=6177",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "20003",
+      "description": "Field 20003",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=20003",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "30740",
+      "description": "Field 30740",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=30740",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "30750",
+      "description": "Field 30750",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=30750",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "40000",
+      "description": "Field 40000",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=40000",
+      "instances": "all",
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "40001",
+      "description": "Field 40001",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=40001",
+      "instances": "all",
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "40002",
+      "description": "Field 40002",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=40002",
+      "instances": "all",
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "41270",
+      "description": "Field 41270",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=41270",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "41280",
+      "description": "Field 41280",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=41280",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    }
+  ],
+  "candidate_field_map_complete": false,
+  "supported_execution_profiles": [
+    "ukb-candidate-input-v1"
+  ],
+  "full_paper_reproduction_validated": false,
+  "formal_score_eligible": false,
+  "blockers": [
+    "independent reference",
+    "full adjusted and imputed estimator implementation",
+    "cardiovascular-death code adjudication if that endpoint is added",
+    "authoritative medication crosswalk or author code",
+    "historical linked-data snapshot/withdrawal refresh",
+    "method and governance review",
+    "external prospective freeze"
+  ],
+  "provenance": "Curated from local paper-source dossiers and method/field audits; no participant values or prior scores included."
+}

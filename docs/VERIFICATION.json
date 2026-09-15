@@ -1,0 +1,75 @@
+{
+  "release_id": "0.4.2-public.4",
+  "date": "2026-09-15",
+  "checks": {
+    "task_count": 40,
+    "domain_count": 10,
+    "source_class_counts": {
+      "open": 15,
+      "credentialed": 17,
+      "mixed": 6,
+      "repository": 2
+    },
+    "offline_tests_passed": 50,
+    "source_audit": "passed",
+    "public_release_audit": "passed",
+    "local_document_links": "passed",
+    "editable_install": "passed in a fresh Python 3.12 virtual environment",
+    "cli_help": "passed",
+    "installed_cli_matches_python_api": "passed",
+    "wheel_build_with_license_notices": "passed"
+  },
+  "limitations": [
+    "Execution in a fresh software environment is not independent scientific replication by a third party.",
+    "Only one limited UKB profile and one open-data reference route were run against real sources in this release check.",
+    "All 40 full research analyses were not rerun or certified.",
+    "A candidate field inventory is not a frozen cohort or statistical-method specification.",
+    "No external researcher account or RAP deployment was tested.",
+    "No historical or newly generated real-data scores are included.",
+    "Pattern scans do not guarantee absence of every possible sensitive artifact."
+  ],
+  "prior_release_real_data_execution": {
+    "Neurology_000": {
+      "profile": "neurology000-crude-v1",
+      "header_inspection": "passed",
+      "multi_table_projection": "passed",
+      "participant_key_consistency": "passed",
+      "prepared_file_hashes": "passed",
+      "crude_diagnostic": "passed",
+      "different_chunk_sizes_produce_identical_output": true,
+      "full_paper_reproduction_validated": false,
+      "historical_snapshot_equivalence_verified": false,
+      "withdrawals_status": "not_verified",
+      "participant_data_and_results_included": false
+    },
+    "Endocrinology_001": {
+      "fresh_public_download": "passed",
+      "bundled_reference_execution": "passed",
+      "local_scoring": "passed",
+      "scorer_ok": true,
+      "formal_score_eligible": false,
+      "score_results_included": false,
+      "full_paper_reproduction_validated": false
+    }
+  },
+  "prior_real_data_check_release": "0.4.1-public.2",
+  "scoring_regression": {
+    "unchanged_partial_submission_rescored": true,
+    "missing_uncertainty_and_sensitivity_evidence_rejected": true,
+    "positive_structured_evidence_tests": "passed",
+    "nonfinite_boolean_missing_metrics_tests": "passed",
+    "weighted_target_denominator_retained": true,
+    "invalid_submission_eligibility_fields": "passed",
+    "public_targets_tolerances_and_weights_changed": false,
+    "real_trial_score_values_included": false
+  },
+  "release_metadata_checks": {
+    "internal_target_narrative_cleanup": true,
+    "changed_task_note_count": 30,
+    "target_values_tolerances_weights_unchanged": true,
+    "original_code_license": "MIT",
+    "upstream_notice_retained": true,
+    "upstream_license_sha256": "04ad68e471238e90e264ad56f531dbf27a32c69fcf9d93f583d949c8875dea77",
+    "formal_leaderboard": false
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "task_id": "Cardiology_001",
+  "phenotype_name": "Cardiology_001_source_endpoint",
+  "primary_endpoint": "atrial fibrillation, heart failure, and cardiovascular mortality among UK Biobank participants with diabetes",
+  "outcome_definition": "atrial fibrillation, heart failure, and cardiovascular mortality among UK Biobank participants with diabetes",
+  "source_contract": "../data/source_contract.json",
+  "implementation_profile": null,
+  "full_paper_definition_status": "not_frozen",
+  "rediscovery_target": "Reconstruct the source study analysis for: atrial fibrillation, heart failure, and cardiovascular mortality among UK Biobank participants with diabetes. Declare any deviations or missing modules.",
+  "new_discovery_target": "Perform one prespecified, data-supported sensitivity or subgroup analysis; distinguish it from source reproduction and report uncertainty."
+}

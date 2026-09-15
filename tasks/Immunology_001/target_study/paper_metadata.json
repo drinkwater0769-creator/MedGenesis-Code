@@ -1,0 +1,23 @@
+{
+  "task_id": "Immunology_001",
+  "source_study_label": "Associations between biological ageing and the risk of, genetic susceptibility to, and life expectancy associated with rheumatoid arthritis: a secondary analysis of two observational studies.",
+  "release_status": "figure2d_domain_aligned_v0.4",
+  "pubmed": {
+    "pmid": "38081205",
+    "title": "Associations between biological ageing and the risk of, genetic susceptibility to, and life expectancy associated with rheumatoid arthritis: a secondary analysis of two observational studies.",
+    "journal": "Lancet Healthy Longev",
+    "pubdate": "2024 Jan",
+    "doi": "10.1016/S2666-7568(23)00220-9",
+    "authors": [],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38081205/"
+  },
+  "data_source": {
+    "name": "UK Biobank",
+    "access": "credentialed",
+    "url": "https://www.ukbiobank.ac.uk/enable-your-research/apply-for-access",
+    "description": "UK Biobank controlled-access prospective cohort with linked health records, biomarkers, imaging, genomics, and mortality outcomes."
+  },
+  "primary_endpoint": "incident rheumatoid arthritis and life expectancy associated with biological ageing",
+  "benchmark_execution_status": "metadata_bound_to_ukbiobank; UKB field map and locked extract required for numeric reproduction",
+  "redistribution_note": "Do not redistribute UK Biobank participant-level records. Use approved UK Biobank access or a governed derived extract."
+}

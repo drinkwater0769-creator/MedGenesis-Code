@@ -1,0 +1,72 @@
+{
+  "lock_provenance": "paper_reported_values",
+  "lock_source": "Abstract of PMID 32687551 (J Gerontol A).",
+  "locked": true,
+  "locked_on": "2026-08-27",
+  "metrics": [
+    {
+      "direction": "target_match",
+      "id": "cohort_n_over65",
+      "label": "Cohort N Over65",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 32000,
+      "value": 269070,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "n_covid_inpatients",
+      "label": "N Covid Inpatients",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 160,
+      "value": 507,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "pct_inpatient_mortality",
+      "label": "Pct Inpatient Mortality",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 12.0,
+      "value": 27.8,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "pct_htn_in_inpatients",
+      "label": "Pct Htn In Inpatients",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 7.0,
+      "value": 59.6,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "pct_chd_in_inpatients",
+      "label": "Pct Chd In Inpatients",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 5.0,
+      "value": 21.5,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "pct_t2d_in_inpatients",
+      "label": "Pct T2D In Inpatients",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 5.0,
+      "value": 19.9,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "pct_asthma_in_inpatients",
+      "label": "Pct Asthma In Inpatients",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 4.0,
+      "value": 17.6,
+      "weight": 1.0
+    }
+  ],
+  "public_target_notice": "Public development target; not a hidden test or a historical model score."
+}

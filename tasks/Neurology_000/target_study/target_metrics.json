@@ -1,0 +1,63 @@
+{
+  "lock_provenance": "paper_reported_values",
+  "lock_source": "Abstract and PMC full text of PMID 35445560.",
+  "locked": true,
+  "locked_on": "2026-08-27",
+  "metrics": [
+    {
+      "direction": "target_match",
+      "id": "cohort_n",
+      "label": "Cohort N",
+      "notes": "Development target with inherited tolerance. Consult the source paper; this release does not include internal reproduction results.",
+      "tolerance_abs": 32000,
+      "value": 466788,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "n_incident_dementia",
+      "label": "N Incident Dementia",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 2600,
+      "value": 4087,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "n_dementia_deaths",
+      "label": "N Dementia Deaths",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 900,
+      "value": 1309,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "mean_followup_incidence_years",
+      "label": "Mean Followup Incidence Years",
+      "notes": "Paper: mean 9.1 y post-landmark",
+      "tolerance_abs": 1.8,
+      "value": 9.1,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "hr_lowest_quintile_incidence",
+      "label": "Hr Lowest Quintile Incidence",
+      "notes": "Abstract: lowest vs highest grip quintile HR 1.72 (1.55-1.92), fully adjusted",
+      "tolerance_abs": 0.3,
+      "value": 1.72,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "hr_lowest_quintile_mortality",
+      "label": "Hr Lowest Quintile Mortality",
+      "notes": "Abstract: dementia mortality HR 1.87 (1.55-2.26)",
+      "tolerance_abs": 0.4,
+      "value": 1.87,
+      "weight": 1.0
+    }
+  ],
+  "public_target_notice": "Public development target; not a hidden test or a historical model score."
+}

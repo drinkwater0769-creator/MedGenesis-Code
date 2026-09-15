@@ -1,0 +1,11 @@
+{
+  "task_id": "Cardiology_000",
+  "phenotype_name": "Cardiology_000_source_endpoint",
+  "primary_endpoint": "all-cause and cardiovascular mortality among UK Biobank participants with atrial fibrillation and metabolic syndrome",
+  "outcome_definition": "all-cause and cardiovascular mortality among UK Biobank participants with atrial fibrillation and metabolic syndrome",
+  "source_contract": "../data/source_contract.json",
+  "implementation_profile": null,
+  "full_paper_definition_status": "not_frozen",
+  "rediscovery_target": "Reconstruct the source study analysis for: all-cause and cardiovascular mortality among UK Biobank participants with atrial fibrillation and metabolic syndrome. Declare any deviations or missing modules.",
+  "new_discovery_target": "Perform one prespecified, data-supported sensitivity or subgroup analysis; distinguish it from source reproduction and report uncertainty."
+}

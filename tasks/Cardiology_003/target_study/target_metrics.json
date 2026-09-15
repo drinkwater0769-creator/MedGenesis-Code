@@ -1,0 +1,117 @@
+{
+  "lock_provenance": "paper_reported_values",
+  "lock_source": "Abstract and full-text methods/results of PMID 37254774 (PMC10330349);",
+  "locked": true,
+  "locked_on": "2026-08-26",
+  "metrics": [
+    {
+      "direction": "target_match",
+      "id": "cohort_n",
+      "label": "Cohort N",
+      "notes": "Methods: 25,899 men + 27,390 women with BP and mortality status",
+      "tolerance_abs": 700,
+      "value": 53289,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "n_men",
+      "label": "N Men",
+      "notes": "Methods figure S1",
+      "tolerance_abs": 450,
+      "value": 25899,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "n_women",
+      "label": "N Women",
+      "notes": "Methods figure S1",
+      "tolerance_abs": 450,
+      "value": 27390,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "n_deaths_allcause",
+      "label": "N Deaths Allcause",
+      "notes": "Results: 7,690 (10.9%) all-cause deaths",
+      "tolerance_abs": 250,
+      "value": 7690,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "n_deaths_cvd",
+      "label": "N Deaths Cvd",
+      "notes": "Results: 2,405 CVD deaths",
+      "tolerance_abs": 100,
+      "value": 2405,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "n_deaths_heart",
+      "label": "N Deaths Heart",
+      "notes": "Results: 1,981 heart-disease deaths",
+      "tolerance_abs": 90,
+      "value": 1981,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "n_deaths_cerebrovascular",
+      "label": "N Deaths Cerebrovascular",
+      "notes": "Results: 424 cerebrovascular deaths",
+      "tolerance_abs": 40,
+      "value": 424,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "median_followup_years",
+      "label": "Median Followup Years",
+      "notes": "Results: median follow-up 9.5 years",
+      "tolerance_abs": 0.4,
+      "value": 9.5,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "irr_men_sbp_ge160",
+      "label": "Irr Men Sbp Ge160",
+      "notes": "Abstract: men SBP>=160 IRR 1.76 (1.27-2.44); tolerance covers freq-weight vs SUDAAN design differences",
+      "tolerance_abs": 0.3,
+      "value": 1.76,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "irr_women_sbp_130_139",
+      "label": "Irr Women Sbp 130 139",
+      "notes": "Abstract: women SBP 130-139 IRR 1.61 (1.02-2.55)",
+      "tolerance_abs": 0.35,
+      "value": 1.61,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "irr_women_sbp_140_159",
+      "label": "Irr Women Sbp 140 159",
+      "notes": "Abstract: women SBP 140-159 IRR 1.75 (1.09-2.80)",
+      "tolerance_abs": 0.35,
+      "value": 1.75,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "irr_women_sbp_ge160",
+      "label": "Irr Women Sbp Ge160",
+      "notes": "Abstract: women SBP>=160 IRR 2.13 (1.35-3.36)",
+      "tolerance_abs": 0.4,
+      "value": 2.13,
+      "weight": 1.0
+    }
+  ],
+  "public_target_notice": "Public development target; not a hidden test or a historical model score."
+}

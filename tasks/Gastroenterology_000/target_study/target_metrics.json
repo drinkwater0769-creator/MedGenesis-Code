@@ -1,0 +1,90 @@
+{
+  "lock_provenance": "paper_reported_values",
+  "lock_source": "Abstract and full text of PMID 38965572 (PMC11225330);",
+  "locked": true,
+  "locked_on": "2026-08-26",
+  "metrics": [
+    {
+      "direction": "target_match",
+      "id": "cohort_n",
+      "label": "Cohort N",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 1300,
+      "value": 10390,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "n_nafld",
+      "label": "N Nafld",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 700,
+      "value": 3672,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "pct_nafld",
+      "label": "Pct Nafld",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 2.5,
+      "value": 35.3,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "pct_masld",
+      "label": "Pct Masld",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 3.0,
+      "value": 34.2,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "hr_tyg_nafld_allcause",
+      "label": "Hr Tyg Nafld Allcause",
+      "notes": "Table 3 model 2: TyG HR 1.095 (1.007-1.190) in NAFLD",
+      "tolerance_abs": 0.12,
+      "value": 1.095,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "hr_tyg_bmi_nafld_allcause",
+      "label": "Hr Tyg Bmi Nafld Allcause",
+      "notes": "Table 3 model 2: TyG-BMI HR 1.002 (1.001-1.003)",
+      "tolerance_abs": 0.004,
+      "value": 1.002,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "hr_tyg_wc_nafld_allcause",
+      "label": "Hr Tyg Wc Nafld Allcause",
+      "notes": "Table 3 model 2: TyG-WC HR 1.001 (1.001-1.002)",
+      "tolerance_abs": 0.003,
+      "value": 1.001,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "hr_tyg_bmi_masld_allcause",
+      "label": "Hr Tyg Bmi Masld Allcause",
+      "notes": "Table 4 model 2: TyG-BMI in MASLD ~1.001-1.002",
+      "tolerance_abs": 0.004,
+      "value": 1.001,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "hr_tyg_wc_masld_allcause",
+      "label": "Hr Tyg Wc Masld Allcause",
+      "notes": "Table 4 model 2: TyG-WC HR 1.001 (1.000-1.002) in MASLD",
+      "tolerance_abs": 0.003,
+      "value": 1.001,
+      "weight": 1.0
+    }
+  ],
+  "public_target_notice": "Public development target; not a hidden test or a historical model score."
+}

@@ -1,0 +1,23 @@
+{
+  "task_id": "Gastroenterology_000",
+  "source_study_label": "Association between triglyceride-glucose related indices and mortality among individuals with non-alcoholic fatty liver disease or metabolic dysfunction-associated steatotic liver disease",
+  "release_status": "figure2d_domain_aligned_v0.4",
+  "pubmed": {
+    "pmid": "38965572",
+    "title": "Association between triglyceride-glucose related indices and mortality among individuals with non-alcoholic fatty liver disease or metabolic dysfunction-associated steatotic liver disease",
+    "journal": "Cardiovasc Diabetol",
+    "pubdate": "2024 Jul 4",
+    "doi": "10.1186/s12933-024-02343-7",
+    "authors": [],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38965572/"
+  },
+  "data_source": {
+    "name": "NHANES",
+    "access": "open",
+    "url": "https://wwwn.cdc.gov/nchs/nhanes/",
+    "description": "CDC National Health and Nutrition Examination Survey public-use files."
+  },
+  "primary_endpoint": "mortality in NAFLD/MASLD with triglyceride-glucose related indices",
+  "benchmark_execution_status": "metadata_bound; source extractor or locked extract required for numeric reproduction",
+  "redistribution_note": "Do not redistribute copyrighted full text or controlled patient-level data. Use official source access or a locked derived extract."
+}

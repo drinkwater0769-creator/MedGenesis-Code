@@ -1,0 +1,10 @@
+task_id: Endocrinology_001
+phenotype_name: ObesityHypertension
+clinical_domain: Endocrine and metabolic disease
+primary_endpoint: prevalent hypertension
+index_date: source-study-specific index date reconstructed from target methods
+follow_up: source-study-specific window with censoring rules explicitly stated
+exposure_or_predictor: source-study-specific exposure, model score, treatment, biomarker, or trajectory group
+outcome_definition: prevalent hypertension
+rediscovery_target: Recover age-adjusted prevalence and adjusted odds-ratio patterns.
+new_discovery_target: Identify whether waist-to-height ratio provides a simpler deployable signal.

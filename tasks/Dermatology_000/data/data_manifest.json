@@ -1,0 +1,24 @@
+{
+  "access": "open",
+  "build_status": "runnable_open_data_manifest_added",
+  "description": "FDA Adverse Event Reporting System public dashboard, quarterly files, and openFDA drug event API.",
+  "extractor_script": "scripts/prepare_open_data_task.py",
+  "minimum_columns": [
+    "subject_or_patient_id",
+    "index_date_or_time",
+    "follow_up_time_or_window",
+    "event_or_label",
+    "age_or_age_group",
+    "sex_when_available"
+  ],
+  "notes": "Public development manifest and inherited targets. Record data provenance and source-cohort deviations; target changes require a separately versioned maintainer release.",
+  "reference_runner": "clinicalclawbench.open_data.prepare.run_open_data_reference",
+  "required_tables": [
+    "analysis_dataset_or_source_specific_files"
+  ],
+  "scorer": "PYTHONPATH=src python3 -m clinicalclawbench.cli score-submission <task_dir> <submission_dir>",
+  "source_dataset": "FAERS",
+  "source_manifest": "data/source_manifest.json",
+  "source_url": "https://open.fda.gov/apis/drug/event/",
+  "task_id": "Dermatology_000"
+}

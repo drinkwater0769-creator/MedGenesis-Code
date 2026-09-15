@@ -1,0 +1,23 @@
+{
+  "task_id": "Hematology_002",
+  "source_study_label": "Common and rare variant associations with clonal haematopoiesis phenotypes",
+  "release_status": "figure2d_domain_aligned_v0.4",
+  "pubmed": {
+    "pmid": "36450978",
+    "title": "Common and rare variant associations with clonal haematopoiesis phenotypes",
+    "journal": "Nature",
+    "pubdate": "2022 Dec",
+    "doi": "10.1038/s41586-022-05448-9",
+    "authors": [],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36450978/"
+  },
+  "data_source": {
+    "name": "UK Biobank",
+    "access": "credentialed",
+    "url": "https://www.ukbiobank.ac.uk/enable-your-research/apply-for-access",
+    "description": "UK Biobank controlled-access prospective cohort with linked health records, biomarkers, imaging, genomics, and mortality outcomes."
+  },
+  "primary_endpoint": "clonal hematopoiesis phenotypes and genetic associations",
+  "benchmark_execution_status": "metadata_bound_to_ukbiobank; UKB field map and locked extract required for numeric reproduction",
+  "redistribution_note": "Do not redistribute UK Biobank participant-level records. Use approved UK Biobank access or a governed derived extract."
+}

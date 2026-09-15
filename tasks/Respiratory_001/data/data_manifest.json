@@ -1,0 +1,12 @@
+{
+  "task_id": "Respiratory_001",
+  "source_dataset": "UK Biobank",
+  "access": "credentialed",
+  "source_url": "https://www.ukbiobank.ac.uk/enable-your-research/apply-for-access",
+  "description": "UK Biobank controlled-access prospective cohort with linked health records, biomarkers, imaging, genomics, and mortality outcomes.",
+  "required_tables": [],
+  "minimum_columns": [],
+  "build_status": "source_contract_v2_development_only",
+  "notes": "Use the source contract and selected profile for input requirements. This manifest does not certify a paper-complete extract.",
+  "source_contract": "data/source_contract.json"
+}

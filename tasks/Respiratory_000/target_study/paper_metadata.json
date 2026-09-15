@@ -1,0 +1,29 @@
+{
+  "task_id": "Respiratory_000",
+  "source_study_label": "Impact of abdominal fat distribution on sepsis: A comparison with traditional anthropometric indices in the UK Biobank study",
+  "release_status": "ukbiobank_literature_grounded_v0.3",
+  "pubmed": {
+    "pmid": "40230221",
+    "title": "Impact of abdominal fat distribution on sepsis: A comparison with traditional anthropometric indices in the UK Biobank study",
+    "journal": "Diabetes Obes Metab",
+    "pubdate": "2025 Jul",
+    "doi": "10.1111/dom.16407",
+    "authors": [
+      "Yang Y",
+      "Peng Z",
+      "Nan W",
+      "Zhang H",
+      "Xing Z"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40230221/"
+  },
+  "data_source": {
+    "name": "UK Biobank",
+    "access": "credentialed",
+    "url": "https://www.ukbiobank.ac.uk/enable-your-research/apply-for-access",
+    "description": "UK Biobank controlled-access prospective cohort with linked health records, biomarkers, imaging, genomics, and mortality outcomes."
+  },
+  "primary_endpoint": "incident sepsis risk associated with abdominal fat distribution",
+  "benchmark_execution_status": "metadata_bound_to_ukbiobank; UKB field map and locked extract required for numeric reproduction",
+  "redistribution_note": "Do not redistribute UK Biobank participant-level records. Use approved UK Biobank access or a governed derived extract."
+}

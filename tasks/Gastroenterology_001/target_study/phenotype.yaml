@@ -1,0 +1,10 @@
+task_id: Gastroenterology_001
+phenotype_name: CKDProgression
+clinical_domain: Gastrointestinal, hepatic, and renal disease
+primary_endpoint: 40 percent eGFR decline, kidney failure, or death
+index_date: source-study-specific index date reconstructed from target methods
+follow_up: source-study-specific window with censoring rules explicitly stated
+exposure_or_predictor: source-study-specific exposure, model score, treatment, biomarker, or trajectory group
+outcome_definition: 40 percent eGFR decline, kidney failure, or death
+rediscovery_target: Recover the reported association of albuminuria and eGFR slope with progression.
+new_discovery_target: Quantify calibration in older adults and patients with diabetes.

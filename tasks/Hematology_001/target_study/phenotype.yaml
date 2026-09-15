@@ -1,0 +1,10 @@
+task_id: Hematology_001
+phenotype_name: AnemiaCKDOutcome
+clinical_domain: Hematology, autoimmune, and immune-mediated disease
+primary_endpoint: hospitalization, transfusion, or mortality endpoint
+index_date: source-study-specific index date reconstructed from target methods
+follow_up: source-study-specific window with censoring rules explicitly stated
+exposure_or_predictor: source-study-specific exposure, model score, treatment, biomarker, or trajectory group
+outcome_definition: hospitalization, transfusion, or mortality endpoint
+rediscovery_target: Recover reported risk gradients across anemia severity and trajectory.
+new_discovery_target: Evaluate treatment-intensity confounding and safety implications.

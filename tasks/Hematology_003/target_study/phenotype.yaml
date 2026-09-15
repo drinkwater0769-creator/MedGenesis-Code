@@ -1,0 +1,11 @@
+{
+  "task_id": "Hematology_003",
+  "phenotype_name": "Hematology_003_source_endpoint",
+  "primary_endpoint": "venous thromboembolism among participants with JAK2-mutant clonal hematopoiesis",
+  "outcome_definition": "venous thromboembolism among participants with JAK2-mutant clonal hematopoiesis",
+  "source_contract": "../data/source_contract.json",
+  "implementation_profile": null,
+  "full_paper_definition_status": "not_frozen",
+  "rediscovery_target": "Reconstruct the source study analysis for: venous thromboembolism among participants with JAK2-mutant clonal hematopoiesis. Declare any deviations or missing modules.",
+  "new_discovery_target": "Perform one prespecified, data-supported sensitivity or subgroup analysis; distinguish it from source reproduction and report uncertainty."
+}

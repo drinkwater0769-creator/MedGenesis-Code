@@ -1,0 +1,261 @@
+{
+  "schema_version": "clinicalrep.source-contract.v2",
+  "task_id": "Dermatology_001",
+  "paper_pmid": "35265637",
+  "paper_doi": "10.3389/fmed.2022.810092",
+  "source_class": "mixed",
+  "dataset": "UK Biobank and OpenGWAS summary statistics",
+  "paper_identity_changed": false,
+  "source_correction_reason": "Primary paper verification shows a UK Biobank observational analysis plus bidirectional Mendelian randomization using OpenGWAS sources, requiring two distinct estimand contracts.",
+  "source_references": [
+    "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2022.810092/full",
+    "https://pubmed.ncbi.nlm.nih.gov/35265637/",
+    "https://www.ukbiobank.ac.uk/about-our-data/types-of-data/biomarker-data/",
+    "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2022.810092/full#supplementary-material",
+    "https://www.ukbiobank.ac.uk/wp-content/uploads/2025/01/Access-procedures.pdf",
+    "https://community.ukbiobank.ac.uk/hc/en-gb/articles/31972311370013-Guidance-on-Data-Downloads-and-Exemptions"
+  ],
+  "candidate_ukb_fields": [
+    {
+      "field_id": "31",
+      "description": "Field 31",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=31",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "738",
+      "description": "Field 738",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=738",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "1558",
+      "description": "Field 1558",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=1558",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "20002",
+      "description": "Field 20002",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=20002",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "20003",
+      "description": "Field 20003",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=20003",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "20008",
+      "description": "Field 20008",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=20008",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "20009",
+      "description": "Field 20009",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=20009",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "20116",
+      "description": "Field 20116",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=20116",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "21000",
+      "description": "Field 21000",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=21000",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "21001",
+      "description": "Field 21001",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=21001",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "21003",
+      "description": "Field 21003",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=21003",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "22000",
+      "description": "Field 22000",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=22000",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "22009",
+      "description": "Field 22009",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=22009",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "30690",
+      "description": "Field 30690",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=30690",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "30740",
+      "description": "Field 30740",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=30740",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "30750",
+      "description": "Field 30750",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=30750",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "30760",
+      "description": "Field 30760",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=30760",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "30780",
+      "description": "Field 30780",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=30780",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "30830",
+      "description": "Field 30830",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=30830",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "30850",
+      "description": "Field 30850",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=30850",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "30870",
+      "description": "Field 30870",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=30870",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "41270",
+      "description": "Field 41270",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=41270",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "41280",
+      "description": "Field 41280",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=41280",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    }
+  ],
+  "candidate_field_map_complete": false,
+  "supported_execution_profiles": [
+    "ukb-candidate-input-v1"
+  ],
+  "full_paper_reproduction_validated": false,
+  "formal_score_eligible": false,
+  "blockers": [
+    "UK Biobank is only one source component; additional cohort/repository inputs and a bounded estimand must be supplied.",
+    "The exact paper cohort, variable recodes, endpoint algorithm and model specification have not all been independently frozen and validated."
+  ],
+  "provenance": "Curated from local paper-source dossiers and method/field audits; no participant values or prior scores included."
+}

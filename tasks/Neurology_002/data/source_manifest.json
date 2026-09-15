@@ -1,0 +1,185 @@
+{
+  "bound_paper": {
+    "doi": "10.1038/s41598-024-72297-z",
+    "pmid": "39300119",
+    "title": "Association of periodontitis with all-cause and cause-specific mortality among individuals with depression: a population-based study"
+  },
+  "dataset": "NHANES",
+  "extract": {
+    "analysis": "nhanes_periodontitis_depression_mortality",
+    "output": "data/analytic_extract.csv",
+    "reference_runner": "clinicalclawbench.public_nhanes_neuro_002.run_reference",
+    "script": "scripts/prepare_open_data_task.py"
+  },
+  "license_note": "Public-use NHANES files; comply with CDC/NCHS analytic guidance.",
+  "paper_specific": true,
+  "provider": "nhanes",
+  "source_home": "https://wwwn.cdc.gov/nchs/nhanes/",
+  "source_system": "NHANES III (exam.dat DIS depression + DEP* periodontal sites) + continuous NHANES 1999-2004/2009-2014 (CIQ*DEP, DPQ_*, OHXPR*/OHXPER_*) + NCHS 2019 linked mortality",
+  "status": "runnable_open_data_paper_specific",
+  "task_id": "Neurology_002",
+  "weighting_note": "Era-pooled unweighted Cox with era terms; CDC-AAP moderate/severe from interproximal CAL/PPD; DIS coding 2-5 = positive lifetime MDE.",
+  "components": [
+    {
+      "component": "NHANES_CONTINUOUS",
+      "file": "CIQMDEP.xpt",
+      "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/CIQMDEP.xpt"
+    },
+    {
+      "component": "NHANES_CONTINUOUS",
+      "file": "CIQDEP_B.xpt",
+      "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/CIQDEP_B.xpt"
+    },
+    {
+      "component": "NHANES_CONTINUOUS",
+      "file": "CIQDEP_C.xpt",
+      "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/CIQDEP_C.xpt"
+    },
+    {
+      "component": "NHANES_CONTINUOUS",
+      "file": "DPQ_F.xpt",
+      "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DPQ_F.xpt"
+    },
+    {
+      "component": "NHANES_CONTINUOUS",
+      "file": "DPQ_G.xpt",
+      "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DPQ_G.xpt"
+    },
+    {
+      "component": "NHANES_CONTINUOUS",
+      "file": "DPQ_H.xpt",
+      "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DPQ_H.xpt"
+    },
+    {
+      "component": "NHANES_CONTINUOUS",
+      "file": "OHXPERIO.xpt",
+      "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/OHXPERIO.xpt"
+    },
+    {
+      "component": "NHANES_CONTINUOUS",
+      "file": "OHXPRU_B.xpt",
+      "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/OHXPRU_B.xpt"
+    },
+    {
+      "component": "NHANES_CONTINUOUS",
+      "file": "OHXPRL_B.xpt",
+      "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/OHXPRL_B.xpt"
+    },
+    {
+      "component": "NHANES_CONTINUOUS",
+      "file": "OHXPRU_C.xpt",
+      "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/OHXPRU_C.xpt"
+    },
+    {
+      "component": "NHANES_CONTINUOUS",
+      "file": "OHXPRL_C.xpt",
+      "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/OHXPRL_C.xpt"
+    },
+    {
+      "component": "NHANES_CONTINUOUS",
+      "file": "OHXPER_F.xpt",
+      "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/OHXPER_F.xpt"
+    },
+    {
+      "component": "NHANES_CONTINUOUS",
+      "file": "OHXPER_G.xpt",
+      "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/OHXPER_G.xpt"
+    },
+    {
+      "component": "NHANES_CONTINUOUS",
+      "file": "OHXPER_H.xpt",
+      "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/OHXPER_H.xpt"
+    },
+    {
+      "component": "NHANES_CONTINUOUS",
+      "file": "DEMO.xpt",
+      "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/DEMO.xpt"
+    },
+    {
+      "component": "NHANES_CONTINUOUS",
+      "file": "DEMO_B.xpt",
+      "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/DEMO_B.xpt"
+    },
+    {
+      "component": "NHANES_CONTINUOUS",
+      "file": "DEMO_C.xpt",
+      "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/DEMO_C.xpt"
+    },
+    {
+      "component": "NHANES_CONTINUOUS",
+      "file": "DEMO_F.xpt",
+      "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DEMO_F.xpt"
+    },
+    {
+      "component": "NHANES_CONTINUOUS",
+      "file": "DEMO_G.xpt",
+      "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEMO_G.xpt"
+    },
+    {
+      "component": "NHANES_CONTINUOUS",
+      "file": "DEMO_H.xpt",
+      "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DEMO_H.xpt"
+    },
+    {
+      "component": "NHANES_III",
+      "file": "adult.dat",
+      "url": "https://wwwn.cdc.gov/nchs/data/nhanes3/1a/adult.dat"
+    },
+    {
+      "component": "NHANES_III",
+      "file": "adult.sas",
+      "url": "https://wwwn.cdc.gov/nchs/data/nhanes3/1a/adult.sas"
+    },
+    {
+      "component": "NHANES_III",
+      "file": "exam.dat",
+      "url": "https://wwwn.cdc.gov/nchs/data/nhanes3/1a/exam.dat"
+    },
+    {
+      "component": "NHANES_III",
+      "file": "exam.sas",
+      "url": "https://wwwn.cdc.gov/nchs/data/nhanes3/1a/exam.sas"
+    },
+    {
+      "component": "LMF",
+      "cycle": "1999-2000",
+      "file": "NHANES_1999_2000_MORT_2019_PUBLIC.dat",
+      "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/datalinkage/linked_mortality/NHANES_1999_2000_MORT_2019_PUBLIC.dat"
+    },
+    {
+      "component": "LMF",
+      "cycle": "2001-2002",
+      "file": "NHANES_2001_2002_MORT_2019_PUBLIC.dat",
+      "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/datalinkage/linked_mortality/NHANES_2001_2002_MORT_2019_PUBLIC.dat"
+    },
+    {
+      "component": "LMF",
+      "cycle": "2003-2004",
+      "file": "NHANES_2003_2004_MORT_2019_PUBLIC.dat",
+      "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/datalinkage/linked_mortality/NHANES_2003_2004_MORT_2019_PUBLIC.dat"
+    },
+    {
+      "component": "LMF",
+      "cycle": "2009-2010",
+      "file": "NHANES_2009_2010_MORT_2019_PUBLIC.dat",
+      "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/datalinkage/linked_mortality/NHANES_2009_2010_MORT_2019_PUBLIC.dat"
+    },
+    {
+      "component": "LMF",
+      "cycle": "2011-2012",
+      "file": "NHANES_2011_2012_MORT_2019_PUBLIC.dat",
+      "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/datalinkage/linked_mortality/NHANES_2011_2012_MORT_2019_PUBLIC.dat"
+    },
+    {
+      "component": "LMF",
+      "cycle": "2013-2014",
+      "file": "NHANES_2013_2014_MORT_2019_PUBLIC.dat",
+      "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/datalinkage/linked_mortality/NHANES_2013_2014_MORT_2019_PUBLIC.dat"
+    },
+    {
+      "component": "LMF",
+      "file": "NHANES_III_MORT_2019_PUBLIC.dat",
+      "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/datalinkage/linked_mortality/NHANES_III_MORT_2019_PUBLIC.dat"
+    }
+  ]
+}

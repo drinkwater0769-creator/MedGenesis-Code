@@ -1,0 +1,54 @@
+{
+  "lock_provenance": "paper_reported_values",
+  "lock_source": "Nature 2012 (PMID 22810696): 224 exomes, 16% hypermutated; non-hypermutated frequencies APC 81%, TP53 60%, KRAS 43%.",
+  "locked": true,
+  "locked_on": "2026-08-27",
+  "metrics": [
+    {
+      "direction": "target_match",
+      "id": "pct_apc",
+      "label": "Pct Apc",
+      "notes": "Paper: APC 81% (non-hypermutated); current-release all-case frequency expected slightly lower",
+      "tolerance_abs": 12.0,
+      "value": 81.0,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "pct_tp53",
+      "label": "Pct Tp53",
+      "notes": "Paper: TP53 60%",
+      "tolerance_abs": 10.0,
+      "value": 60.0,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "pct_kras",
+      "label": "Pct Kras",
+      "notes": "Paper: KRAS 43%",
+      "tolerance_abs": 8.0,
+      "value": 43.0,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "pct_hypermutated",
+      "label": "Pct Hypermutated",
+      "notes": "Paper: 16% hypermutated; called at >=250 non-silent variants (documented approximation)",
+      "tolerance_abs": 8.0,
+      "value": 16.0,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "sequenced_patient_n",
+      "label": "Sequenced Patient N",
+      "notes": "Paper freeze: 224 exomes; current GDC release ~530+ (documented)",
+      "tolerance_abs": 500,
+      "value": 224,
+      "weight": 1.0
+    }
+  ],
+  "public_target_notice": "Public development target; not a hidden test or a historical model score."
+}

@@ -1,0 +1,36 @@
+{
+  "task_id": "Neurology_003",
+  "source_study_label": "Stroke genetics informs drug discovery and risk prediction across ancestries",
+  "release_status": "ukbiobank_literature_grounded_v0.3",
+  "pubmed": {
+    "pmid": "36180795",
+    "title": "Stroke genetics informs drug discovery and risk prediction across ancestries",
+    "journal": "Nature",
+    "pubdate": "2022 Nov",
+    "doi": "10.1038/s41586-022-05165-3",
+    "authors": [
+      "Mishra A",
+      "Malik R",
+      "Hachiya T",
+      "Jürgenson T",
+      "Namba S",
+      "Posner DC",
+      "Kamanu FK",
+      "Koido M",
+      "Le Grand Q",
+      "Shi M",
+      "He Y",
+      "Georgakis MK"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36180795/"
+  },
+  "data_source": {
+    "name": "UK Biobank",
+    "access": "credentialed",
+    "url": "https://www.ukbiobank.ac.uk/enable-your-research/apply-for-access",
+    "description": "UK Biobank controlled-access prospective cohort with linked health records, biomarkers, imaging, genomics, and mortality outcomes."
+  },
+  "primary_endpoint": "stroke and stroke-subtype risk prediction using genetic evidence",
+  "benchmark_execution_status": "metadata_bound_to_ukbiobank; UKB field map and locked extract required for numeric reproduction",
+  "redistribution_note": "Do not redistribute UK Biobank participant-level records. Use approved UK Biobank access or a governed derived extract."
+}

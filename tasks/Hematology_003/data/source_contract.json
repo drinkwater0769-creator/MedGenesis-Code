@@ -1,0 +1,224 @@
+{
+  "schema_version": "clinicalrep.source-contract.v2",
+  "task_id": "Hematology_003",
+  "paper_pmid": "39102652",
+  "paper_doi": "10.1182/blood.2024024187",
+  "source_class": "credentialed",
+  "dataset": "UK Biobank",
+  "paper_identity_changed": false,
+  "source_correction_reason": "Participant-level UK Biobank source; paper-specific preparation and scientific validation still required.",
+  "source_references": [
+    "https://ashpublications.org/blood/article/144/20/2149/517042/JAK2-mutant-clonal-hematopoiesis-is-associated",
+    "https://pubmed.ncbi.nlm.nih.gov/39102652/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC11600088/",
+    "https://www.ukbiobank.ac.uk/publications/jak2-mutant-clonal-hematopoiesis-is-associated-with-venous-thromboembolism/",
+    "https://www.ukbiobank.ac.uk/wp-content/uploads/2025/01/Access-procedures.pdf",
+    "https://community.ukbiobank.ac.uk/hc/en-gb/articles/31972311370013-Guidance-on-Data-Downloads-and-Exemptions"
+  ],
+  "candidate_ukb_fields": [
+    {
+      "field_id": "31",
+      "description": "sex",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=31",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "53",
+      "description": "assessment date candidate, not proven DNA sampling date",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=53",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "20116",
+      "description": "ever/never smoking candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=20116",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "21001",
+      "description": "BMI candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=21001",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "21003",
+      "description": "age at assessment candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=21003",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "21022",
+      "description": "age at recruitment candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=21022",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "22006",
+      "description": "Field 22006",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=22006",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "22009",
+      "description": "Field 22009",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=22009",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "22020",
+      "description": "Field 22020",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=22020",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "22021",
+      "description": "Field 22021",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=22021",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "22027",
+      "description": "Field 22027",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=22027",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "30020",
+      "description": "hemoglobin candidate for undiagnosed-MPN sensitivity exclusion",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=30020",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "30080",
+      "description": "platelet count candidate for undiagnosed-MPN sensitivity exclusion",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=30080",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "40000",
+      "description": "death date candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=40000",
+      "instances": "all",
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "40001",
+      "description": "underlying cause of death candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=40001",
+      "instances": "all",
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "40002",
+      "description": "contributory causes of death candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=40002",
+      "instances": "all",
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "41270",
+      "description": "hospital inpatient ICD-10 diagnosis array candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=41270",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "41271",
+      "description": "hospital inpatient ICD-9 diagnosis array candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=41271",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "41280",
+      "description": "hospital inpatient ICD-10 first-date array candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=41280",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "41281",
+      "description": "hospital inpatient ICD-9 first-date array candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=41281",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    }
+  ],
+  "candidate_field_map_complete": false,
+  "supported_execution_profiles": [
+    "ukb-candidate-input-v1"
+  ],
+  "full_paper_reproduction_validated": false,
+  "formal_score_eligible": false,
+  "blockers": [
+    "The exact paper cohort, variable recodes, endpoint algorithm and model specification have not all been independently frozen and validated."
+  ],
+  "provenance": "Curated from local paper-source dossiers and method/field audits; no participant values or prior scores included."
+}

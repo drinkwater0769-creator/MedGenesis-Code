@@ -1,0 +1,10 @@
+task_id: Cardiology_003
+phenotype_name: HypertensionTrajectory
+clinical_domain: Cardiovascular and circulatory disease
+primary_endpoint: incident major adverse cardiovascular event
+index_date: source-study-specific index date reconstructed from target methods
+follow_up: source-study-specific window with censoring rules explicitly stated
+exposure_or_predictor: source-study-specific exposure, model score, treatment, biomarker, or trajectory group
+outcome_definition: incident major adverse cardiovascular event
+rediscovery_target: Recover trajectory classes and their adjusted hazard ratios.
+new_discovery_target: Test whether visit-to-visit variability adds signal beyond mean blood pressure.

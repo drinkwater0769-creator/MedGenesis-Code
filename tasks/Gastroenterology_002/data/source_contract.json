@@ -1,0 +1,258 @@
+{
+  "schema_version": "clinicalrep.source-contract.v2",
+  "task_id": "Gastroenterology_002",
+  "paper_pmid": "39423864",
+  "paper_doi": "10.1016/j.jhep.2024.10.015",
+  "source_class": "mixed",
+  "dataset": "Four metabolomics discovery and validation cohorts including UK Biobank",
+  "paper_identity_changed": false,
+  "source_correction_reason": "Primary paper verification shows four discovery/validation cohorts rather than a UK Biobank-only analysis.",
+  "source_references": [
+    "https://www.sciencedirect.com/science/article/pii/S0168827824026369",
+    "https://helda.helsinki.fi/server/api/core/bitstreams/7f269e92-f390-43e0-9f6e-ff808ec4cbc2/content",
+    "https://www.ukbiobank.ac.uk/publications/a-metabolome-derived-score-predicts-metabolic-dysfunction-associated-steatohepatitis-and-mortality-from-liver-disease/",
+    "https://biobank.ndph.ox.ac.uk/showcase/label.cgi?id=220",
+    "https://biobank.ndph.ox.ac.uk/ukb/ukb/docs/nmrm_phase3_companion.pdf",
+    "https://biobank.ndph.ox.ac.uk/showcase/ukb/docs/nmrm_companion_doc.pdf",
+    "https://biobank.ndph.ox.ac.uk/showcase/refer.cgi?id=3543",
+    "https://biobank.ndph.ox.ac.uk/ukb/exinfo.cgi?src=Data_providers_and_dates.html",
+    "https://www.ukbiobank.ac.uk/about-us/how-we-work/access-to-uk-biobank-data/"
+  ],
+  "candidate_ukb_fields": [
+    {
+      "field_id": "21001",
+      "description": "BMI candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=21001",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "23412",
+      "description": "phospholipids in VLDL candidate numerator",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=23412",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "23424",
+      "description": "total lipids in VLDL candidate denominator",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=23424",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "23469",
+      "description": "tyrosine candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=23469",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "23579",
+      "description": "Field 23579",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=23579",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "23584",
+      "description": "Field 23584",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=23584",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "23589",
+      "description": "Field 23589",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=23589",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "23594",
+      "description": "Field 23594",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=23594",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "23599",
+      "description": "Field 23599",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=23599",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "23604",
+      "description": "Field 23604",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=23604",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "23649",
+      "description": "Field 23649",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=23649",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "23650",
+      "description": "Field 23650",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=23650",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "23652",
+      "description": "Field 23652",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=23652",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "23653",
+      "description": "Field 23653",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=23653",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "23654",
+      "description": "Field 23654",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=23654",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "23655",
+      "description": "Field 23655",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=23655",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "23658",
+      "description": "Field 23658",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=23658",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "23659",
+      "description": "Field 23659",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=23659",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "23660",
+      "description": "Field 23660",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=23660",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "30650",
+      "description": "AST candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=30650",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "40000",
+      "description": "death date candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=40000",
+      "instances": "all",
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "40001",
+      "description": "underlying cause of death candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=40001",
+      "instances": "all",
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "40002",
+      "description": "contributory causes of death candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=40002",
+      "instances": "all",
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    }
+  ],
+  "candidate_field_map_complete": false,
+  "supported_execution_profiles": [
+    "ukb-candidate-input-v1"
+  ],
+  "full_paper_reproduction_validated": false,
+  "formal_score_eligible": false,
+  "blockers": [
+    "UK Biobank is only one source component; additional cohort/repository inputs and a bounded estimand must be supplied.",
+    "The exact paper cohort, variable recodes, endpoint algorithm and model specification have not all been independently frozen and validated."
+  ],
+  "provenance": "Curated from local paper-source dossiers and method/field audits; no participant values or prior scores included."
+}

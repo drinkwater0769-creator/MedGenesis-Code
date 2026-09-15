@@ -1,0 +1,63 @@
+{
+  "lock_provenance": "paper_reported_values",
+  "lock_source": "Abstract and PMC full text (PMC12184553) of PMID 40371604.",
+  "locked": true,
+  "locked_on": "2026-08-27",
+  "metrics": [
+    {
+      "direction": "target_match",
+      "id": "cohort_n",
+      "label": "Cohort N",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 30000,
+      "value": 247660,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "n_incident_autoimmune",
+      "label": "N Incident Autoimmune",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 2200,
+      "value": 11422,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "mean_le8",
+      "label": "Mean Le8",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 3.0,
+      "value": 67.8,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "pct_low_cvh",
+      "label": "Pct Low Cvh",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 2.0,
+      "value": 5.1,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "pct_high_cvh",
+      "label": "Pct High Cvh",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 5.0,
+      "value": 14.2,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "hr_high_vs_low_cvh",
+      "label": "Hr High Vs Low Cvh",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 0.15,
+      "value": 0.68,
+      "weight": 1.0
+    }
+  ],
+  "public_target_notice": "Public development target; not a hidden test or a historical model score."
+}

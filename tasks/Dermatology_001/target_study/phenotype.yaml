@@ -1,0 +1,11 @@
+{
+  "task_id": "Dermatology_001",
+  "phenotype_name": "Dermatology_001_source_endpoint",
+  "primary_endpoint": "associations between atopic dermatitis, asthma, and serum lipid traits",
+  "outcome_definition": "associations between atopic dermatitis, asthma, and serum lipid traits",
+  "source_contract": "../data/source_contract.json",
+  "implementation_profile": null,
+  "full_paper_definition_status": "not_frozen",
+  "rediscovery_target": "Reconstruct the source study analysis for: associations between atopic dermatitis, asthma, and serum lipid traits. Declare any deviations or missing modules.",
+  "new_discovery_target": "Perform one prespecified, data-supported sensitivity or subgroup analysis; distinguish it from source reproduction and report uncertainty."
+}

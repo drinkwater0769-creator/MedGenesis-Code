@@ -1,0 +1,63 @@
+{
+  "lock_provenance": "paper_reported_values",
+  "lock_source": "Abstract and PMC full text (PMC8899503) of PMID 35265637.",
+  "locked": true,
+  "locked_on": "2026-08-27",
+  "metrics": [
+    {
+      "direction": "target_match",
+      "id": "cohort_n",
+      "label": "Cohort N",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 3000,
+      "value": 502505,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "beta_ad_tg",
+      "label": "Beta Ad Tg",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 0.004,
+      "value": -0.006,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "beta_ad_ldl",
+      "label": "Beta Ad Ldl",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 0.003,
+      "value": -0.004,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "beta_ad_tc",
+      "label": "Beta Ad Tc",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 0.003,
+      "value": -0.004,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "beta_asthma_tg",
+      "label": "Beta Asthma Tg",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 0.008,
+      "value": -0.005,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "beta_asthma_hdl",
+      "label": "Beta Asthma Hdl",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 0.01,
+      "value": 0.004,
+      "weight": 1.0
+    }
+  ],
+  "public_target_notice": "Public development target; not a hidden test or a historical model score."
+}

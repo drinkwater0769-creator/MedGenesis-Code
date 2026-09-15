@@ -1,0 +1,80 @@
+{
+  "locked": true,
+  "metrics": [
+    {
+      "direction": "target_match",
+      "id": "abd_obesity_prev_pct",
+      "label": "Abd Obesity Prev Pct",
+      "notes": "Locked from the bundled open-data reference run.",
+      "tolerance_abs": 1.0,
+      "value": 52.8665,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "cohort_n",
+      "label": "Cohort N",
+      "notes": "Locked from the bundled open-data reference run.",
+      "tolerance_abs": 1.0,
+      "value": 8102.0,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "htn_prev_abd_no_pct",
+      "label": "Htn Prev Abd No Pct",
+      "notes": "Locked from the bundled open-data reference run.",
+      "tolerance_abs": 1.0,
+      "value": 22.0756,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "htn_prev_abd_yes_pct",
+      "label": "Htn Prev Abd Yes Pct",
+      "notes": "Locked from the bundled open-data reference run.",
+      "tolerance_abs": 1.0,
+      "value": 36.5228,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "or_abd_obesity_model3",
+      "label": "Or Abd Obesity Model3",
+      "notes": "Locked from the bundled open-data reference run.",
+      "tolerance_abs": 1.0,
+      "value": 1.5238,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "or_abd_yes_normal_bmi_model4",
+      "label": "Or Abd Yes Normal Bmi Model4",
+      "notes": "Locked from the bundled open-data reference run.",
+      "tolerance_abs": 1.0,
+      "value": 1.7132,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "or_abd_yes_obese_model4",
+      "label": "Or Abd Yes Obese Model4",
+      "notes": "Locked from the bundled open-data reference run.",
+      "tolerance_abs": 1.0,
+      "value": 3.0824,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "or_abd_yes_overweight_model4",
+      "label": "Or Abd Yes Overweight Model4",
+      "notes": "Locked from the bundled open-data reference run.",
+      "tolerance_abs": 1.0,
+      "value": 1.8286,
+      "weight": 1.0
+    }
+  ],
+  "scale_note": "Numeric target metrics are locked from the bundled open-data reference run and scored by absolute tolerance.",
+  "source": "open_data_reference_submission",
+  "public_target_notice": "Public development target; not a hidden test or a historical model score."
+}

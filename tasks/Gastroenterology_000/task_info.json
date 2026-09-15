@@ -1,0 +1,101 @@
+{
+  "task_id": "Gastroenterology_000",
+  "title": "Reproduce: Association between triglyceride-glucose related indices and mortality among individuals with non-alcoholic fatty liver disease or metabolic dysfunction-associated steatotic liver disease",
+  "benchmark": "ClinicalRepBench",
+  "track": "Public",
+  "domain": "Gastroenterology",
+  "domain_code": "Gastroenterology",
+  "domain_index": 8,
+  "task_index_within_domain": 0,
+  "data_access": "open",
+  "source_release": "redacted_public_scaffold",
+  "primary_question": "Can an autonomous clinical-research agent reproduce the main analysis of PMID 38965572 (Association between triglyceride-glucose related indices and mortality among individuals with non-alcoholic fatty liver disease or metabolic dysfunction-associated steatotic liver disease) using NHANES or its governed benchmark extract?",
+  "task": "Reproduce the clinical-research workflow of PMID 38965572: Association between triglyceride-glucose related indices and mortality among individuals with non-alcoholic fatty liver disease or metabolic dysfunction-associated steatotic liver disease. Primary endpoint: mortality in NAFLD/MASLD with triglyceride-glucose related indices. Use NHANES or a locked benchmark extract derived from it. Report cohort construction, variables, statistical methods, the main reproduction result, sensitivity analyses, limitations, and one bounded new-discovery extension.",
+  "endpoint": "mortality in NAFLD/MASLD with triglyceride-glucose related indices",
+  "rediscovery_target": "Recover reported discrimination and risk-category movement.",
+  "new_discovery_target": "Test whether longitudinal enzyme trajectories improve risk stratification.",
+  "data": [
+    {
+      "name": "NHANES",
+      "path": "data/",
+      "type": "source_dataset_or_locked_extract",
+      "description": "CDC National Health and Nutrition Examination Survey public-use files.",
+      "access": "open",
+      "url": "https://wwwn.cdc.gov/nchs/nhanes/"
+    }
+  ],
+  "deliverables": [
+    "submission.json",
+    "report/report.md",
+    "artifacts/primary_metrics.json",
+    "artifacts/tables/table1.csv",
+    "artifacts/tables/table2.csv",
+    "artifacts/figures/figure1.svg"
+  ],
+  "allowed_tools": [
+    "python",
+    "r",
+    "sql",
+    "literature_search"
+  ],
+  "disallowed_tools": [
+    "paper_title_lookup_when_title_is_redacted",
+    "patient_reidentification",
+    "unsupported_causal_claims"
+  ],
+  "evaluation": {
+    "objective_weight": 0.7,
+    "subjective_weight": 0.2,
+    "strobe_weight": 0.1,
+    "penalty_cap": 40.0,
+    "metrics_weight": 0.05,
+    "checklist_weight": 0.9,
+    "paper_baseline": 0.5,
+    "paper_ceiling": 0.9,
+    "strobe_required": true,
+    "strobe_items": [
+      "cohort",
+      "variables",
+      "bias",
+      "study_size",
+      "statistical_methods",
+      "limitations",
+      "generalizability"
+    ],
+    "phi_whitelist": [
+      "patient_id",
+      "study_id",
+      "encounter_id"
+    ],
+    "final_score_mode": "researchclawbench_rubric",
+    "gate_weight": 0.05,
+    "human_level_score": 50.0,
+    "figure_panel": "Figure 2D",
+    "scoring_profile": "figure2d_researchclawbench_v1",
+    "calibration_note": "ClinicalRepBench Figure 2D calibration: 0-100 score, 50 approximates trained human paper-level reproduction; static metrics, format-only reports, and source-generic prose are capped by rubric critical checks.",
+    "reproducibility_weight": 0.0,
+    "metric_alignment_floor": 0.05,
+    "zero_metric_alignment_cap": 0.2,
+    "missing_analysis_code_cap": 0.45,
+    "synthetic_placeholder_analysis_cap": 0.25,
+    "weak_reproducibility_threshold": 0.5,
+    "weak_reproducibility_cap": 0.3
+  },
+  "tags": [
+    "clinicalrepbench",
+    "paper_reproduction",
+    "gastroenterology",
+    "mortalityinnafldmasldwithtriglyc"
+  ],
+  "resource_budget": {
+    "time_seconds": 3600,
+    "tokens_total": 1200000,
+    "_note": "ClinicalRepBench paper-reproduction task; source materials are redacted in the public scaffold."
+  },
+  "source_pmid": "38965572",
+  "source_doi": "10.1186/s12933-024-02343-7",
+  "source_journal": "Cardiovasc Diabetol",
+  "source_year": "2024",
+  "source_pubdate": "2024 Jul 4",
+  "primary_dataset": "NHANES"
+}

@@ -1,0 +1,63 @@
+{
+  "lock_provenance": "paper_reported_values",
+  "lock_source": "Official PubMed abstract of PMID 36372304 (CHEST).",
+  "locked": true,
+  "locked_on": "2026-08-27",
+  "metrics": [
+    {
+      "direction": "target_match",
+      "id": "cohort_n",
+      "label": "Cohort N",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 25000,
+      "value": 329954,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "hr_prism_mace",
+      "label": "Hr Prism Mace",
+      "notes": "Paper: PRISm vs normal MACE HR 1.26 (1.17-1.35)",
+      "tolerance_abs": 0.22,
+      "value": 1.26,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "hr_prism_mi",
+      "label": "Hr Prism Mi",
+      "notes": "Paper: MI HR 1.12 (1.01-1.25)",
+      "tolerance_abs": 0.22,
+      "value": 1.12,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "hr_prism_hf",
+      "label": "Hr Prism Hf",
+      "notes": "Paper: heart failure HR 1.88 (1.72-2.05)",
+      "tolerance_abs": 0.35,
+      "value": 1.88,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "hr_prism_stroke",
+      "label": "Hr Prism Stroke",
+      "notes": "Paper: stroke HR 1.26 (1.13-1.40)",
+      "tolerance_abs": 0.25,
+      "value": 1.26,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "hr_prism_cvd_death",
+      "label": "Hr Prism Cvd Death",
+      "notes": "Paper: CVD mortality HR 1.55 (1.37-1.76)",
+      "tolerance_abs": 0.3,
+      "value": 1.55,
+      "weight": 1.0
+    }
+  ],
+  "public_target_notice": "Public development target; not a hidden test or a historical model score."
+}

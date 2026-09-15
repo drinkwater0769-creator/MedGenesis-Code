@@ -1,0 +1,23 @@
+{
+  "task_id": "Cardiology_003",
+  "source_study_label": "Blood Pressure and Cardiovascular Disease Mortality Among US Adults: A Sex-Stratified Analysis, 1999-2019",
+  "release_status": "figure2d_domain_aligned_v0.4",
+  "pubmed": {
+    "pmid": "37254774",
+    "title": "Blood Pressure and Cardiovascular Disease Mortality Among US Adults: A Sex-Stratified Analysis, 1999-2019",
+    "journal": "Hypertension",
+    "pubdate": "2023 Jul",
+    "doi": "10.1161/HYPERTENSIONAHA.123.21228",
+    "authors": [],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37254774/"
+  },
+  "data_source": {
+    "name": "NHANES",
+    "access": "open",
+    "url": "https://wwwn.cdc.gov/nchs/nhanes/",
+    "description": "CDC National Health and Nutrition Examination Survey public-use files."
+  },
+  "primary_endpoint": "cardiovascular disease mortality among US adults",
+  "benchmark_execution_status": "metadata_bound; source extractor or locked extract required for numeric reproduction",
+  "redistribution_note": "Do not redistribute copyrighted full text or controlled patient-level data. Use official source access or a locked derived extract."
+}

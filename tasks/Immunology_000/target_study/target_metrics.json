@@ -1,0 +1,45 @@
+{
+  "lock_provenance": "paper_reported_values",
+  "lock_source": "Official PubMed abstract of PMID 26762689;",
+  "locked": true,
+  "locked_on": "2026-08-26",
+  "metrics": [
+    {
+      "direction": "target_match",
+      "id": "cohort_n",
+      "label": "Cohort N",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 4,
+      "value": 37,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "mortality_rate_higher_pct",
+      "label": "Mortality Rate Higher Pct",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 6.0,
+      "value": 5.3,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "mortality_rate_lower_pct",
+      "label": "Mortality Rate Lower Pct",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 12.0,
+      "value": 33.3,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "logrank_p",
+      "label": "Logrank P",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 0.06,
+      "value": 0.0436,
+      "weight": 1.0
+    }
+  ],
+  "public_target_notice": "Public development target; not a hidden test or a historical model score."
+}

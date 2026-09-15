@@ -1,0 +1,25 @@
+{
+  "access": "open",
+  "build_status": "hardened_raw_reproducibility_scoring",
+  "description": "NCI GDC TCGA-LUAD clinical cases plus open masked somatic mutation MAF files for paper-level molecular-profile reproduction. Scoring includes a hidden raw-data rerun of submitted code.",
+  "extractor_script": "scripts/prepare_open_data_task.py",
+  "minimum_columns": [
+    "GDC cases: data.hits[].submitter_id",
+    "GDC cases: data.hits[].demographic.vital_status",
+    "GDC MAF: Hugo_Symbol",
+    "GDC MAF: Tumor_Sample_Barcode",
+    "GDC MAF: Variant_Classification"
+  ],
+  "notes": "Oncology_000 uses raw-source reproducibility scoring. Agents may generate an analytic extract, but it is an output of code/analysis.py rather than a trusted input for final scoring.",
+  "reference_runner": "clinicalclawbench.open_data.tcga_luad.run_luad_reference",
+  "required_tables": [
+    "GDC cases API JSON",
+    "GDC masked somatic mutation MAF files",
+    "submitted code-generated patient-level driver mutation matrix"
+  ],
+  "scorer": "PYTHONPATH=src python3 -m clinicalclawbench.cli score-submission <task_dir> <submission_dir>",
+  "source_dataset": "TCGA/GDC",
+  "source_manifest": "data/source_manifest.json",
+  "source_url": "https://portal.gdc.cancer.gov/",
+  "task_id": "Oncology_000"
+}

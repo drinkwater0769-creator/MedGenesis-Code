@@ -1,0 +1,11 @@
+{
+  "task_id": "Respiratory_000",
+  "phenotype_name": "Respiratory_000_source_endpoint",
+  "primary_endpoint": "incident sepsis risk associated with abdominal fat distribution",
+  "outcome_definition": "incident sepsis risk associated with abdominal fat distribution",
+  "source_contract": "../data/source_contract.json",
+  "implementation_profile": null,
+  "full_paper_definition_status": "not_frozen",
+  "rediscovery_target": "Reconstruct the source study analysis for: incident sepsis risk associated with abdominal fat distribution. Declare any deviations or missing modules.",
+  "new_discovery_target": "Perform one prespecified, data-supported sensitivity or subgroup analysis; distinguish it from source reproduction and report uncertainty."
+}

@@ -1,0 +1,100 @@
+{
+ "bound_paper": {
+  "doi": "10.1186/s12944-024-02179-w",
+  "pmid": "38965572",
+  "title": "Association between triglyceride-glucose related indices and mortality among individuals with non-alcoholic fatty liver disease or metabolic dysfunction-associated steatotic liver disease"
+ },
+ "components": [
+  {
+   "columns": [
+    "HSSEX",
+    "HSAGEIR",
+    "DMARETHN",
+    "DMPPIR",
+    "HFA8R",
+    "HFA12",
+    "HAR1",
+    "HAR3",
+    "HAD1",
+    "HAE2",
+    "HAN6HS",
+    "HAN6IS",
+    "HAN6JS",
+    "WTPFEX6",
+    "SDPPSU6",
+    "SDPSTRA6"
+   ],
+   "component": "NH3_ADULT",
+   "cycle": "1988-1994",
+   "file": "adult.dat",
+   "url": "https://wwwn.cdc.gov/nchs/data/nhanes3/1a/adult.dat"
+  },
+  {
+   "columns": [
+    "BMPBMI",
+    "BMPWAIST",
+    "PEPMNK1R",
+    "PEPMNK5R"
+   ],
+   "component": "NH3_EXAM",
+   "cycle": "1988-1994",
+   "file": "exam.dat",
+   "url": "https://wwwn.cdc.gov/nchs/data/nhanes3/1a/exam.dat"
+  },
+  {
+   "columns": [
+    "TGP",
+    "G1P",
+    "GHP",
+    "HDP",
+    "PLP",
+    "ASPSI",
+    "ATPSI",
+    "SAP",
+    "HCP",
+    "PHPFAST"
+   ],
+   "component": "NH3_LAB",
+   "cycle": "1988-1994",
+   "file": "lab.dat",
+   "url": "https://wwwn.cdc.gov/nchs/data/nhanes3/1a/lab.dat"
+  },
+  {
+   "columns": [
+    "GUPHSREV",
+    "GUPHSQC"
+   ],
+   "component": "NH3_HGUHS",
+   "cycle": "1988-1994",
+   "file": "HGUHS.xpt",
+   "url": "https://wwwn.cdc.gov/nchs/data/nhanes3/34a/HGUHS.xpt"
+  },
+  {
+   "columns": [
+    "eligstat",
+    "mortstat",
+    "ucod_leading",
+    "permth_exm"
+   ],
+   "component": "NH3_LMF",
+   "cycle": "1988-1994",
+   "file": "NHANES_III_MORT_2019_PUBLIC.dat",
+   "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/datalinkage/linked_mortality/NHANES_III_MORT_2019_PUBLIC.dat"
+  }
+ ],
+ "dataset": "NHANES",
+ "extract": {
+  "analysis": "nhanes3_tyg_nafld_mortality",
+  "output": "data/analytic_extract.csv",
+  "reference_runner": "clinicalclawbench.open_data.prepare.run_open_data_reference",
+  "script": "scripts/prepare_open_data_task.py"
+ },
+ "license_note": "Public-use NHANES III files; comply with CDC/NCHS analytic guidance.",
+ "paper_specific": true,
+ "provider": "nhanes",
+ "source_home": "https://wwwn.cdc.gov/nchs/nhanes/nh3data.htm",
+ "source_system": "CDC NHANES III (1988-1994) fixed-width public-use files + hepatic steatosis ultrasound file + NCHS 2019 public-use linked mortality file",
+ "status": "runnable_open_data_paper_specific",
+ "task_id": "Gastroenterology_000",
+ "weighting_note": "Cox models unweighted per the source paper's presentation; NHANES III missing sentinel codes cleaned by plausibility bounds. Fasting rule for TyG is >= 7 h (the paper's exact rule is unstated; see target_metrics notes)."
+}

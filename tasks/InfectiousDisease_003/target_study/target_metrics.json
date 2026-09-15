@@ -1,0 +1,72 @@
+{
+  "lock_provenance": "paper_reported_values",
+  "lock_source": "Abstract and PMC full text (PMC7882869) of PMID 33587202.",
+  "locked": true,
+  "locked_on": "2026-08-27",
+  "metrics": [
+    {
+      "direction": "target_match",
+      "id": "cohort_n",
+      "label": "Cohort N",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 4000,
+      "value": 473550,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "n_covid_deaths",
+      "label": "N Covid Deaths",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 60,
+      "value": 459,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "n_noncovid_deaths",
+      "label": "N Noncovid Deaths",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 320,
+      "value": 2626,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "or_age_per_sd_univariate",
+      "label": "Or Age Per Sd Univariate",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 0.4,
+      "value": 3.0,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "or_male_univariate",
+      "label": "Or Male Univariate",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 0.35,
+      "value": 2.15,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "or_black_vs_other_univariate",
+      "label": "Or Black Vs Other Univariate",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 0.9,
+      "value": 3.17,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "auc_demographic_model",
+      "label": "Auc Demographic Model",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 0.05,
+      "value": 0.79,
+      "weight": 1.0
+    }
+  ],
+  "public_target_notice": "Public development target; not a hidden test or a historical model score."
+}

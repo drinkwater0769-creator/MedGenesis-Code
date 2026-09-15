@@ -1,0 +1,245 @@
+{
+  "components": [
+    {
+      "columns": [
+        "RIDAGEYR",
+        "RIAGENDR",
+        "RIDRETH1",
+        "DMDEDUC2",
+        "INDFMPIR",
+        "RIDEXPRG",
+        "WTMEC2YR",
+        "SDMVPSU",
+        "SDMVSTRA"
+      ],
+      "component": "DEMO",
+      "cycle": "2007-2008",
+      "cycle_code": "E",
+      "file": "DEMO_E.xpt",
+      "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DEMO_E.xpt",
+      "year": 2007
+    },
+    {
+      "columns": [
+        "BMXBMI",
+        "BMXWAIST"
+      ],
+      "component": "BMX",
+      "cycle": "2007-2008",
+      "cycle_code": "E",
+      "file": "BMX_E.xpt",
+      "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BMX_E.xpt",
+      "year": 2007
+    },
+    {
+      "columns": [
+        "BPXSY1",
+        "BPXSY2",
+        "BPXSY3",
+        "BPXSY4",
+        "BPXDI1",
+        "BPXDI2",
+        "BPXDI3",
+        "BPXDI4"
+      ],
+      "component": "BPX",
+      "cycle": "2007-2008",
+      "cycle_code": "E",
+      "file": "BPX_E.xpt",
+      "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BPX_E.xpt",
+      "year": 2007
+    },
+    {
+      "columns": [
+        "BPQ020",
+        "BPQ050A"
+      ],
+      "component": "BPQ",
+      "cycle": "2007-2008",
+      "cycle_code": "E",
+      "file": "BPQ_E.xpt",
+      "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BPQ_E.xpt",
+      "year": 2007
+    },
+    {
+      "columns": [
+        "DIQ010"
+      ],
+      "component": "DIQ",
+      "cycle": "2007-2008",
+      "cycle_code": "E",
+      "file": "DIQ_E.xpt",
+      "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DIQ_E.xpt",
+      "year": 2007
+    },
+    {
+      "columns": [
+        "MCQ160A",
+        "MCQ160B",
+        "MCQ160C",
+        "MCQ160D"
+      ],
+      "component": "MCQ",
+      "cycle": "2007-2008",
+      "cycle_code": "E",
+      "file": "MCQ_E.xpt",
+      "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/MCQ_E.xpt",
+      "year": 2007
+    },
+    {
+      "columns": [
+        "SMQ020",
+        "SMQ040"
+      ],
+      "component": "SMQ",
+      "cycle": "2007-2008",
+      "cycle_code": "E",
+      "file": "SMQ_E.xpt",
+      "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SMQ_E.xpt",
+      "year": 2007
+    },
+    {
+      "columns": [
+        "PAQ650",
+        "PAQ655",
+        "PAD660",
+        "PAQ665",
+        "PAQ670",
+        "PAD675"
+      ],
+      "component": "PAQ",
+      "cycle": "2007-2008",
+      "cycle_code": "E",
+      "file": "PAQ_E.xpt",
+      "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/PAQ_E.xpt",
+      "year": 2007
+    },
+    {
+      "columns": [
+        "RIDAGEYR",
+        "RIAGENDR",
+        "RIDRETH1",
+        "DMDEDUC2",
+        "INDFMPIR",
+        "RIDEXPRG",
+        "WTMEC2YR",
+        "SDMVPSU",
+        "SDMVSTRA"
+      ],
+      "component": "DEMO",
+      "cycle": "2009-2010",
+      "cycle_code": "F",
+      "file": "DEMO_F.xpt",
+      "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DEMO_F.xpt",
+      "year": 2009
+    },
+    {
+      "columns": [
+        "BMXBMI",
+        "BMXWAIST"
+      ],
+      "component": "BMX",
+      "cycle": "2009-2010",
+      "cycle_code": "F",
+      "file": "BMX_F.xpt",
+      "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BMX_F.xpt",
+      "year": 2009
+    },
+    {
+      "columns": [
+        "BPXSY1",
+        "BPXSY2",
+        "BPXSY3",
+        "BPXSY4",
+        "BPXDI1",
+        "BPXDI2",
+        "BPXDI3",
+        "BPXDI4"
+      ],
+      "component": "BPX",
+      "cycle": "2009-2010",
+      "cycle_code": "F",
+      "file": "BPX_F.xpt",
+      "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BPX_F.xpt",
+      "year": 2009
+    },
+    {
+      "columns": [
+        "BPQ020",
+        "BPQ050A"
+      ],
+      "component": "BPQ",
+      "cycle": "2009-2010",
+      "cycle_code": "F",
+      "file": "BPQ_F.xpt",
+      "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BPQ_F.xpt",
+      "year": 2009
+    },
+    {
+      "columns": [
+        "DIQ010"
+      ],
+      "component": "DIQ",
+      "cycle": "2009-2010",
+      "cycle_code": "F",
+      "file": "DIQ_F.xpt",
+      "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DIQ_F.xpt",
+      "year": 2009
+    },
+    {
+      "columns": [
+        "MCQ160A",
+        "MCQ160B",
+        "MCQ160C",
+        "MCQ160D"
+      ],
+      "component": "MCQ",
+      "cycle": "2009-2010",
+      "cycle_code": "F",
+      "file": "MCQ_F.xpt",
+      "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/MCQ_F.xpt",
+      "year": 2009
+    },
+    {
+      "columns": [
+        "SMQ020",
+        "SMQ040"
+      ],
+      "component": "SMQ",
+      "cycle": "2009-2010",
+      "cycle_code": "F",
+      "file": "SMQ_F.xpt",
+      "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SMQ_F.xpt",
+      "year": 2009
+    },
+    {
+      "columns": [
+        "PAQ650",
+        "PAQ655",
+        "PAD660",
+        "PAQ665",
+        "PAQ670",
+        "PAD675"
+      ],
+      "component": "PAQ",
+      "cycle": "2009-2010",
+      "cycle_code": "F",
+      "file": "PAQ_F.xpt",
+      "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/PAQ_F.xpt",
+      "year": 2009
+    }
+  ],
+  "dataset": "NHANES",
+  "extract": {
+    "analysis": "nhanes_abdominal_obesity_hypertension",
+    "output": "data/analytic_extract.csv",
+    "reference_runner": "clinicalclawbench.open_data.prepare.run_open_data_reference",
+    "script": "scripts/prepare_open_data_task.py"
+  },
+  "license_note": "Public-use NHANES files; comply with CDC/NCHS analytic guidance.",
+  "provider": "nhanes",
+  "source_home": "https://wwwn.cdc.gov/nchs/nhanes/",
+  "source_system": "CDC NHANES public-use XPT files",
+  "status": "runnable_open_data",
+  "task_id": "Endocrinology_001"
+}

@@ -1,0 +1,63 @@
+{
+  "lock_provenance": "paper_reported_values",
+  "lock_source": "Abstract and full-text of PMID 38586465 (PMC10998448);",
+  "locked": true,
+  "locked_on": "2026-08-26",
+  "metrics": [
+    {
+      "direction": "target_match",
+      "id": "cohort_n",
+      "label": "Cohort N",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 900,
+      "value": 3678,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "n_deaths_allcause",
+      "label": "N Deaths Allcause",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 130,
+      "value": 819,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "hr_anemia",
+      "label": "Hr Anemia",
+      "notes": "Results: anemia adjusted HR 1.72 (1.42-2.09)",
+      "tolerance_abs": 0.3,
+      "value": 1.72,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "hr_hyperuricemia",
+      "label": "Hr Hyperuricemia",
+      "notes": "Results: hyperuricemia adjusted HR 1.21 (1.01-1.45; abstract upper bound misprinted as 11.45)",
+      "tolerance_abs": 0.22,
+      "value": 1.21,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "reri",
+      "label": "Reri",
+      "notes": "Results: RERI 0.630 (additive interaction)",
+      "tolerance_abs": 0.4,
+      "value": 0.63,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "attributable_proportion",
+      "label": "Attributable Proportion",
+      "notes": "Results: AP 0.291",
+      "tolerance_abs": 0.18,
+      "value": 0.291,
+      "weight": 1.0
+    }
+  ],
+  "public_target_notice": "Public development target; not a hidden test or a historical model score."
+}

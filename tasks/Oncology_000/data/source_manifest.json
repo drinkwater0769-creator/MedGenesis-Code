@@ -1,0 +1,49 @@
+{
+  "dataset": "TCGA/GDC",
+  "driver_genes": [
+    "TP53",
+    "KRAS",
+    "EGFR",
+    "STK11",
+    "KEAP1",
+    "BRAF",
+    "MET",
+    "ERBB2",
+    "ALK",
+    "RBM10",
+    "NF1"
+  ],
+  "extract": {
+    "analysis": "tcga_luad_molecular_profile",
+    "output": "data/analytic_extract.csv",
+    "reference_runner": "clinicalclawbench.open_data.tcga_luad.run_luad_reference",
+    "script": "scripts/prepare_open_data_task.py",
+    "secondary_outputs": [
+      "data/mutation_extract.csv",
+      "artifacts/tables/table2.csv",
+      "artifacts/tables/table3.csv"
+    ]
+  },
+  "fields": [
+    "case_id",
+    "submitter_id",
+    "project.project_id",
+    "diagnoses.primary_diagnosis",
+    "diagnoses.tumor_stage",
+    "diagnoses.days_to_death",
+    "diagnoses.days_to_last_follow_up",
+    "diagnoses.age_at_diagnosis",
+    "demographic.vital_status",
+    "demographic.gender",
+    "demographic.race",
+    "exposures.tobacco_smoking_status"
+  ],
+  "gdc_projects": [
+    "TCGA-LUAD"
+  ],
+  "provider": "tcga_gdc",
+  "source_home": "https://portal.gdc.cancer.gov/",
+  "source_system": "NCI Genomic Data Commons API: TCGA-LUAD clinical cases and open masked somatic mutation MAF files",
+  "status": "runnable_open_data",
+  "task_id": "Oncology_000"
+}

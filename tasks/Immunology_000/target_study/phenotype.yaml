@@ -1,0 +1,10 @@
+task_id: Immunology_000
+phenotype_name: SLEFlarePrediction
+clinical_domain: Hematology, autoimmune, and immune-mediated disease
+primary_endpoint: moderate or severe flare within 6 months
+index_date: source-study-specific index date reconstructed from target methods
+follow_up: source-study-specific window with censoring rules explicitly stated
+exposure_or_predictor: source-study-specific exposure, model score, treatment, biomarker, or trajectory group
+outcome_definition: moderate or severe flare within 6 months
+rediscovery_target: Recover reported biomarker and clinical predictors of flare.
+new_discovery_target: Identify whether trajectory features improve prediction over most recent visit alone.

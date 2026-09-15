@@ -1,0 +1,304 @@
+{
+  "schema_version": "clinicalrep.source-contract.v2",
+  "task_id": "Cardiology_000",
+  "paper_pmid": "41163015",
+  "paper_doi": "10.1186/s12933-025-02963-7",
+  "source_class": "credentialed",
+  "dataset": "UK Biobank",
+  "paper_identity_changed": false,
+  "source_correction_reason": "Participant-level UK Biobank source; paper-specific preparation and scientific validation still required.",
+  "source_references": [
+    "https://biobank.ndph.ox.ac.uk/ukb/pub.cgi?id=19119",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12573834/",
+    "https://biobank.ndph.ox.ac.uk/showcase/",
+    "https://biobank.ndph.ox.ac.uk/ukb/exinfo.cgi?src=Data_providers_and_dates.html",
+    "https://www.ukbiobank.ac.uk/about-us/how-we-work/access-to-uk-biobank-data/",
+    "https://www.ukbiobank.ac.uk/enable-your-research/apply-for-access"
+  ],
+  "candidate_ukb_fields": [
+    {
+      "field_id": "31",
+      "description": "sex for sex-specific waist/HDL criteria",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=31",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "48",
+      "description": "waist circumference",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=48",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "50",
+      "description": "standing height for waist-to-height ratio",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=50",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "53",
+      "description": "baseline assessment date/time origin",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=53",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "93",
+      "description": "manual systolic blood pressure alternative",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=93",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "94",
+      "description": "manual diastolic blood pressure alternative",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=94",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "189",
+      "description": "Townsend deprivation index candidate covariate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=189",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "1558",
+      "description": "alcohol frequency",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=1558",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "4079",
+      "description": "automated diastolic blood pressure",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=4079",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "4080",
+      "description": "automated systolic blood pressure",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=4080",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "6138",
+      "description": "education",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=6138",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "6153",
+      "description": "medication category candidate source",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=6153",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "6177",
+      "description": "medication category candidate source",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=6177",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "20003",
+      "description": "treatment/medication codes candidate source",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=20003",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "20116",
+      "description": "smoking",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=20116",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "21000",
+      "description": "ethnicity",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=21000",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "21001",
+      "description": "BMI",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=21001",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "21002",
+      "description": "weight supporting BMI audit",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=21002",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "21003",
+      "description": "age",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=21003",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "22189",
+      "description": "Townsend deprivation index used by the paper supplement",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=22189",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "30740",
+      "description": "glucose",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=30740",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "30760",
+      "description": "HDL cholesterol",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=30760",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "30870",
+      "description": "triglycerides",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=30870",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "40000",
+      "description": "date of death",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=40000",
+      "instances": "all",
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "40001",
+      "description": "underlying primary cause of death ICD-10",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=40001",
+      "instances": "all",
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "40002",
+      "description": "contributory cause of death ICD-10",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=40002",
+      "instances": "all",
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "41270",
+      "description": "hospital inpatient diagnoses ICD-10",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=41270",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "41280",
+      "description": "date paired to first inpatient ICD-10 diagnosis entries",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=41280",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    }
+  ],
+  "candidate_field_map_complete": false,
+  "supported_execution_profiles": [
+    "ukb-candidate-input-v1"
+  ],
+  "full_paper_reproduction_validated": false,
+  "formal_score_eligible": false,
+  "blockers": [
+    "The exact paper cohort, variable recodes, endpoint algorithm and model specification have not all been independently frozen and validated."
+  ],
+  "provenance": "Curated from local paper-source dossiers and method/field audits; no participant values or prior scores included."
+}

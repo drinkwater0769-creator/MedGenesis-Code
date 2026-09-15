@@ -1,0 +1,23 @@
+{
+  "task_id": "InfectiousDisease_002",
+  "source_study_label": "Preexisting Comorbidities Predicting COVID-19 and Mortality in the UK Biobank Community Cohort",
+  "release_status": "figure2d_domain_aligned_v0.4",
+  "pubmed": {
+    "pmid": "32687551",
+    "title": "Preexisting Comorbidities Predicting COVID-19 and Mortality in the UK Biobank Community Cohort",
+    "journal": "J Gerontol A Biol Sci Med Sci",
+    "pubdate": "2020 Oct 15",
+    "doi": "10.1093/gerona/glaa183",
+    "authors": [],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32687551/"
+  },
+  "data_source": {
+    "name": "UK Biobank",
+    "access": "credentialed",
+    "url": "https://www.ukbiobank.ac.uk/enable-your-research/apply-for-access",
+    "description": "UK Biobank controlled-access prospective cohort with linked health records, biomarkers, imaging, genomics, and mortality outcomes."
+  },
+  "primary_endpoint": "COVID-19 infection and mortality associated with preexisting comorbidities",
+  "benchmark_execution_status": "metadata_bound_to_ukbiobank; UKB field map and locked extract required for numeric reproduction",
+  "redistribution_note": "Do not redistribute UK Biobank participant-level records. Use approved UK Biobank access or a governed derived extract."
+}

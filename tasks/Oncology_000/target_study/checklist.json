@@ -1,0 +1,111 @@
+[
+  {
+    "id": "cohort_reconstruction",
+    "type": "text",
+    "content": "Reconstruct the TCGA-LUAD cohort, sequencing denominator, clinical case linkage, endpoint availability, and denominator choices at a level comparable to the source paper.",
+    "keywords": ["TCGA-LUAD", "GDC", "sequenced denominator", "clinical subset", "endpoint availability"],
+    "weight": 10.0,
+    "critical_miss_cap": 0.25,
+    "checks": [
+      {"id": "tcga_gdc_luad_context", "source": "report", "all": ["tcga-luad", "gdc"]},
+      {"id": "sequencing_denominator_explained", "source": "report", "any": ["sequenced denominator", "sequenced patients", "masked somatic"]},
+      {"id": "clinical_and_maf_sources_used", "source": "code", "all": ["tcga-luad_cases.json", "tcga-luad_masked_maf_files.json", "tcga-luad_maf"]},
+      {"id": "clinical_subset_intersection", "source": "code", "any": ["clinical_subset", "isin(sequenced", "sequenced.intersection"], "critical": true},
+      {"id": "sequenced_metric_exact", "type": "metric_exact", "metric_id": "sequenced_patient_n", "critical": true}
+    ]
+  },
+  {
+    "id": "molecular_profile_methods",
+    "type": "text",
+    "content": "Correctly process raw masked somatic mutation files, variant-class filtering, patient-level driver-gene definitions, and driver-frequency tables.",
+    "keywords": ["MAF", "Variant_Classification", "non-silent", "TP53", "KRAS", "EGFR", "STK11", "KEAP1"],
+    "weight": 15.0,
+    "critical_miss_cap": 0.25,
+    "checks": [
+      {"id": "maf_gzip_supported", "source": "code", "any": [".maf.gz", "compression=\"infer\"", "gzip"]},
+      {"id": "variant_class_filtering", "source": "code", "all": ["variant_classification", "silent", "intron", "3'utr"]},
+      {"id": "primary_driver_genes", "source": "any", "all": ["tp53", "kras", "egfr", "stk11", "keap1"]},
+      {"id": "non_silent_count_exact", "type": "metric_exact", "metric_id": "non_silent_mutation_n", "critical": true},
+      {"id": "raw_mutation_count_not_deduplicated", "source": "report", "absent": ["deduplicated non-silent mutation records"], "critical": true},
+      {"id": "driver_frequency_table_depth", "type": "csv_min_rows", "path": "artifacts/tables/table2.csv", "min_rows": 10}
+    ]
+  },
+  {
+    "id": "paper_level_alignment",
+    "type": "text",
+    "content": "Align the open-data reproduction to PMID 25079552, including molecular subtype framing, stage/TNM context, driver patterns, and modalities unavailable in the open masked-mutation scaffold.",
+    "keywords": ["PMID 25079552", "Nature 2014", "molecular subtype", "TNM", "multi-platform", "copy-number", "methylation", "RNA"],
+    "weight": 25.0,
+    "critical_miss_cap": 0.25,
+    "checks": [
+      {"id": "source_paper_named", "source": "report", "any": ["pmid 25079552", "nature 2014", "comprehensive molecular profiling"], "critical": true},
+      {"id": "molecular_subtype_frame", "source": "report", "any": ["molecular subtype", "oncogenic subtype", "subtype separation"], "critical": true},
+      {"id": "beyond_tnm_or_stage", "source": "report", "any": ["tnm", "stage-adjusted", "beyond tnm", "tumor stage"], "critical": true},
+      {"id": "multi_platform_gap_acknowledged", "source": "report", "any": ["copy-number", "copy number", "methylation", "rna", "fusion", "multi-platform"]},
+      {"id": "driver_pattern_reported", "source": "report", "all": ["tp53", "kras", "egfr", "stk11", "keap1"]},
+      {"id": "open_data_freeze_limitation", "source": "report", "any": ["open gdc", "masked", "harmonized", "legacy", "publication freeze"]},
+      {"id": "paper_alignment_table", "type": "artifact_exists", "path": "artifacts/tables/table3.csv"}
+    ]
+  },
+  {
+    "id": "survival_prognostic_analysis",
+    "type": "text",
+    "content": "Assess survival and prognostic endpoint availability and either perform or appropriately delimit Kaplan-Meier/Cox/TNM-adjusted analysis.",
+    "keywords": ["survival", "prognostic", "censoring", "follow-up", "Kaplan-Meier", "Cox", "hazard ratio", "TNM"],
+    "weight": 20.0,
+    "critical_miss_cap": 0.1,
+    "checks": [
+      {"id": "survival_endpoint_discussed", "source": "report", "any": ["survival", "prognostic", "death event"]},
+      {"id": "survival_method_named", "source": "report", "any": ["cox", "kaplan", "km", "hazard ratio"], "critical": true},
+      {"id": "censoring_or_followup", "source": "report", "any": ["censor", "follow-up", "followup", "last follow-up"], "critical": true},
+      {"id": "stage_adjustment_or_limitation", "source": "report", "any": ["tnm", "stage-adjusted", "multivariable", "tumor stage"], "critical": true},
+      {"id": "death_metric_exact", "type": "metric_exact", "metric_id": "death_event_pct", "critical": true},
+      {"id": "survival_or_sensitivity_artifact", "type": "artifact_exists", "path": "artifacts/tables/table3.csv"}
+    ]
+  },
+  {
+    "id": "new_discovery_quality",
+    "type": "text",
+    "content": "Provide a bounded new-discovery extension with uncertainty boundaries or sensitivity analysis rather than a generic narrative claim.",
+    "keywords": ["EGFR/KRAS", "exclusive", "bounded", "sensitivity", "uncertainty", "p-value", "confidence interval"],
+    "weight": 10.0,
+    "critical_miss_cap": 0.25,
+    "checks": [
+      {"id": "egfr_kras_signal", "source": "report", "any": ["egfr/kras", "egfr and kras", "exclusive"]},
+      {"id": "bounded_or_not_decision_rule", "source": "report", "any": ["bounded", "not as a clinical decision", "not guide", "not suitable"]},
+      {"id": "uncertainty_or_sensitivity", "source": "report", "any": ["confidence interval", "p-value", "uncertainty", "sensitivity"], "critical": true},
+      {"id": "overlap_metric_exact", "type": "metric_exact", "metric_id": "egfr_kras_exclusive_pct_among_altered"},
+      {"id": "new_discovery_artifact", "type": "artifact_exists", "path": "artifacts/tables/table3.csv", "critical": true}
+    ]
+  },
+  {
+    "id": "statistical_clinical_rigor",
+    "type": "text",
+    "content": "Discuss missingness, confounding, bias, generalizability, and the distinction between statistical significance and clinical utility.",
+    "keywords": ["confounding", "bias", "missingness", "generalizability", "statistical significance", "clinical significance", "clinical safety"],
+    "weight": 15.0,
+    "critical_miss_cap": 0.25,
+    "checks": [
+      {"id": "bias_or_confounding", "source": "report", "any": ["confounding", "bias", "observational"], "critical": true},
+      {"id": "missingness", "source": "report", "any": ["missingness", "incomplete", "endpoint availability"]},
+      {"id": "generalizability", "source": "report", "any": ["generalizability", "publication freeze", "legacy", "harmonized"], "critical": true},
+      {"id": "significance_vs_utility", "source": "report", "all": ["statistical significance", "clinical significance"]},
+      {"id": "clinical_safety_language", "source": "report", "any": ["clinical-grade", "validated assay", "not guide patient care", "not suitable for individual treatment"]},
+      {"id": "sensitivity_or_assumption", "source": "report", "any": ["sensitivity", "assumption", "robustness"]}
+    ]
+  },
+  {
+    "id": "artifact_fidelity",
+    "type": "text",
+    "content": "Produce tables and figures that substantively support the reproduction rather than merely satisfying file-presence requirements.",
+    "keywords": ["cohort table", "driver frequency table", "paper alignment table", "primary figure"],
+    "weight": 5.0,
+    "checks": [
+      {"id": "table1_present", "type": "artifact_exists", "path": "artifacts/tables/table1.csv"},
+      {"id": "table2_present", "type": "artifact_exists", "path": "artifacts/tables/table2.csv"},
+      {"id": "table3_present", "type": "artifact_exists", "path": "artifacts/tables/table3.csv"},
+      {"id": "driver_table_depth", "type": "csv_min_rows", "path": "artifacts/tables/table2.csv", "min_rows": 10},
+      {"id": "figure1_present", "type": "artifact_exists", "path": "artifacts/figures/figure1.svg"}
+    ]
+  }
+]

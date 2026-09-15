@@ -1,0 +1,35 @@
+{
+  "locked": true,
+  "metrics": [
+    {
+      "direction": "target_match",
+      "id": "analysis_column_count",
+      "label": "Analysis Column Count",
+      "notes": "Locked from the bundled open-data reference run.",
+      "tolerance_abs": 1.0,
+      "value": 71.0,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "cohort_n",
+      "label": "Cohort N",
+      "notes": "Locked from the bundled open-data reference run.",
+      "tolerance_abs": 1.0,
+      "value": 20681.0,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "missing_cell_pct",
+      "label": "Missing Cell Pct",
+      "notes": "Locked from the bundled open-data reference run.",
+      "tolerance_abs": 1.0,
+      "value": 69.1668,
+      "weight": 1.0
+    }
+  ],
+  "scale_note": "Numeric target metrics are locked from the bundled open-data reference run and scored by absolute tolerance.",
+  "source": "open_data_reference_submission",
+  "public_target_notice": "Public development target; not a hidden test or a historical model score."
+}

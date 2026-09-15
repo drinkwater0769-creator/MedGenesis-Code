@@ -1,0 +1,23 @@
+{
+  "task_id": "Neurology_001",
+  "source_study_label": "Large-Scale Plasma Proteomics Profiles for Predicting Ischemic Stroke Risk in the General Population",
+  "release_status": "figure2d_domain_aligned_v0.4",
+  "pubmed": {
+    "pmid": "39704077",
+    "title": "Large-Scale Plasma Proteomics Profiles for Predicting Ischemic Stroke Risk in the General Population",
+    "journal": "Stroke",
+    "pubdate": "2025 Feb",
+    "doi": "10.1161/STROKEAHA.124.048654",
+    "authors": [],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39704077/"
+  },
+  "data_source": {
+    "name": "UK Biobank",
+    "access": "credentialed",
+    "url": "https://www.ukbiobank.ac.uk/enable-your-research/apply-for-access",
+    "description": "UK Biobank controlled-access prospective cohort with linked health records, biomarkers, imaging, genomics, and mortality outcomes."
+  },
+  "primary_endpoint": "ischemic stroke risk predicted by plasma proteomics",
+  "benchmark_execution_status": "metadata_bound_to_ukbiobank; UKB field map and locked extract required for numeric reproduction",
+  "redistribution_note": "Do not redistribute UK Biobank participant-level records. Use approved UK Biobank access or a governed derived extract."
+}

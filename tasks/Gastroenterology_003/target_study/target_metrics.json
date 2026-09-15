@@ -1,0 +1,27 @@
+{
+  "lock_provenance": "paper_reported_values",
+  "lock_source": "Inherited target provenance; see paper_metadata.json for the source paper and task data documentation for current requirements. Historical execution narratives are not distributed; target completeness and scientific equivalence remain unverified.",
+  "locked": true,
+  "locked_on": "2026-08-27",
+  "metrics": [
+    {
+      "direction": "target_match",
+      "id": "cohort_n",
+      "label": "Cohort N",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 8000,
+      "value": 64005,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "c_index_clinical_base",
+      "label": "C Index Clinical Base",
+      "notes": "Not a published value: clinical-base (age+sex) validation C-index 0.721 provided as the comparison floor the closed nomogram improves upon; wide tolerance marks it descriptive.",
+      "tolerance_abs": 99.0,
+      "value": 0.72,
+      "weight": 1.0
+    }
+  ],
+  "public_target_notice": "Public development target; not a hidden test or a historical model score."
+}

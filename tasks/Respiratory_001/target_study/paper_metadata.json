@@ -1,0 +1,28 @@
+{
+  "task_id": "Respiratory_001",
+  "source_study_label": "Prevalence, risk factors, and clinical implications of preserved ratio impaired spirometry: a UK Biobank cohort analysis",
+  "release_status": "ukbiobank_literature_grounded_v0.3",
+  "pubmed": {
+    "pmid": "34739861",
+    "title": "Prevalence, risk factors, and clinical implications of preserved ratio impaired spirometry: a UK Biobank cohort analysis",
+    "journal": "Lancet Respir Med",
+    "pubdate": "2022 Feb",
+    "doi": "10.1016/S2213-2600(21)00369-6",
+    "authors": [
+      "Higbee DH",
+      "Granell R",
+      "Davey Smith G",
+      "Dodd JW"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34739861/"
+  },
+  "data_source": {
+    "name": "UK Biobank",
+    "access": "credentialed",
+    "url": "https://www.ukbiobank.ac.uk/enable-your-research/apply-for-access",
+    "description": "UK Biobank controlled-access prospective cohort with linked health records, biomarkers, imaging, genomics, and mortality outcomes."
+  },
+  "primary_endpoint": "clinical implications and outcomes of preserved-ratio impaired spirometry",
+  "benchmark_execution_status": "metadata_bound_to_ukbiobank; UKB field map and locked extract required for numeric reproduction",
+  "redistribution_note": "Do not redistribute UK Biobank participant-level records. Use approved UK Biobank access or a governed derived extract."
+}

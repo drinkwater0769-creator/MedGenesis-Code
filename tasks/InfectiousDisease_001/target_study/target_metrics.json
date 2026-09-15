@@ -1,0 +1,27 @@
+{
+  "lock_provenance": "paper_reported_values",
+  "lock_source": "Abstract of PMID 34413324 (Sci Rep, open access).",
+  "locked": true,
+  "locked_on": "2026-08-27",
+  "metrics": [
+    {
+      "direction": "target_match",
+      "id": "cohort_n",
+      "label": "Cohort N",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 1200,
+      "value": 11245,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "auc_random_forest",
+      "label": "Auc Random Forest",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 0.08,
+      "value": 0.91,
+      "weight": 1.0
+    }
+  ],
+  "public_target_notice": "Public development target; not a hidden test or a historical model score."
+}

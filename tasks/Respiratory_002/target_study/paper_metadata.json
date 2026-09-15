@@ -1,0 +1,34 @@
+{
+  "task_id": "Respiratory_002",
+  "source_study_label": "Preserved Ratio Impaired Spirometry in Relationship to Cardiovascular Outcomes: A Large Prospective Cohort Study",
+  "release_status": "ukbiobank_literature_grounded_v0.3",
+  "pubmed": {
+    "pmid": "36372304",
+    "title": "Preserved Ratio Impaired Spirometry in Relationship to Cardiovascular Outcomes: A Large Prospective Cohort Study",
+    "journal": "Chest",
+    "pubdate": "2023 Mar",
+    "doi": "10.1016/j.chest.2022.11.003",
+    "authors": [
+      "Zheng J",
+      "Zhou R",
+      "Zhang Y",
+      "Su K",
+      "Chen H",
+      "Li F",
+      "Hukportie DN",
+      "Niu F",
+      "Yiu KH",
+      "Wu X"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36372304/"
+  },
+  "data_source": {
+    "name": "UK Biobank",
+    "access": "credentialed",
+    "url": "https://www.ukbiobank.ac.uk/enable-your-research/apply-for-access",
+    "description": "UK Biobank controlled-access prospective cohort with linked health records, biomarkers, imaging, genomics, and mortality outcomes."
+  },
+  "primary_endpoint": "cardiovascular outcomes associated with preserved-ratio impaired spirometry",
+  "benchmark_execution_status": "metadata_bound_to_ukbiobank; UKB field map and locked extract required for numeric reproduction",
+  "redistribution_note": "Do not redistribute UK Biobank participant-level records. Use approved UK Biobank access or a governed derived extract."
+}

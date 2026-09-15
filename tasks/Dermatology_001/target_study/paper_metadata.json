@@ -1,0 +1,23 @@
+{
+  "task_id": "Dermatology_001",
+  "source_study_label": "Association Between Atopic Dermatitis, Asthma, and Serum Lipids: A UK Biobank Based Observational Study and Mendelian Randomization Analysis.",
+  "release_status": "figure2d_domain_aligned_v0.4",
+  "pubmed": {
+    "pmid": "35265637",
+    "title": "Association Between Atopic Dermatitis, Asthma, and Serum Lipids: A UK Biobank Based Observational Study and Mendelian Randomization Analysis.",
+    "journal": "Front Med (Lausanne)",
+    "pubdate": "2022",
+    "doi": "10.3389/fmed.2022.810092",
+    "authors": [],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35265637/"
+  },
+  "data_source": {
+    "name": "UK Biobank",
+    "access": "credentialed",
+    "url": "https://www.ukbiobank.ac.uk/enable-your-research/apply-for-access",
+    "description": "UK Biobank controlled-access prospective cohort with linked health records, biomarkers, imaging, genomics, and mortality outcomes."
+  },
+  "primary_endpoint": "associations between atopic dermatitis, asthma, and serum lipid traits",
+  "benchmark_execution_status": "metadata_bound_to_ukbiobank; UKB field map and locked extract required for numeric reproduction",
+  "redistribution_note": "Do not redistribute UK Biobank participant-level records. Use approved UK Biobank access or a governed derived extract."
+}

@@ -1,0 +1,843 @@
+{
+ "bound_paper": {
+  "doi": "10.1080/0886022X.2024.2337287",
+  "pmid": "38586465",
+  "title": "Interaction between anemia and hyperuricemia in the risk of all-cause mortality in patients with chronic kidney disease"
+ },
+ "components": [
+  {
+   "columns": [
+    "RIDAGEYR",
+    "RIAGENDR",
+    "RIDRETH1",
+    "DMDMARTL",
+    "INDFMPIR",
+    "WTMEC2YR",
+    "SDMVPSU",
+    "SDMVSTRA"
+   ],
+   "component": "DEMO",
+   "cycle": "2009-2010",
+   "file": "DEMO_F.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DEMO_F.xpt",
+   "year": 2009
+  },
+  {
+   "columns": [
+    "LBXHGB"
+   ],
+   "component": "CBC",
+   "cycle": "2009-2010",
+   "file": "CBC_F.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CBC_F.xpt",
+   "year": 2009
+  },
+  {
+   "columns": [
+    "LBXSCR",
+    "LBXSUA"
+   ],
+   "component": "BIOPRO",
+   "cycle": "2009-2010",
+   "file": "BIOPRO_F.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BIOPRO_F.xpt",
+   "year": 2009
+  },
+  {
+   "columns": [
+    "URXUMA",
+    "URXUCR"
+   ],
+   "component": "ALB_CR",
+   "cycle": "2009-2010",
+   "file": "ALB_CR_F.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/ALB_CR_F.xpt",
+   "year": 2009
+  },
+  {
+   "columns": [
+    "BPQ020",
+    "BPQ050A"
+   ],
+   "component": "BPQ",
+   "cycle": "2009-2010",
+   "file": "BPQ_F.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BPQ_F.xpt",
+   "year": 2009
+  },
+  {
+   "columns": [
+    "BPXSY1",
+    "BPXSY2",
+    "BPXSY3",
+    "BPXDI1",
+    "BPXDI2",
+    "BPXDI3"
+   ],
+   "component": "BPX",
+   "cycle": "2009-2010",
+   "file": "BPX_F.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BPX_F.xpt",
+   "year": 2009
+  },
+  {
+   "columns": [
+    "DIQ010",
+    "DIQ050",
+    "DIQ070"
+   ],
+   "component": "DIQ",
+   "cycle": "2009-2010",
+   "file": "DIQ_F.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DIQ_F.xpt",
+   "year": 2009
+  },
+  {
+   "columns": [
+    "MCQ160B",
+    "MCQ160C",
+    "MCQ160D",
+    "MCQ160E",
+    "MCQ160F",
+    "MCQ220"
+   ],
+   "component": "MCQ",
+   "cycle": "2009-2010",
+   "file": "MCQ_F.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/MCQ_F.xpt",
+   "year": 2009
+  },
+  {
+   "columns": [
+    "SMQ020",
+    "SMQ040"
+   ],
+   "component": "SMQ",
+   "cycle": "2009-2010",
+   "file": "SMQ_F.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SMQ_F.xpt",
+   "year": 2009
+  },
+  {
+   "columns": [
+    "PAQ605",
+    "PAD615",
+    "PAQ620",
+    "PAD630",
+    "PAQ635",
+    "PAD645",
+    "PAQ650",
+    "PAD660",
+    "PAQ665",
+    "PAD675"
+   ],
+   "component": "PAQ",
+   "cycle": "2009-2010",
+   "file": "PAQ_F.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/PAQ_F.xpt",
+   "year": 2009
+  },
+  {
+   "columns": [
+    "DR1TKCAL",
+    "DR1TCARB"
+   ],
+   "component": "DR1TOT",
+   "cycle": "2009-2010",
+   "file": "DR1TOT_F.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DR1TOT_F.xpt",
+   "year": 2009
+  },
+  {
+   "columns": [
+    "LBXGH"
+   ],
+   "component": "GHB",
+   "cycle": "2009-2010",
+   "file": "GHB_F.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/GHB_F.xpt",
+   "year": 2009
+  },
+  {
+   "columns": [
+    "LBXGLU"
+   ],
+   "component": "GLU",
+   "cycle": "2009-2010",
+   "file": "GLU_F.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/GLU_F.xpt",
+   "year": 2009
+  },
+  {
+   "columns": [
+    "RIDAGEYR",
+    "RIAGENDR",
+    "RIDRETH1",
+    "DMDMARTL",
+    "INDFMPIR",
+    "WTMEC2YR",
+    "SDMVPSU",
+    "SDMVSTRA"
+   ],
+   "component": "DEMO",
+   "cycle": "2011-2012",
+   "file": "DEMO_G.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEMO_G.xpt",
+   "year": 2011
+  },
+  {
+   "columns": [
+    "LBXHGB"
+   ],
+   "component": "CBC",
+   "cycle": "2011-2012",
+   "file": "CBC_G.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CBC_G.xpt",
+   "year": 2011
+  },
+  {
+   "columns": [
+    "LBXSCR",
+    "LBXSUA"
+   ],
+   "component": "BIOPRO",
+   "cycle": "2011-2012",
+   "file": "BIOPRO_G.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BIOPRO_G.xpt",
+   "year": 2011
+  },
+  {
+   "columns": [
+    "URXUMA",
+    "URXUCR"
+   ],
+   "component": "ALB_CR",
+   "cycle": "2011-2012",
+   "file": "ALB_CR_G.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/ALB_CR_G.xpt",
+   "year": 2011
+  },
+  {
+   "columns": [
+    "BPQ020",
+    "BPQ050A"
+   ],
+   "component": "BPQ",
+   "cycle": "2011-2012",
+   "file": "BPQ_G.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BPQ_G.xpt",
+   "year": 2011
+  },
+  {
+   "columns": [
+    "BPXSY1",
+    "BPXSY2",
+    "BPXSY3",
+    "BPXDI1",
+    "BPXDI2",
+    "BPXDI3"
+   ],
+   "component": "BPX",
+   "cycle": "2011-2012",
+   "file": "BPX_G.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BPX_G.xpt",
+   "year": 2011
+  },
+  {
+   "columns": [
+    "DIQ010",
+    "DIQ050",
+    "DIQ070"
+   ],
+   "component": "DIQ",
+   "cycle": "2011-2012",
+   "file": "DIQ_G.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DIQ_G.xpt",
+   "year": 2011
+  },
+  {
+   "columns": [
+    "MCQ160B",
+    "MCQ160C",
+    "MCQ160D",
+    "MCQ160E",
+    "MCQ160F",
+    "MCQ220"
+   ],
+   "component": "MCQ",
+   "cycle": "2011-2012",
+   "file": "MCQ_G.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MCQ_G.xpt",
+   "year": 2011
+  },
+  {
+   "columns": [
+    "SMQ020",
+    "SMQ040"
+   ],
+   "component": "SMQ",
+   "cycle": "2011-2012",
+   "file": "SMQ_G.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SMQ_G.xpt",
+   "year": 2011
+  },
+  {
+   "columns": [
+    "PAQ605",
+    "PAD615",
+    "PAQ620",
+    "PAD630",
+    "PAQ635",
+    "PAD645",
+    "PAQ650",
+    "PAD660",
+    "PAQ665",
+    "PAD675"
+   ],
+   "component": "PAQ",
+   "cycle": "2011-2012",
+   "file": "PAQ_G.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PAQ_G.xpt",
+   "year": 2011
+  },
+  {
+   "columns": [
+    "DR1TKCAL",
+    "DR1TCARB"
+   ],
+   "component": "DR1TOT",
+   "cycle": "2011-2012",
+   "file": "DR1TOT_G.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DR1TOT_G.xpt",
+   "year": 2011
+  },
+  {
+   "columns": [
+    "LBXGH"
+   ],
+   "component": "GHB",
+   "cycle": "2011-2012",
+   "file": "GHB_G.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/GHB_G.xpt",
+   "year": 2011
+  },
+  {
+   "columns": [
+    "LBXGLU"
+   ],
+   "component": "GLU",
+   "cycle": "2011-2012",
+   "file": "GLU_G.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/GLU_G.xpt",
+   "year": 2011
+  },
+  {
+   "columns": [
+    "RIDAGEYR",
+    "RIAGENDR",
+    "RIDRETH1",
+    "DMDMARTL",
+    "INDFMPIR",
+    "WTMEC2YR",
+    "SDMVPSU",
+    "SDMVSTRA"
+   ],
+   "component": "DEMO",
+   "cycle": "2013-2014",
+   "file": "DEMO_H.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DEMO_H.xpt",
+   "year": 2013
+  },
+  {
+   "columns": [
+    "LBXHGB"
+   ],
+   "component": "CBC",
+   "cycle": "2013-2014",
+   "file": "CBC_H.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/CBC_H.xpt",
+   "year": 2013
+  },
+  {
+   "columns": [
+    "LBXSCR",
+    "LBXSUA"
+   ],
+   "component": "BIOPRO",
+   "cycle": "2013-2014",
+   "file": "BIOPRO_H.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BIOPRO_H.xpt",
+   "year": 2013
+  },
+  {
+   "columns": [
+    "URXUMA",
+    "URXUCR"
+   ],
+   "component": "ALB_CR",
+   "cycle": "2013-2014",
+   "file": "ALB_CR_H.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/ALB_CR_H.xpt",
+   "year": 2013
+  },
+  {
+   "columns": [
+    "BPQ020",
+    "BPQ050A"
+   ],
+   "component": "BPQ",
+   "cycle": "2013-2014",
+   "file": "BPQ_H.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BPQ_H.xpt",
+   "year": 2013
+  },
+  {
+   "columns": [
+    "BPXSY1",
+    "BPXSY2",
+    "BPXSY3",
+    "BPXDI1",
+    "BPXDI2",
+    "BPXDI3"
+   ],
+   "component": "BPX",
+   "cycle": "2013-2014",
+   "file": "BPX_H.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BPX_H.xpt",
+   "year": 2013
+  },
+  {
+   "columns": [
+    "DIQ010",
+    "DIQ050",
+    "DIQ070"
+   ],
+   "component": "DIQ",
+   "cycle": "2013-2014",
+   "file": "DIQ_H.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DIQ_H.xpt",
+   "year": 2013
+  },
+  {
+   "columns": [
+    "MCQ160B",
+    "MCQ160C",
+    "MCQ160D",
+    "MCQ160E",
+    "MCQ160F",
+    "MCQ220"
+   ],
+   "component": "MCQ",
+   "cycle": "2013-2014",
+   "file": "MCQ_H.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MCQ_H.xpt",
+   "year": 2013
+  },
+  {
+   "columns": [
+    "SMQ020",
+    "SMQ040"
+   ],
+   "component": "SMQ",
+   "cycle": "2013-2014",
+   "file": "SMQ_H.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/SMQ_H.xpt",
+   "year": 2013
+  },
+  {
+   "columns": [
+    "PAQ605",
+    "PAD615",
+    "PAQ620",
+    "PAD630",
+    "PAQ635",
+    "PAD645",
+    "PAQ650",
+    "PAD660",
+    "PAQ665",
+    "PAD675"
+   ],
+   "component": "PAQ",
+   "cycle": "2013-2014",
+   "file": "PAQ_H.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/PAQ_H.xpt",
+   "year": 2013
+  },
+  {
+   "columns": [
+    "DR1TKCAL",
+    "DR1TCARB"
+   ],
+   "component": "DR1TOT",
+   "cycle": "2013-2014",
+   "file": "DR1TOT_H.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DR1TOT_H.xpt",
+   "year": 2013
+  },
+  {
+   "columns": [
+    "LBXGH"
+   ],
+   "component": "GHB",
+   "cycle": "2013-2014",
+   "file": "GHB_H.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/GHB_H.xpt",
+   "year": 2013
+  },
+  {
+   "columns": [
+    "LBXGLU"
+   ],
+   "component": "GLU",
+   "cycle": "2013-2014",
+   "file": "GLU_H.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/GLU_H.xpt",
+   "year": 2013
+  },
+  {
+   "columns": [
+    "RIDAGEYR",
+    "RIAGENDR",
+    "RIDRETH1",
+    "DMDMARTL",
+    "INDFMPIR",
+    "WTMEC2YR",
+    "SDMVPSU",
+    "SDMVSTRA"
+   ],
+   "component": "DEMO",
+   "cycle": "2015-2016",
+   "file": "DEMO_I.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DEMO_I.xpt",
+   "year": 2015
+  },
+  {
+   "columns": [
+    "LBXHGB"
+   ],
+   "component": "CBC",
+   "cycle": "2015-2016",
+   "file": "CBC_I.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/CBC_I.xpt",
+   "year": 2015
+  },
+  {
+   "columns": [
+    "LBXSCR",
+    "LBXSUA"
+   ],
+   "component": "BIOPRO",
+   "cycle": "2015-2016",
+   "file": "BIOPRO_I.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BIOPRO_I.xpt",
+   "year": 2015
+  },
+  {
+   "columns": [
+    "URXUMA",
+    "URXUCR"
+   ],
+   "component": "ALB_CR",
+   "cycle": "2015-2016",
+   "file": "ALB_CR_I.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/ALB_CR_I.xpt",
+   "year": 2015
+  },
+  {
+   "columns": [
+    "BPQ020",
+    "BPQ050A"
+   ],
+   "component": "BPQ",
+   "cycle": "2015-2016",
+   "file": "BPQ_I.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BPQ_I.xpt",
+   "year": 2015
+  },
+  {
+   "columns": [
+    "BPXSY1",
+    "BPXSY2",
+    "BPXSY3",
+    "BPXDI1",
+    "BPXDI2",
+    "BPXDI3"
+   ],
+   "component": "BPX",
+   "cycle": "2015-2016",
+   "file": "BPX_I.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BPX_I.xpt",
+   "year": 2015
+  },
+  {
+   "columns": [
+    "DIQ010",
+    "DIQ050",
+    "DIQ070"
+   ],
+   "component": "DIQ",
+   "cycle": "2015-2016",
+   "file": "DIQ_I.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DIQ_I.xpt",
+   "year": 2015
+  },
+  {
+   "columns": [
+    "MCQ160B",
+    "MCQ160C",
+    "MCQ160D",
+    "MCQ160E",
+    "MCQ160F",
+    "MCQ220"
+   ],
+   "component": "MCQ",
+   "cycle": "2015-2016",
+   "file": "MCQ_I.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/MCQ_I.xpt",
+   "year": 2015
+  },
+  {
+   "columns": [
+    "SMQ020",
+    "SMQ040"
+   ],
+   "component": "SMQ",
+   "cycle": "2015-2016",
+   "file": "SMQ_I.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/SMQ_I.xpt",
+   "year": 2015
+  },
+  {
+   "columns": [
+    "PAQ605",
+    "PAD615",
+    "PAQ620",
+    "PAD630",
+    "PAQ635",
+    "PAD645",
+    "PAQ650",
+    "PAD660",
+    "PAQ665",
+    "PAD675"
+   ],
+   "component": "PAQ",
+   "cycle": "2015-2016",
+   "file": "PAQ_I.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/PAQ_I.xpt",
+   "year": 2015
+  },
+  {
+   "columns": [
+    "DR1TKCAL",
+    "DR1TCARB"
+   ],
+   "component": "DR1TOT",
+   "cycle": "2015-2016",
+   "file": "DR1TOT_I.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DR1TOT_I.xpt",
+   "year": 2015
+  },
+  {
+   "columns": [
+    "LBXGH"
+   ],
+   "component": "GHB",
+   "cycle": "2015-2016",
+   "file": "GHB_I.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/GHB_I.xpt",
+   "year": 2015
+  },
+  {
+   "columns": [
+    "LBXGLU"
+   ],
+   "component": "GLU",
+   "cycle": "2015-2016",
+   "file": "GLU_I.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/GLU_I.xpt",
+   "year": 2015
+  },
+  {
+   "columns": [
+    "RIDAGEYR",
+    "RIAGENDR",
+    "RIDRETH1",
+    "DMDMARTL",
+    "INDFMPIR",
+    "WTMEC2YR",
+    "SDMVPSU",
+    "SDMVSTRA"
+   ],
+   "component": "DEMO",
+   "cycle": "2017-2018",
+   "file": "DEMO_J.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DEMO_J.xpt",
+   "year": 2017
+  },
+  {
+   "columns": [
+    "LBXHGB"
+   ],
+   "component": "CBC",
+   "cycle": "2017-2018",
+   "file": "CBC_J.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/CBC_J.xpt",
+   "year": 2017
+  },
+  {
+   "columns": [
+    "LBXSCR",
+    "LBXSUA"
+   ],
+   "component": "BIOPRO",
+   "cycle": "2017-2018",
+   "file": "BIOPRO_J.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BIOPRO_J.xpt",
+   "year": 2017
+  },
+  {
+   "columns": [
+    "URXUMA",
+    "URXUCR"
+   ],
+   "component": "ALB_CR",
+   "cycle": "2017-2018",
+   "file": "ALB_CR_J.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/ALB_CR_J.xpt",
+   "year": 2017
+  },
+  {
+   "columns": [
+    "BPQ020",
+    "BPQ050A"
+   ],
+   "component": "BPQ",
+   "cycle": "2017-2018",
+   "file": "BPQ_J.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BPQ_J.xpt",
+   "year": 2017
+  },
+  {
+   "columns": [
+    "BPXSY1",
+    "BPXSY2",
+    "BPXSY3",
+    "BPXDI1",
+    "BPXDI2",
+    "BPXDI3"
+   ],
+   "component": "BPX",
+   "cycle": "2017-2018",
+   "file": "BPX_J.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BPX_J.xpt",
+   "year": 2017
+  },
+  {
+   "columns": [
+    "DIQ010",
+    "DIQ050",
+    "DIQ070"
+   ],
+   "component": "DIQ",
+   "cycle": "2017-2018",
+   "file": "DIQ_J.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DIQ_J.xpt",
+   "year": 2017
+  },
+  {
+   "columns": [
+    "MCQ160B",
+    "MCQ160C",
+    "MCQ160D",
+    "MCQ160E",
+    "MCQ160F",
+    "MCQ220"
+   ],
+   "component": "MCQ",
+   "cycle": "2017-2018",
+   "file": "MCQ_J.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/MCQ_J.xpt",
+   "year": 2017
+  },
+  {
+   "columns": [
+    "SMQ020",
+    "SMQ040"
+   ],
+   "component": "SMQ",
+   "cycle": "2017-2018",
+   "file": "SMQ_J.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/SMQ_J.xpt",
+   "year": 2017
+  },
+  {
+   "columns": [
+    "PAQ605",
+    "PAD615",
+    "PAQ620",
+    "PAD630",
+    "PAQ635",
+    "PAD645",
+    "PAQ650",
+    "PAD660",
+    "PAQ665",
+    "PAD675"
+   ],
+   "component": "PAQ",
+   "cycle": "2017-2018",
+   "file": "PAQ_J.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/PAQ_J.xpt",
+   "year": 2017
+  },
+  {
+   "columns": [
+    "DR1TKCAL",
+    "DR1TCARB"
+   ],
+   "component": "DR1TOT",
+   "cycle": "2017-2018",
+   "file": "DR1TOT_J.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DR1TOT_J.xpt",
+   "year": 2017
+  },
+  {
+   "columns": [
+    "LBXGH"
+   ],
+   "component": "GHB",
+   "cycle": "2017-2018",
+   "file": "GHB_J.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/GHB_J.xpt",
+   "year": 2017
+  },
+  {
+   "columns": [
+    "LBXGLU"
+   ],
+   "component": "GLU",
+   "cycle": "2017-2018",
+   "file": "GLU_J.xpt",
+   "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/GLU_J.xpt",
+   "year": 2017
+  }
+ ],
+ "dataset": "NHANES",
+ "extract": {
+  "analysis": "nhanes_ckd_anemia_hyperuricemia_mortality",
+  "output": "data/analytic_extract.csv",
+  "reference_runner": "clinicalclawbench.open_data.prepare.run_open_data_reference",
+  "script": "scripts/prepare_open_data_task.py"
+ },
+ "license_note": "Public-use NHANES files; comply with CDC/NCHS analytic guidance.",
+ "mortality_linkage": {
+  "base_url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/datalinkage/linked_mortality",
+  "source": "NCHS public-use Linked Mortality Files, 2019 release"
+ },
+ "paper_specific": true,
+ "provider": "nhanes",
+ "source_home": "https://wwwn.cdc.gov/nchs/nhanes/",
+ "source_system": "CDC NHANES public-use XPT files + NCHS 2019 public-use linked mortality files",
+ "status": "runnable_open_data_paper_specific",
+ "task_id": "Hematology_001",
+ "weighting_note": "5-cycle combined MEC weights WTMEC2YR/5. CKD by MDRD eGFR<60 and/or UACR>30 per the source paper."
+}

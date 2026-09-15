@@ -1,0 +1,18 @@
+{
+  "lock_provenance": "data_boundary_verdict",
+  "lock_source": "Inherited target provenance; see paper_metadata.json for the source paper and task data documentation for current requirements. Historical execution narratives are not distributed; target completeness and scientific equivalence remain unverified.",
+  "locked": false,
+  "locked_on": "2026-08-27",
+  "metrics": [
+    {
+      "direction": "target_match",
+      "id": "n_chip_carriers",
+      "label": "N Chip Carriers",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 99.0,
+      "value": 1,
+      "weight": 1.0
+    }
+  ],
+  "public_target_notice": "Public development target; not a hidden test or a historical model score."
+}

@@ -1,0 +1,135 @@
+{
+  "lock_provenance": "paper_reported_values",
+  "lock_source": "Official PubMed abstract of PMID 37755728;",
+  "locked": true,
+  "locked_on": "2026-08-26",
+  "metrics": [
+    {
+      "direction": "target_match",
+      "id": "cohort_n",
+      "label": "Cohort N",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 1100,
+      "value": 11607,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "mean_age",
+      "label": "Mean Age",
+      "notes": "Abstract: mean (SE) age 48.5 (0.4) years",
+      "tolerance_abs": 1.0,
+      "value": 48.5,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "pct_women",
+      "label": "Pct Women",
+      "notes": "Abstract: 51.0% women",
+      "tolerance_abs": 1.5,
+      "value": 51.0,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "pct_crm_ge1",
+      "label": "Pct Crm Ge1",
+      "notes": "Abstract: 26.3% with at least 1 CRM condition",
+      "tolerance_abs": 1.5,
+      "value": 26.3,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "pct_crm_ge2",
+      "label": "Pct Crm Ge2",
+      "notes": "Abstract: 8.0% with at least 2 CRM conditions",
+      "tolerance_abs": 1.0,
+      "value": 8.0,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "pct_crm_eq3",
+      "label": "Pct Crm Eq3",
+      "notes": "Abstract: 1.5% with all 3 CRM conditions",
+      "tolerance_abs": 0.5,
+      "value": 1.5,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "pct_dyad_ckd_t2d",
+      "label": "Pct Dyad Ckd T2D",
+      "notes": "Abstract: CKD+T2D most common dyad, 3.2% (exact dyad; sums are internally consistent with >=2 = 8.0%)",
+      "tolerance_abs": 0.8,
+      "value": 3.2,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "pct_dyad_cvd_t2d",
+      "label": "Pct Dyad Cvd T2D",
+      "notes": "Abstract: CVD+T2D 1.7%",
+      "tolerance_abs": 0.6,
+      "value": 1.7,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "pct_dyad_cvd_ckd",
+      "label": "Pct Dyad Cvd Ckd",
+      "notes": "Abstract: CVD+CKD 1.6%",
+      "tolerance_abs": 0.6,
+      "value": 1.6,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "pct65_eq1",
+      "label": "Pct65 Eq1",
+      "notes": "Abstract, age>=65: 33.6% exactly 1 CRM condition",
+      "tolerance_abs": 2.0,
+      "value": 33.6,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "pct65_eq2",
+      "label": "Pct65 Eq2",
+      "notes": "Abstract, age>=65: 17.1% exactly 2",
+      "tolerance_abs": 1.5,
+      "value": 17.1,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "pct65_eq3",
+      "label": "Pct65 Eq3",
+      "notes": "Abstract, age>=65: 5.0% all 3",
+      "tolerance_abs": 1.0,
+      "value": 5.0,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "trend9902_pct_ge2",
+      "label": "Trend9902 Pct Ge2",
+      "notes": "Abstract trend: >=2 CRM 5.3% in 1999-2002",
+      "tolerance_abs": 1.0,
+      "value": 5.3,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "trend9902_pct_eq3",
+      "label": "Trend9902 Pct Eq3",
+      "notes": "Abstract trend: all 3 CRM 0.7% in 1999-2002",
+      "tolerance_abs": 0.4,
+      "value": 0.7,
+      "weight": 1.0
+    }
+  ],
+  "public_target_notice": "Public development target; not a hidden test or a historical model score."
+}

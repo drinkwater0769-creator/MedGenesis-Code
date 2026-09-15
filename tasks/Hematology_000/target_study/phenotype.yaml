@@ -1,0 +1,11 @@
+{
+  "task_id": "Hematology_000",
+  "phenotype_name": "Hematology_000_source_endpoint",
+  "primary_endpoint": "cancer-associated venous thromboembolism predicted by polygenic risk",
+  "outcome_definition": "cancer-associated venous thromboembolism predicted by polygenic risk",
+  "source_contract": "../data/source_contract.json",
+  "implementation_profile": null,
+  "full_paper_definition_status": "not_frozen",
+  "rediscovery_target": "Reconstruct the source study analysis for: cancer-associated venous thromboembolism predicted by polygenic risk. Declare any deviations or missing modules.",
+  "new_discovery_target": "Perform one prespecified, data-supported sensitivity or subgroup analysis; distinguish it from source reproduction and report uncertainty."
+}

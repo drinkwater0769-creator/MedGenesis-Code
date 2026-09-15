@@ -1,0 +1,47 @@
+# Local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+secrets*.json
+
+# Generated experiments and data
+/runs/
+/workspaces/
+/.cache/
+/outputs/
+/private/
+/raw_data/
+**/score.json
+**/scores*.csv
+**/scores*.jsonl
+**/calibrated_scores.json
+**/expert_panel_scores.json
+**/six_dims.json
+**/analytic_extract*
+**/data/source/
+*.parquet
+*.feather
+*.xpt
+*.dta
+*.rds
+*.csv
+*.tsv
+*.pdf
+*.zip
+*.gz
+*.bak*
+*.log
+
+# Local build state
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+.DS_Store
+

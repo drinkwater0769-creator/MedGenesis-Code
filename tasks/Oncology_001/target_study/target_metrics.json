@@ -1,0 +1,45 @@
+{
+  "lock_provenance": "paper_reported_values",
+  "lock_source": "Nature 2012 (PMID 23000897): only TP53, PIK3CA, GATA3 exceed 10% incidence across breast cancers.",
+  "locked": true,
+  "locked_on": "2026-08-27",
+  "metrics": [
+    {
+      "direction": "target_match",
+      "id": "pct_tp53",
+      "label": "Pct Tp53",
+      "notes": "Paper: TP53 ~37% across breast tumours",
+      "tolerance_abs": 7.0,
+      "value": 37.0,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "pct_pik3ca",
+      "label": "Pct Pik3Ca",
+      "notes": "Paper: PIK3CA ~36%",
+      "tolerance_abs": 7.0,
+      "value": 36.0,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "pct_gata3",
+      "label": "Pct Gata3",
+      "notes": "Paper: GATA3 ~11%",
+      "tolerance_abs": 5.0,
+      "value": 11.0,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "sequenced_patient_n",
+      "label": "Sequenced Patient N",
+      "notes": "Paper freeze: 825 primary tumours; current GDC release is larger (documented)",
+      "tolerance_abs": 400,
+      "value": 825,
+      "weight": 1.0
+    }
+  ],
+  "public_target_notice": "Public development target; not a hidden test or a historical model score."
+}

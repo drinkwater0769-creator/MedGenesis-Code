@@ -1,0 +1,25 @@
+{
+  "task_id": "Oncology_000",
+  "source_study_label": "Comprehensive molecular profiling of lung adenocarcinoma",
+  "release_status": "literature_grounded_v0.2",
+  "pubmed": {
+    "pmid": "25079552",
+    "title": "Comprehensive molecular profiling of lung adenocarcinoma",
+    "journal": "Nature",
+    "pubdate": "2014 Jul 31",
+    "doi": "10.1038/nature13385",
+    "authors": [
+      "Cancer Genome Atlas Research Network"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25079552/"
+  },
+  "data_source": {
+    "name": "TCGA/GDC",
+    "access": "open",
+    "url": "https://portal.gdc.cancer.gov/",
+    "description": "NCI Genomic Data Commons / TCGA open harmonized molecular and clinical data."
+  },
+  "primary_endpoint": "molecular subtype and survival in lung adenocarcinoma",
+  "benchmark_execution_status": "metadata_bound; source extractor or locked extract required for numeric reproduction",
+  "redistribution_note": "Do not redistribute copyrighted full text or controlled patient-level data. Use official source access or a locked derived extract."
+}

@@ -1,0 +1,152 @@
+{
+  "schema_version": "clinicalrep.source-contract.v2",
+  "task_id": "InfectiousDisease_001",
+  "paper_pmid": "34413324",
+  "paper_doi": "10.1038/s41598-021-95136-x",
+  "source_class": "credentialed",
+  "dataset": "UK Biobank",
+  "paper_identity_changed": false,
+  "source_correction_reason": "Participant-level UK Biobank source; paper-specific preparation and scientific validation still required.",
+  "source_references": [
+    "https://www.nature.com/articles/s41598-021-95136-x",
+    "https://pubmed.ncbi.nlm.nih.gov/34413324/",
+    "https://www.ukbiobank.ac.uk/wp-content/uploads/2025/01/Access-procedures.pdf",
+    "https://community.ukbiobank.ac.uk/hc/en-gb/articles/31972311370013-Guidance-on-Data-Downloads-and-Exemptions"
+  ],
+  "candidate_ukb_fields": [
+    {
+      "field_id": "40000",
+      "description": "date of death candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=40000",
+      "instances": "all",
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "40001",
+      "description": "underlying primary cause of death candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=40001",
+      "instances": "all",
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "40002",
+      "description": "contributory causes of death candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=40002",
+      "instances": "all",
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "40100",
+      "description": "Field 40100",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=40100",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "40101",
+      "description": "Field 40101",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=40101",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "40102",
+      "description": "Field 40102",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=40102",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "41001",
+      "description": "Field 41001",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=41001",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "41259",
+      "description": "Field 41259",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=41259",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "41270",
+      "description": "hospital inpatient ICD-10 diagnosis candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=41270",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "41280",
+      "description": "hospital inpatient ICD-10 first-date candidate",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=41280",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "42038",
+      "description": "Field 42038",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=42038",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "42039",
+      "description": "Field 42039",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=42039",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    },
+    {
+      "field_id": "42040",
+      "description": "Field 42040",
+      "showcase_url": "https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=42040",
+      "instances": [
+        0
+      ],
+      "arrays": "all",
+      "status": "candidate_field_not_frozen_paper_contract"
+    }
+  ],
+  "candidate_field_map_complete": false,
+  "supported_execution_profiles": [
+    "ukb-candidate-input-v1"
+  ],
+  "full_paper_reproduction_validated": false,
+  "formal_score_eligible": false,
+  "blockers": [
+    "The exact paper cohort, variable recodes, endpoint algorithm and model specification have not all been independently frozen and validated."
+  ],
+  "provenance": "Curated from local paper-source dossiers and method/field audits; no participant values or prior scores included."
+}

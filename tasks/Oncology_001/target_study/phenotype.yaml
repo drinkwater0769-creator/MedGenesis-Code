@@ -1,0 +1,10 @@
+task_id: Oncology_001
+phenotype_name: ImmunotherapyResponse
+clinical_domain: Oncology and cancer genomics
+primary_endpoint: objective response and progression-free survival
+index_date: source-study-specific index date reconstructed from target methods
+follow_up: source-study-specific window with censoring rules explicitly stated
+exposure_or_predictor: source-study-specific exposure, model score, treatment, biomarker, or trajectory group
+outcome_definition: objective response and progression-free survival
+rediscovery_target: Recover the reported association between composite immune markers and response.
+new_discovery_target: Identify whether toxicity-risk markers predict discontinuation independently of response.

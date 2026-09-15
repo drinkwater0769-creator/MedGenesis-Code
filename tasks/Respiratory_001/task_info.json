@@ -1,0 +1,106 @@
+{
+  "task_id": "Respiratory_001",
+  "title": "Reproduce: Prevalence, risk factors, and clinical implications of preserved ratio impaired spirometry: a UK Biobank cohort analysis",
+  "benchmark": "ClinicalRepBench",
+  "track": "Restricted",
+  "domain": "Respiratory",
+  "domain_code": "Respiratory",
+  "domain_index": 7,
+  "task_index_within_domain": 1,
+  "data_access": "credentialed",
+  "source_release": "public_source_contract_v2",
+  "primary_question": "Can an autonomous clinical-research agent reproduce the main analysis of PMID 34739861 (Prevalence, risk factors, and clinical implications of preserved ratio impaired spirometry: a UK Biobank cohort analysis) using UK Biobank or a governed benchmark extract?",
+  "task": "Reproduce the UK Biobank clinical-research workflow of PMID 34739861: Prevalence, risk factors, and clinical implications of preserved ratio impaired spirometry: a UK Biobank cohort analysis. Primary endpoint: clinical implications and outcomes of preserved-ratio impaired spirometry. Use UK Biobank or a locked benchmark extract derived from it. Report cohort construction, field definitions, linked-outcome logic, statistical methods, the main reproduction result, sensitivity analyses, limitations, and one bounded new-discovery extension.",
+  "endpoint": "clinical implications and outcomes of preserved-ratio impaired spirometry",
+  "rediscovery_target": "Reconstruct the source study analysis for: clinical implications and outcomes of preserved-ratio impaired spirometry. Declare any deviations or missing modules.",
+  "new_discovery_target": "Perform one prespecified, data-supported sensitivity or subgroup analysis; distinguish it from source reproduction and report uncertainty.",
+  "data": [
+    {
+      "name": "UK Biobank",
+      "path": "data/",
+      "type": "ukbiobank_source_dataset_or_locked_extract",
+      "description": "UK Biobank controlled-access prospective cohort with linked health records, biomarkers, imaging, genomics, and mortality outcomes.",
+      "access": "credentialed",
+      "url": "https://www.ukbiobank.ac.uk/enable-your-research/apply-for-access"
+    }
+  ],
+  "deliverables": [
+    "submission.json",
+    "report/report.md",
+    "artifacts/primary_metrics.json",
+    "artifacts/tables/table1.csv",
+    "artifacts/tables/table2.csv",
+    "artifacts/figures/figure1.svg"
+  ],
+  "allowed_tools": [
+    "python",
+    "r",
+    "sql",
+    "literature_search"
+  ],
+  "disallowed_tools": [
+    "paper_title_lookup_when_title_is_redacted",
+    "patient_reidentification",
+    "unsupported_causal_claims"
+  ],
+  "evaluation": {
+    "objective_weight": 0.7,
+    "subjective_weight": 0.2,
+    "strobe_weight": 0.1,
+    "penalty_cap": 40.0,
+    "metrics_weight": 0.05,
+    "checklist_weight": 0.9,
+    "paper_baseline": 0.5,
+    "paper_ceiling": 0.9,
+    "strobe_required": true,
+    "strobe_items": [
+      "cohort",
+      "variables",
+      "bias",
+      "study_size",
+      "statistical_methods",
+      "limitations",
+      "generalizability"
+    ],
+    "phi_whitelist": [
+      "patient_id",
+      "study_id",
+      "encounter_id"
+    ],
+    "final_score_mode": "researchclawbench_rubric",
+    "gate_weight": 0.05,
+    "human_level_score": 50.0,
+    "figure_panel": "Figure 2D",
+    "scoring_profile": "figure2d_researchclawbench_v1",
+    "calibration_note": "ClinicalRepBench Figure 2D calibration: 0-100 score, 50 approximates trained human paper-level reproduction; static metrics, format-only reports, and source-generic prose are capped by rubric critical checks.",
+    "reproducibility_weight": 0.0,
+    "metric_alignment_floor": 0.05,
+    "zero_metric_alignment_cap": 0.2,
+    "missing_analysis_code_cap": 0.45,
+    "synthetic_placeholder_analysis_cap": 0.25,
+    "weak_reproducibility_threshold": 0.5,
+    "weak_reproducibility_cap": 0.3
+  },
+  "tags": [
+    "clinicalrepbench",
+    "copdexacerbation",
+    "credentialed",
+    "paper_reproduction",
+    "respiratorycriticalcare",
+    "ukbiobank"
+  ],
+  "resource_budget": {
+    "time_seconds": 3600,
+    "tokens_total": 1200000,
+    "_note": "ClinicalRepBench paper-reproduction task; source materials are redacted in the public scaffold."
+  },
+  "source_pmid": "34739861",
+  "source_doi": "10.1016/S2213-2600(21)00369-6",
+  "source_journal": "Lancet Respir Med",
+  "source_year": "2022",
+  "source_pubdate": "2022 Feb",
+  "primary_dataset": "UK Biobank",
+  "legacy_data_access": "credentialed",
+  "formal_score_eligible": false,
+  "source_contract": "data/source_contract.json"
+}

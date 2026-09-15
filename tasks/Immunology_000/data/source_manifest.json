@@ -1,0 +1,58 @@
+{
+ "bound_paper": {
+  "doi": "10.1177/0961203315627202",
+  "pmid": "26762689",
+  "title": "Lycopene reduces mortality in people with systemic lupus erythematosus: A pilot study based on the third national health and nutrition examination survey"
+ },
+ "components": [
+  {
+   "columns": [
+    "HAC1L",
+    "HSSEX",
+    "HSAGEIR",
+    "DMARETHN",
+    "SDPPHASE"
+   ],
+   "component": "NH3_ADULT",
+   "cycle": "1988-1994",
+   "file": "adult.dat",
+   "url": "https://wwwn.cdc.gov/nchs/data/nhanes3/1a/adult.dat"
+  },
+  {
+   "columns": [
+    "LYP"
+   ],
+   "component": "NH3_LAB",
+   "cycle": "1988-1994",
+   "file": "lab.dat",
+   "url": "https://wwwn.cdc.gov/nchs/data/nhanes3/1a/lab.dat"
+  },
+  {
+   "columns": [
+    "eligstat",
+    "mortstat",
+    "ucod_leading",
+    "permth_int"
+   ],
+   "component": "NH3_LMF",
+   "cycle": "1988-1994",
+   "file": "NHANES_III_MORT_2019_PUBLIC.dat",
+   "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/datalinkage/linked_mortality/NHANES_III_MORT_2019_PUBLIC.dat"
+  }
+ ],
+ "dataset": "NHANES",
+ "extract": {
+  "analysis": "nhanes3_sle_lycopene_mortality",
+  "output": "data/analytic_extract.csv",
+  "reference_runner": "clinicalclawbench.open_data.prepare.run_open_data_reference",
+  "script": "scripts/prepare_open_data_task.py"
+ },
+ "license_note": "Public-use NHANES III files; comply with CDC/NCHS analytic guidance.",
+ "paper_specific": true,
+ "provider": "nhanes",
+ "source_home": "https://wwwn.cdc.gov/nchs/nhanes/nh3data.htm",
+ "source_system": "CDC NHANES III fixed-width public-use files + NCHS 2019 linked mortality (truncated to the source paper's 2006 boundary)",
+ "status": "runnable_open_data_paper_specific",
+ "task_id": "Immunology_000",
+ "weighting_note": "Pilot-scale unweighted analysis per the source; follow-up truncated at 2006-12-31 by survey-phase approximation (exact interview dates suppressed in the public release)."
+}

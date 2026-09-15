@@ -1,0 +1,23 @@
+{
+  "task_id": "Cardiology_001",
+  "source_study_label": "Association of estimated glucose disposal rate with atrial fibrillation, heart failure and cardiovascular mortality in patients with diabetes: a prospective cohort study from the UK Biobank",
+  "release_status": "figure2d_domain_aligned_v0.4",
+  "pubmed": {
+    "pmid": "40756509",
+    "title": "Association of estimated glucose disposal rate with atrial fibrillation, heart failure and cardiovascular mortality in patients with diabetes: a prospective cohort study from the UK Biobank",
+    "journal": "Front Endocrinol (Lausanne)",
+    "pubdate": "2025",
+    "doi": "10.3389/fendo.2025.1579836",
+    "authors": [],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40756509/"
+  },
+  "data_source": {
+    "name": "UK Biobank",
+    "access": "credentialed",
+    "url": "https://www.ukbiobank.ac.uk/enable-your-research/apply-for-access",
+    "description": "UK Biobank controlled-access prospective cohort with linked health records, biomarkers, imaging, genomics, and mortality outcomes."
+  },
+  "primary_endpoint": "atrial fibrillation, heart failure, and cardiovascular mortality among UK Biobank participants with diabetes",
+  "benchmark_execution_status": "metadata_bound_to_ukbiobank; UKB field map and locked extract required for numeric reproduction",
+  "redistribution_note": "Do not redistribute UK Biobank participant-level records. Use approved UK Biobank access or a governed derived extract."
+}

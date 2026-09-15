@@ -1,0 +1,23 @@
+{
+  "task_id": "Endocrinology_002",
+  "source_study_label": "Impact of Thyroid Function on the Prevalence and Mortality of Metabolic Dysfunction-Associated Fatty Liver Disease",
+  "release_status": "figure2d_domain_aligned_v0.4",
+  "pubmed": {
+    "pmid": "36637992",
+    "title": "Impact of Thyroid Function on the Prevalence and Mortality of Metabolic Dysfunction-Associated Fatty Liver Disease",
+    "journal": "J Clin Endocrinol Metab",
+    "pubdate": "2023 Jun 16",
+    "doi": "10.1210/clinem/dgad016",
+    "authors": [],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36637992/"
+  },
+  "data_source": {
+    "name": "NHANES",
+    "access": "open",
+    "url": "https://wwwn.cdc.gov/nchs/nhanes/",
+    "description": "CDC National Health and Nutrition Examination Survey public-use files."
+  },
+  "primary_endpoint": "thyroid function, MAFLD prevalence, and mortality",
+  "benchmark_execution_status": "metadata_bound; source extractor or locked extract required for numeric reproduction",
+  "redistribution_note": "Do not redistribute copyrighted full text or controlled patient-level data. Use official source access or a locked derived extract."
+}

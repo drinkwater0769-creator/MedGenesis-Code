@@ -1,0 +1,23 @@
+{
+  "task_id": "Gastroenterology_003",
+  "source_study_label": "Machine-learning-based plasma metabolomic profiles for predicting long-term complications of cirrhosis",
+  "release_status": "figure2d_domain_aligned_v0.4",
+  "pubmed": {
+    "pmid": "38630500",
+    "title": "Machine-learning-based plasma metabolomic profiles for predicting long-term complications of cirrhosis",
+    "journal": "Hepatology",
+    "pubdate": "2025 Jan 1",
+    "doi": "10.1097/HEP.0000000000000879",
+    "authors": [],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38630500/"
+  },
+  "data_source": {
+    "name": "UK Biobank",
+    "access": "credentialed",
+    "url": "https://www.ukbiobank.ac.uk/enable-your-research/apply-for-access",
+    "description": "UK Biobank controlled-access prospective cohort with linked health records, biomarkers, imaging, genomics, and mortality outcomes."
+  },
+  "primary_endpoint": "long-term complications of cirrhosis predicted by plasma metabolomics",
+  "benchmark_execution_status": "metadata_bound_to_ukbiobank; UKB field map and locked extract required for numeric reproduction",
+  "redistribution_note": "Do not redistribute UK Biobank participant-level records. Use approved UK Biobank access or a governed derived extract."
+}

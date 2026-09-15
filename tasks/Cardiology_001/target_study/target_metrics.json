@@ -1,0 +1,45 @@
+{
+  "lock_provenance": "paper_reported_values",
+  "lock_source": "Official PubMed abstract of PMID 40756509 (Cardiovasc Diabetol).",
+  "locked": true,
+  "locked_on": "2026-08-27",
+  "metrics": [
+    {
+      "direction": "target_match",
+      "id": "cohort_n",
+      "label": "Cohort N",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 4500,
+      "value": 31733,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "hr_egdr_af",
+      "label": "Hr Egdr Af",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 0.05,
+      "value": 0.94,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "hr_egdr_hf",
+      "label": "Hr Egdr Hf",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 0.08,
+      "value": 0.78,
+      "weight": 1.0
+    },
+    {
+      "direction": "target_match",
+      "id": "hr_egdr_cvd_mortality",
+      "label": "Hr Egdr Cvd Mortality",
+      "notes": "Inherited public development target and tolerance; see the cited paper and task source requirements. Full-paper reproduction and source-snapshot equivalence are not certified.",
+      "tolerance_abs": 0.06,
+      "value": 0.86,
+      "weight": 1.0
+    }
+  ],
+  "public_target_notice": "Public development target; not a hidden test or a historical model score."
+}

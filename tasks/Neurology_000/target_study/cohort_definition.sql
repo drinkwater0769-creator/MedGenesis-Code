@@ -1,0 +1,3 @@
+-- No paper-complete SQL cohort is supplied.
+-- Use data/source_contract.json and the explicitly named Python execution profile.
+-- Generic inclusion flags are intentionally not executable source-cohort definitions.

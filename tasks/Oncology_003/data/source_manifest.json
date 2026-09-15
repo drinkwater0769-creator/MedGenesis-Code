@@ -1,0 +1,34 @@
+{
+ "bound_paper": {
+  "doi": "10.1016/j.cell.2017.05.046",
+  "pmid": "28622513",
+  "title": "Comprehensive and Integrative Genomic Characterization of Hepatocellular Carcinoma"
+ },
+ "dataset": "TCGA/GDC",
+ "driver_genes": [
+  "TP53",
+  "CTNNB1",
+  "ALB",
+  "AXIN1",
+  "ARID1A",
+  "ARID2",
+  "RB1",
+  "KEAP1"
+ ],
+ "extract": {
+  "analysis": "tcga_project_profile",
+  "output": "data/analytic_extract.csv",
+  "reference_runner": "clinicalclawbench.open_data.tcga_project.prepare_project_profile",
+  "script": "scripts/prepare_open_data_task.py"
+ },
+ "gdc_projects": [
+  "TCGA-LIHC"
+ ],
+ "license_note": "Open-access GDC data; comply with NIH GDC data use policies.",
+ "paper_specific": true,
+ "provider": "tcga_gdc",
+ "source_home": "https://portal.gdc.cancer.gov/",
+ "source_system": "NCI GDC API: clinical cases + masked somatic MAF",
+ "status": "runnable_open_data_paper_specific",
+ "task_id": "Oncology_003"
+}

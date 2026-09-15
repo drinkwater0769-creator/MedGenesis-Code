@@ -1,0 +1,108 @@
+{
+  "task_id": "Neurology_003",
+  "title": "Reproduce: Stroke genetics informs drug discovery and risk prediction across ancestries",
+  "benchmark": "ClinicalRepBench",
+  "track": "Restricted",
+  "domain": "Neurology",
+  "domain_code": "Neurology",
+  "domain_index": 3,
+  "task_index_within_domain": 3,
+  "data_access": "mixed",
+  "source_release": "public_source_contract_v2",
+  "primary_question": "Can an autonomous clinical-research agent reproduce the source paper PMID 36180795 using its declared data sources: GIGASTROKE multi-cohort summary statistics and governed validation cohorts?",
+  "task": "Reconstruct a documented, bounded analysis from PMID 36180795 using GIGASTROKE multi-cohort summary statistics and governed validation cohorts. Report the exact scope and missing source components. A UK Biobank-only analysis cannot stand in for absent sources. Primary endpoint: stroke and stroke-subtype risk prediction using genetic evidence.",
+  "endpoint": "stroke and stroke-subtype risk prediction using genetic evidence",
+  "rediscovery_target": "Reconstruct the source study analysis for: stroke and stroke-subtype risk prediction using genetic evidence. Declare any deviations or missing modules.",
+  "new_discovery_target": "Perform one prespecified, data-supported sensitivity or subgroup analysis; distinguish it from source reproduction and report uncertainty.",
+  "data": [
+    {
+      "name": "GIGASTROKE multi-cohort summary statistics and governed validation cohorts",
+      "path": "data/",
+      "access": "mixed",
+      "description": "Primary paper verification shows a GIGASTROKE multi-cohort cross-ancestry GWAS/PGS study; UK Biobank is only one possible contributing or evaluation resource."
+    }
+  ],
+  "deliverables": [
+    "submission.json",
+    "report/report.md",
+    "artifacts/primary_metrics.json",
+    "artifacts/tables/table1.csv",
+    "artifacts/tables/table2.csv",
+    "artifacts/figures/figure1.svg"
+  ],
+  "allowed_tools": [
+    "python",
+    "r",
+    "sql",
+    "literature_search"
+  ],
+  "disallowed_tools": [
+    "paper_title_lookup_when_title_is_redacted",
+    "patient_reidentification",
+    "unsupported_causal_claims"
+  ],
+  "evaluation": {
+    "objective_weight": 0.7,
+    "subjective_weight": 0.2,
+    "strobe_weight": 0.1,
+    "penalty_cap": 40.0,
+    "metrics_weight": 0.05,
+    "checklist_weight": 0.9,
+    "paper_baseline": 0.5,
+    "paper_ceiling": 0.9,
+    "strobe_required": true,
+    "strobe_items": [
+      "cohort",
+      "variables",
+      "bias",
+      "study_size",
+      "statistical_methods",
+      "limitations",
+      "generalizability"
+    ],
+    "phi_whitelist": [
+      "patient_id",
+      "study_id",
+      "encounter_id"
+    ],
+    "final_score_mode": "researchclawbench_rubric",
+    "gate_weight": 0.05,
+    "human_level_score": 50.0,
+    "figure_panel": "Figure 2D",
+    "scoring_profile": "figure2d_researchclawbench_v1",
+    "calibration_note": "ClinicalRepBench Figure 2D calibration: 0-100 score, 50 approximates trained human paper-level reproduction; static metrics, format-only reports, and source-generic prose are capped by rubric critical checks.",
+    "reproducibility_weight": 0.0,
+    "metric_alignment_floor": 0.05,
+    "zero_metric_alignment_cap": 0.2,
+    "missing_analysis_code_cap": 0.45,
+    "synthetic_placeholder_analysis_cap": 0.25,
+    "weak_reproducibility_threshold": 0.5,
+    "weak_reproducibility_cap": 0.3
+  },
+  "tags": [
+    "clinicalrepbench",
+    "credentialed",
+    "epilepsyreadmission",
+    "neurologypsychiatry",
+    "paper_reproduction",
+    "ukbiobank"
+  ],
+  "resource_budget": {
+    "time_seconds": 3600,
+    "tokens_total": 1200000,
+    "_note": "ClinicalRepBench paper-reproduction task; source materials are redacted in the public scaffold."
+  },
+  "source_pmid": "36180795",
+  "source_doi": "10.1038/s41586-022-05165-3",
+  "source_journal": "Nature",
+  "source_year": "2022",
+  "source_pubdate": "2022 Nov",
+  "primary_dataset": "GIGASTROKE multi-cohort summary statistics and governed validation cohorts",
+  "legacy_data_access": "credentialed",
+  "formal_score_eligible": false,
+  "source_contract": "data/source_contract.json",
+  "source_contract_correction": {
+    "reason": "Primary paper verification shows a GIGASTROKE multi-cohort cross-ancestry GWAS/PGS study; UK Biobank is only one possible contributing or evaluation resource.",
+    "paper_identity_changed": false
+  }
+}
