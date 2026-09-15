@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "ClinicalClawBench Submission Metrics",
+  "title": "ClinicalRepBench Submission Metrics",
   "type": "object",
   "required": ["metrics"],
   "properties": {

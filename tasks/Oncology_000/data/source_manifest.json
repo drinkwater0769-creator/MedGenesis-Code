@@ -16,7 +16,7 @@
   "extract": {
     "analysis": "tcga_luad_molecular_profile",
     "output": "data/analytic_extract.csv",
-    "reference_runner": "clinicalclawbench.open_data.tcga_luad.run_luad_reference",
+    "reference_runner": "clinicalrepbench.open_data.tcga_luad.run_luad_reference",
     "script": "scripts/prepare_open_data_task.py",
     "secondary_outputs": [
       "data/mutation_extract.csv",

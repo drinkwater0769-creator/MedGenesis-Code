@@ -9,7 +9,7 @@ import pandas as pd
 import statsmodels.api as sm
 import statsmodels.formula.api as smf
 
-from clinicalclawbench.public_nhanes_001_prep import prepare_public_nhanes_001_extract
+from clinicalrepbench.public_nhanes_001_prep import prepare_public_nhanes_001_extract
 
 
 AGE_ADJUSTMENT_WEIGHTS = {

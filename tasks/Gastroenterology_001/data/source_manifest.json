@@ -73,7 +73,7 @@
  "extract": {
   "analysis": "nhanes3_gallstone_nafld_mortality",
   "output": "data/analytic_extract.csv",
-  "reference_runner": "clinicalclawbench.open_data.prepare.run_open_data_reference",
+  "reference_runner": "clinicalrepbench.open_data.prepare.run_open_data_reference",
   "script": "scripts/prepare_open_data_task.py"
  },
  "license_note": "Public-use NHANES III files; comply with CDC/NCHS analytic guidance.",

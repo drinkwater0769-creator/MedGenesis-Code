@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "ClinicalClawBench Submission Manifest",
+  "title": "ClinicalRepBench Submission Manifest",
   "type": "object",
   "required": [
     "submission_version",

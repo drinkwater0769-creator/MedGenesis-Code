@@ -9,8 +9,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
-from clinicalclawbench.validate import validate_task
-from clinicalclawbench.evaluate import SCORE_PROTOCOL
+from clinicalrepbench.validate import validate_task
+from clinicalrepbench.evaluate import SCORE_PROTOCOL
 
 IGNORED_DIRS = {".git", ".venv", "__pycache__", ".pytest_cache", "build", "dist"}
 FORBIDDEN_DIRS = {"runs", "workspaces", "private", "raw_data", ".cache", "reference_solution"}
@@ -100,6 +100,10 @@ def main() -> int:
             errors.append("stale internal-result narrative: " + str(path.relative_to(ROOT)))
     if "Development preview" not in (ROOT / "README.md").read_text():
         errors.append("missing development-preview homepage notice")
+    source_packages = {p.name for p in (ROOT / "src").iterdir()
+                       if p.is_dir() and (p / "__init__.py").is_file()}
+    if source_packages != {"clinicalrepbench"}:
+        errors.append("unexpected Python package in public source tree")
     if errors:
         print("\n".join("ERROR: " + error for error in errors))
         return 1

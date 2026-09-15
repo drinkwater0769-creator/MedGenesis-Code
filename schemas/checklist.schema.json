@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "ClinicalClawBench Checklist",
+  "title": "ClinicalRepBench Checklist",
   "type": "object",
   "required": ["items"],
   "properties": {

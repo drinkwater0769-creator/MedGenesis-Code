@@ -4,8 +4,8 @@ import tempfile
 from collections import Counter
 from pathlib import Path
 
-from clinicalclawbench.open_data.prepare import plan_open_data_task, prepare_open_data_task
-from clinicalclawbench.open_data.registry import discover_open_tasks, load_source_manifest
+from clinicalrepbench.open_data.prepare import plan_open_data_task, prepare_open_data_task
+from clinicalrepbench.open_data.registry import discover_open_tasks, load_source_manifest
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -42,7 +42,7 @@ class OpenDataRegistryTest(unittest.TestCase):
     def test_neurology_preparation_uses_paper_specific_builder(self) -> None:
         import pandas as pd
         with tempfile.TemporaryDirectory() as tmp, patch(
-            "clinicalclawbench.public_nhanes_neuro_002.build_extract",
+            "clinicalrepbench.public_nhanes_neuro_002.build_extract",
             return_value=(pd.DataFrame({"seqn": [1, 2]}), {"n_analytic": 2}),
         ) as builder:
             workspace = Path(tmp) / "workspace"
@@ -62,7 +62,7 @@ class OpenDataRegistryTest(unittest.TestCase):
 
     def test_neurology_without_download_requires_staged_files(self) -> None:
         with tempfile.TemporaryDirectory() as tmp, patch(
-            "clinicalclawbench.public_nhanes_neuro_002.build_extract",
+            "clinicalrepbench.public_nhanes_neuro_002.build_extract",
         ) as builder:
             with self.assertRaisesRegex(FileNotFoundError, "Missing Neurology_002 source file"):
                 prepare_open_data_task(TASKS_DIR / "Neurology_002", Path(tmp), download=False)

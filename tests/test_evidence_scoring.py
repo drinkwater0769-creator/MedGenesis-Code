@@ -3,8 +3,8 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from clinicalclawbench.analysis_evidence import check_analysis_evidence
-from clinicalclawbench.evaluate import score_metrics, score_submission, _score_rubric_check
+from clinicalrepbench.analysis_evidence import check_analysis_evidence
+from clinicalrepbench.evaluate import score_metrics, score_submission, _score_rubric_check
 from test_figure2d_scoring_calibration import write_static_submission
 
 ROOT = Path(__file__).resolve().parents[1]

@@ -6,7 +6,7 @@ A clinical paper-reproduction benchmark for autonomous research agents.
 
 ClinicalRepBench evaluates reconstruction of a published study, reproduction of its main findings, and a bounded additional analysis. It contains **40 tasks across 10 clinical domains**, with four tasks per domain.
 
-This is the **public development release `0.4.2-public.4`**, based on task design `0.4.1-source-contracts`. It includes task specifications, public development targets, data preparation tools and a local scorer. No historical model scores, experiment logs or leaderboard results are included.
+This is the **public development release `0.4.3-public.5`**, based on task design `0.4.1-source-contracts`. It includes task specifications, public development targets, data preparation tools and a local scorer. No historical model scores, experiment logs or leaderboard results are included.
 
 中文说明：[发布说明与参与边界](docs/发布说明_中文.md)。
 

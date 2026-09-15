@@ -11,7 +11,7 @@ SRC_ROOT = REPO_ROOT / "src"
 if str(SRC_ROOT) not in sys.path:
     sys.path.insert(0, str(SRC_ROOT))
 
-from clinicalclawbench.open_data.prepare import plan_open_data_task, prepare_open_data_task
+from clinicalrepbench.open_data.prepare import plan_open_data_task, prepare_open_data_task
 
 
 def build_parser() -> argparse.ArgumentParser:

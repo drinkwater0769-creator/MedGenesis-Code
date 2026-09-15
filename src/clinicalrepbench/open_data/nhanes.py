@@ -42,7 +42,7 @@ def download_manifest_files(manifest: dict, cache_dir: str | Path, force: bool =
         if force or not destination.exists():
             request = urllib.request.Request(
                 download["url"],
-                headers={"User-Agent": "ClinicalClawBench-open-data-prep/0.3"},
+                headers={"User-Agent": "ClinicalRepBench-open-data-prep/0.3"},
             )
             temporary = destination.with_suffix(destination.suffix + ".part")
             with urllib.request.urlopen(request, timeout=DOWNLOAD_TIMEOUT_SECONDS) as response:

@@ -7,7 +7,7 @@ recover positions and reads only the requested variables.
 
 The NHANES III public-use 2019 linked mortality file
 (NHANES_III_MORT_2019_PUBLIC.dat) shares the layout of the continuous-NHANES
-LMF files and is parsed by clinicalclawbench.nhanes_mortality.parse_lmf.
+LMF files and is parsed by clinicalrepbench.nhanes_mortality.parse_lmf.
 """
 from __future__ import annotations
 

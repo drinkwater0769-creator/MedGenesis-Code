@@ -11,7 +11,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from clinicalclawbench.open_data.tcga import download_cases
+from clinicalrepbench.open_data.tcga import download_cases
 
 
 GDC_FILES_ENDPOINT = "https://api.gdc.cancer.gov/files"
@@ -67,7 +67,7 @@ def plan_downloads(manifest: dict) -> list[dict]:
 def _request_json(url: str) -> dict:
     request = urllib.request.Request(
         url,
-        headers={"User-Agent": "ClinicalClawBench-open-data-prep/0.3"},
+        headers={"User-Agent": "ClinicalRepBench-open-data-prep/0.3"},
     )
     with urllib.request.urlopen(request, timeout=DOWNLOAD_TIMEOUT_SECONDS) as response:
         return json.load(response)
@@ -77,7 +77,7 @@ def _write_download(url: str, destination: Path) -> Path:
     destination.parent.mkdir(parents=True, exist_ok=True)
     request = urllib.request.Request(
         url,
-        headers={"User-Agent": "ClinicalClawBench-open-data-prep/0.3"},
+        headers={"User-Agent": "ClinicalRepBench-open-data-prep/0.3"},
     )
     temporary = destination.with_suffix(destination.suffix + ".part")
     with urllib.request.urlopen(request, timeout=DOWNLOAD_TIMEOUT_SECONDS) as response:
@@ -125,7 +125,7 @@ def _download_maf_chunk(items: list[dict], output_root: Path, chunk_index: int) 
         data=json.dumps({"ids": ids}).encode("utf-8"),
         headers={
             "Content-Type": "application/json",
-            "User-Agent": "ClinicalClawBench-open-data-prep/0.3",
+            "User-Agent": "ClinicalRepBench-open-data-prep/0.3",
         },
     )
     archive_path = output_root / f"gdc_maf_chunk_{chunk_index:04d}.tar.gz.part"

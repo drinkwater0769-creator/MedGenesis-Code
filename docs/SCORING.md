@@ -10,7 +10,7 @@ This development release exposes one scoring path: `ccb score-submission TASK SU
 4. Apply two additional upper bounds to every valid submission: weighted numeric metric coverage and weighted numeric target alignment. Missing, Boolean, nonnumeric and nonfinite metrics score zero and remain in the target denominator. Extra, non-target metric IDs do not increase coverage.
 5. Return `final_score = min(score_after_existing_caps, numeric_metric_coverage, metrics_score)` on 0–1. Display it on 0–100 by multiplying by 100. `evidence_caps` reports both bounds even if another cap is lower.
 
-The generic component weights in task metadata do **not** turn this rubric mode into a 5%/90%/5% weighted average. The executable implementation in `src/clinicalclawbench/evaluate.py` and the task-specific configuration are authoritative for this release.
+The generic component weights in task metadata do **not** turn this rubric mode into a 5%/90%/5% weighted average. The executable implementation in `src/clinicalrepbench/evaluate.py` and the task-specific configuration are authoritative for this release.
 
 The bundled checklist judge is deterministic. Discussion criteria still check declared evidence and text. The three analysis-completion checks now require structured result evidence as described below. These checks cannot independently establish scientific correctness or authentic execution. Copying target metrics is not a valid study reproduction. A reported score must be accompanied by the analysis and its provenance.
 

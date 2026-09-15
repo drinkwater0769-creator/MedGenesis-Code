@@ -7,7 +7,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from clinicalclawbench.open_data.registry import get_open_task, load_json, load_source_manifest
+from clinicalrepbench.open_data.registry import get_open_task, load_json, load_source_manifest
 from . import faers, nhanes, tcga, tcga_luad
 
 
@@ -67,7 +67,7 @@ def prepare_open_data_task(
         }
 
     if manifest.get("extract", {}).get("analysis") == "nhanes_periodontitis_depression_mortality":
-        from clinicalclawbench.public_nhanes_neuro_002 import build_extract
+        from clinicalrepbench.public_nhanes_neuro_002 import build_extract
 
         cache_root = Path(cache_dir) if cache_dir else source_dir
         if download:
@@ -101,7 +101,7 @@ def prepare_open_data_task(
         }
 
     if manifest.get("extract", {}).get("analysis") == "nhanes3_sle_lycopene_mortality":
-        from clinicalclawbench.public_nhanes3_immu_000 import build_extract as build_i000_extract
+        from clinicalrepbench.public_nhanes3_immu_000 import build_extract as build_i000_extract
 
         analytic, summary = build_i000_extract(
             cache_dir or source_dir,
@@ -118,7 +118,7 @@ def prepare_open_data_task(
         }
 
     if manifest.get("extract", {}).get("analysis") == "nhanes3_gallstone_nafld_mortality":
-        from clinicalclawbench.public_nhanes3_gastro_001 import build_extract as build_g001_extract
+        from clinicalrepbench.public_nhanes3_gastro_001 import build_extract as build_g001_extract
 
         analytic, summary = build_g001_extract(
             cache_dir or source_dir,
@@ -135,7 +135,7 @@ def prepare_open_data_task(
         }
 
     if manifest.get("extract", {}).get("analysis") == "nhanes3_thyroid_mafld_mortality":
-        from clinicalclawbench.public_nhanes3_endo_002 import build_extract as build_endo002_extract
+        from clinicalrepbench.public_nhanes3_endo_002 import build_extract as build_endo002_extract
 
         analytic, summary = build_endo002_extract(
             cache_dir or source_dir,
@@ -152,7 +152,7 @@ def prepare_open_data_task(
         }
 
     if manifest.get("extract", {}).get("analysis") == "nhanes3_tyg_nafld_mortality":
-        from clinicalclawbench.public_nhanes3_gastro_000 import build_extract
+        from clinicalrepbench.public_nhanes3_gastro_000 import build_extract
 
         analytic, summary = build_extract(
             cache_dir or source_dir,
@@ -178,7 +178,7 @@ def prepare_open_data_task(
             )
 
         if manifest.get("extract", {}).get("analysis") == "nhanes_ckd_anemia_hyperuricemia_mortality":
-            from clinicalclawbench.public_nhanes_hematology_001_prep import prepare_public_nhanes_hema001_extract
+            from clinicalrepbench.public_nhanes_hematology_001_prep import prepare_public_nhanes_hema001_extract
 
             analytic, summary = prepare_public_nhanes_hema001_extract(
                 input_dir=source_dir,
@@ -198,7 +198,7 @@ def prepare_open_data_task(
             }
 
         if manifest.get("extract", {}).get("analysis") == "nhanes_bp_cvd_mortality_sex":
-            from clinicalclawbench.public_nhanes_cardiology_003_prep import prepare_public_nhanes_cardio003_extract
+            from clinicalrepbench.public_nhanes_cardiology_003_prep import prepare_public_nhanes_cardio003_extract
 
             analytic, summary = prepare_public_nhanes_cardio003_extract(
                 input_dir=source_dir,
@@ -218,7 +218,7 @@ def prepare_open_data_task(
             }
 
         if manifest.get("extract", {}).get("analysis") == "nhanes_crm_overlap":
-            from clinicalclawbench.public_nhanes_003_prep import prepare_public_nhanes_003_extract
+            from clinicalrepbench.public_nhanes_003_prep import prepare_public_nhanes_003_extract
 
             analytic, summary = prepare_public_nhanes_003_extract(
                 input_dir=source_dir,
@@ -236,7 +236,7 @@ def prepare_open_data_task(
             }
 
         if manifest.get("extract", {}).get("analysis") == "nhanes_abdominal_obesity_hypertension":
-            from clinicalclawbench.public_nhanes_001_prep import prepare_public_nhanes_001_extract
+            from clinicalrepbench.public_nhanes_001_prep import prepare_public_nhanes_001_extract
 
             analytic, summary = prepare_public_nhanes_001_extract(
                 input_dir=source_dir,
@@ -265,7 +265,7 @@ def prepare_open_data_task(
 
     if task.provider == "tcga_gdc":
         if manifest.get("extract", {}).get("analysis") == "tcga_project_profile":
-            from clinicalclawbench.open_data.tcga_project import prepare_project_profile
+            from clinicalrepbench.open_data.tcga_project import prepare_project_profile
 
             return prepare_project_profile(
                 manifest, workspace_root, cache_dir=cache_dir, download=download, force=force)
@@ -390,39 +390,39 @@ def run_open_data_reference(
     prepare_open_data_task(task.task_dir, workspace, cache_dir=cache_dir, download=download, force=force)
 
     if task.task_id == "Endocrinology_001":
-        from clinicalclawbench.public_nhanes_001_reference import run_public_nhanes_001_reference
+        from clinicalrepbench.public_nhanes_001_reference import run_public_nhanes_001_reference
 
         return run_public_nhanes_001_reference(workspace)
     if task.source_manifest.get("extract", {}).get("analysis") == "nhanes_crm_overlap":
-        from clinicalclawbench.public_nhanes_003_reference import run_public_nhanes_003_reference
+        from clinicalrepbench.public_nhanes_003_reference import run_public_nhanes_003_reference
 
         return run_public_nhanes_003_reference(workspace)
     if task.source_manifest.get("extract", {}).get("analysis") == "nhanes_bp_cvd_mortality_sex":
-        from clinicalclawbench.public_nhanes_cardiology_003_reference import run_public_nhanes_cardio003_reference
+        from clinicalrepbench.public_nhanes_cardiology_003_reference import run_public_nhanes_cardio003_reference
 
         return run_public_nhanes_cardio003_reference(workspace)
     if task.source_manifest.get("extract", {}).get("analysis") == "nhanes_ckd_anemia_hyperuricemia_mortality":
-        from clinicalclawbench.public_nhanes_hematology_001_reference import run_public_nhanes_hema001_reference
+        from clinicalrepbench.public_nhanes_hematology_001_reference import run_public_nhanes_hema001_reference
 
         return run_public_nhanes_hema001_reference(workspace)
     if task.source_manifest.get("extract", {}).get("analysis") == "nhanes3_tyg_nafld_mortality":
-        from clinicalclawbench.public_nhanes3_gastro_000 import run_reference as run_gastro000_reference
+        from clinicalrepbench.public_nhanes3_gastro_000 import run_reference as run_gastro000_reference
 
         return run_gastro000_reference(workspace, cache_dir=cache_dir)
     if task.source_manifest.get("extract", {}).get("analysis") == "nhanes3_thyroid_mafld_mortality":
-        from clinicalclawbench.public_nhanes3_endo_002 import run_reference as run_endo002_reference
+        from clinicalrepbench.public_nhanes3_endo_002 import run_reference as run_endo002_reference
 
         return run_endo002_reference(workspace, cache_dir=cache_dir)
     if task.source_manifest.get("extract", {}).get("analysis") == "nhanes3_gallstone_nafld_mortality":
-        from clinicalclawbench.public_nhanes3_gastro_001 import run_reference as run_g001_reference
+        from clinicalrepbench.public_nhanes3_gastro_001 import run_reference as run_g001_reference
 
         return run_g001_reference(workspace, cache_dir=cache_dir)
     if task.source_manifest.get("extract", {}).get("analysis") == "nhanes3_sle_lycopene_mortality":
-        from clinicalclawbench.public_nhanes3_immu_000 import run_reference as run_i000_reference
+        from clinicalrepbench.public_nhanes3_immu_000 import run_reference as run_i000_reference
 
         return run_i000_reference(workspace, cache_dir=cache_dir)
     if task.source_manifest.get("extract", {}).get("analysis") == "tcga_project_profile":
-        from clinicalclawbench.open_data.tcga_project import prepare_project_profile
+        from clinicalrepbench.open_data.tcga_project import prepare_project_profile
 
         result = prepare_project_profile(task.source_manifest, Path(workspace),
                                          cache_dir=cache_dir, download=download, force=force)

@@ -6,9 +6,9 @@ import io
 import tokenize
 from pathlib import Path
 
-from clinicalclawbench.submission import load_submission_manifest, validate_submission
-from clinicalclawbench.reproducibility import score_reproducibility
-from clinicalclawbench.analysis_evidence import CHECK_KINDS, check_analysis_evidence, finite
+from clinicalrepbench.submission import load_submission_manifest, validate_submission
+from clinicalrepbench.reproducibility import score_reproducibility
+from clinicalrepbench.analysis_evidence import CHECK_KINDS, check_analysis_evidence, finite
 
 SCORE_PROTOCOL = "local-rubric-v3-evidence"
 

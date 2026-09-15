@@ -18,7 +18,7 @@
   "literature_map": "tasks/clinicalrepbench_literature_map.json",
   "execution_status": "Use per-task source contracts and validated named profiles; full-paper/formal readiness is not implied.",
   "open_data_task_count": 15,
-  "release_id": "0.4.2-public.4",
+  "release_id": "0.4.3-public.5",
   "release_status": "public-development",
   "score_protocol": "local-rubric-v3-evidence",
   "historical_results_included": false,

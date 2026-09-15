@@ -1,5 +1,5 @@
 {
-  "release_id": "0.4.2-public.4",
+  "release_id": "0.4.3-public.5",
   "date": "2026-09-15",
   "checks": {
     "task_count": 40,
@@ -17,7 +17,11 @@
     "editable_install": "passed in a fresh Python 3.12 virtual environment",
     "cli_help": "passed",
     "installed_cli_matches_python_api": "passed",
-    "wheel_build_with_license_notices": "passed"
+    "wheel_build_with_license_notices": "passed",
+    "python_package_namespace": "clinicalrepbench",
+    "renamed_package_wheel_build": "passed",
+    "cli_validate_and_plan_after_rename": "passed",
+    "release_file_allowlist_rechecked": "passed"
   },
   "limitations": [
     "Execution in a fresh software environment is not independent scientific replication by a third party.",

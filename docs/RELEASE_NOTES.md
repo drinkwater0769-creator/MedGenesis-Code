@@ -1,3 +1,12 @@
+# Public development preview 0.4.3-public.5
+
+Package: `0.4.3.dev1`. Scoring protocol remains `local-rubric-v3-evidence`.
+
+- Standardized the Python package namespace to `clinicalrepbench`, including CLI entry points, imports, generated analysis code and task metadata references. The `ccb` command is unchanged.
+- Rechecked the release allowlist and excluded data, private trial results and historical model scores. Target values, tolerances and scoring rules are unchanged.
+
+## Previous releases
+
 # Public development preview 0.4.2-public.4
 
 Package: `0.4.2.dev2`. Scoring protocol remains `local-rubric-v3-evidence`.

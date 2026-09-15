@@ -14,7 +14,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-from clinicalclawbench.public_nhanes_003_prep import prepare_public_nhanes_003_extract
+from clinicalrepbench.public_nhanes_003_prep import prepare_public_nhanes_003_extract
 
 
 def _wpct(frame: pd.DataFrame, mask: pd.Series) -> float:
@@ -189,7 +189,7 @@ def run_public_nhanes_003_reference(workspace: str | Path) -> dict:
         'WORKSPACE = Path(__file__).resolve().parents[1]\n'
         'EXTRACT = WORKSPACE / "data/analytic_extract.csv"\n'
         f'sys.path.insert(0, {json.dumps(str(Path(__file__).resolve().parents[1]))})\n'
-        'from clinicalclawbench.public_nhanes_003_reference import run_public_nhanes_003_reference\n'
+        'from clinicalrepbench.public_nhanes_003_reference import run_public_nhanes_003_reference\n'
         'def main():\n'
         '    assert EXTRACT.exists() or (WORKSPACE / "data/source").exists(), "stage NHANES source data first"\n'
         '    result = run_public_nhanes_003_reference(WORKSPACE)\n'

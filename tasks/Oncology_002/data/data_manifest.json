@@ -12,11 +12,11 @@
     "sex_when_available"
   ],
   "notes": "Public development manifest and inherited targets. Record data provenance and source-cohort deviations; target changes require a separately versioned maintainer release.",
-  "reference_runner": "clinicalclawbench.open_data.prepare.run_open_data_reference",
+  "reference_runner": "clinicalrepbench.open_data.prepare.run_open_data_reference",
   "required_tables": [
     "analysis_dataset_or_source_specific_files"
   ],
-  "scorer": "PYTHONPATH=src python3 -m clinicalclawbench.cli score-submission <task_dir> <submission_dir>",
+  "scorer": "PYTHONPATH=src python3 -m clinicalrepbench.cli score-submission <task_dir> <submission_dir>",
   "source_dataset": "TCGA/GDC",
   "source_manifest": "data/source_manifest.json",
   "source_url": "https://portal.gdc.cancer.gov/",

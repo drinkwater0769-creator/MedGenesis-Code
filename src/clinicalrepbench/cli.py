@@ -4,15 +4,15 @@ import argparse
 import json
 import sys
 
-from clinicalclawbench.evaluate import load_json, score_metrics, score_submission
-from clinicalclawbench.open_data.prepare import (
+from clinicalrepbench.evaluate import load_json, score_metrics, score_submission
+from clinicalrepbench.open_data.prepare import (
     lock_target_metrics_from_submission,
     plan_open_data_task,
     prepare_open_data_task,
 )
-from clinicalclawbench.runner import prepare_run, run_command, run_reference
-from clinicalclawbench.submission import validate_submission
-from clinicalclawbench.validate import validate_task
+from clinicalrepbench.runner import prepare_run, run_command, run_reference
+from clinicalrepbench.submission import validate_submission
+from clinicalrepbench.validate import validate_task
 
 
 def _cmd_validate_task(args: argparse.Namespace) -> int:
@@ -210,14 +210,14 @@ def build_parser() -> argparse.ArgumentParser:
 
 
 def _cmd_inspect_ukb(args: argparse.Namespace) -> int:
-    from clinicalclawbench.ukb_io import inspect_inputs
+    from clinicalrepbench.ukb_io import inspect_inputs
     result = inspect_inputs(args.task_dir, args.inputs, args.profile)
     print(json.dumps(result, indent=2))
     return 0 if result["input_headers_ok"] else 2
 
 
 def _cmd_prepare_ukb(args: argparse.Namespace) -> int:
-    from clinicalclawbench.ukb_io import prepare_inputs
+    from clinicalrepbench.ukb_io import prepare_inputs
     result = prepare_inputs(args.task_dir, args.inputs, args.output, args.profile,
                             args.source_release, args.withdrawal_status, args.chunksize)
     print(json.dumps(result, indent=2))
@@ -225,7 +225,7 @@ def _cmd_prepare_ukb(args: argparse.Namespace) -> int:
 
 
 def _cmd_validate_ukb(args: argparse.Namespace) -> int:
-    from clinicalclawbench.ukb_io import verify_prepared
+    from clinicalrepbench.ukb_io import verify_prepared
     result = verify_prepared(args.prepared, args.task_dir)
     result.pop("provenance", None)
     print(json.dumps(result, indent=2))
@@ -233,7 +233,7 @@ def _cmd_validate_ukb(args: argparse.Namespace) -> int:
 
 
 def _cmd_ukb_diagnostic(args: argparse.Namespace) -> int:
-    from clinicalclawbench.ukb_diagnostic import run_neurology_diagnostic
+    from clinicalrepbench.ukb_diagnostic import run_neurology_diagnostic
     print(json.dumps(run_neurology_diagnostic(args.prepared, args.task_dir, args.output, args.chunksize), indent=2))
     return 0
 

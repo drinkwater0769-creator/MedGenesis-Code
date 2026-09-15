@@ -26,8 +26,8 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-from clinicalclawbench.nhanes3 import read_nh3, stage_nh3, NH3_BASE
-from clinicalclawbench.nhanes_mortality import parse_lmf
+from clinicalrepbench.nhanes3 import read_nh3, stage_nh3, NH3_BASE
+from clinicalrepbench.nhanes_mortality import parse_lmf
 
 ADULT_VARS = ["SEQN", "HSSEX", "HSAGEIR", "DMARETHN", "DMPPIR", "HFA8R", "HFA12",
               "HAR1", "HAR3", "HAD1", "HAD6", "HAD10", "HAE2", "HAE5A",
@@ -64,7 +64,7 @@ def build_extract(cache_dir: str | Path, output_csv: str | Path,
     d = adult.merge(exam, on="SEQN", how="left").merge(lab, on="SEQN", how="left")
     d = d.merge(hg[["SEQN", "GUPHSQC", "GUPHSPF"]], on="SEQN", how="left")
     d = d.merge(lmf, on="SEQN", how="left")
-    from clinicalclawbench.nhanes3 import apply_bounds
+    from clinicalrepbench.nhanes3 import apply_bounds
     d = apply_bounds(d, {
         "TGP": (10, 5000), "G1P": (30, 700), "GHP": (2, 25), "HDP": (5, 250),
         "PLP": (10, 1500), "ASPSI": (1, 1500), "ATPSI": (1, 1500),
@@ -267,7 +267,7 @@ def run_reference(workspace: str | Path, cache_dir: str | Path | None = None) ->
         'WORKSPACE = Path(__file__).resolve().parents[1]\n'
         'EXTRACT = WORKSPACE / "data/analytic_extract.csv"\n'
         f'sys.path.insert(0, {json.dumps(str(Path(__file__).resolve().parents[1]))})\n'
-        'from clinicalclawbench.public_nhanes3_gastro_000 import run_reference\n'
+        'from clinicalrepbench.public_nhanes3_gastro_000 import run_reference\n'
         'def main():\n'
         '    assert EXTRACT.exists() or (WORKSPACE / "data/source").exists(), "stage NHANES III source data first"\n'
         '    result = run_reference(WORKSPACE)\n'

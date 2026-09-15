@@ -3,7 +3,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from clinicalclawbench.evaluate import score_submission
+from clinicalrepbench.evaluate import score_submission
 
 
 TASK_DIR = Path(__file__).resolve().parents[1] / "tasks" / "Dermatology_000"

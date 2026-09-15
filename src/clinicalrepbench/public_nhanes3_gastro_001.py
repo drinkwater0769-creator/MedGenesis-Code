@@ -21,8 +21,8 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-from clinicalclawbench.nhanes3 import read_nh3, stage_nh3, apply_bounds, NH3_BASE
-from clinicalclawbench.nhanes_mortality import parse_lmf
+from clinicalrepbench.nhanes3 import read_nh3, stage_nh3, apply_bounds, NH3_BASE
+from clinicalrepbench.nhanes_mortality import parse_lmf
 
 ADULT_VARS = ["SEQN", "HSSEX", "HSAGEIR", "DMARETHN", "DMPPIR", "HFA8R",
               "HAR1", "HAR3", "HAD1", "HAE2", "HAN6HS", "HAN6IS", "HAN6JS",
@@ -242,7 +242,7 @@ def run_reference(workspace: str | Path, cache_dir: str | Path | None = None) ->
         'WORKSPACE = Path(__file__).resolve().parents[1]\n'
         'EXTRACT = WORKSPACE / "data/analytic_extract.csv"\n'
         f'sys.path.insert(0, {json.dumps(str(Path(__file__).resolve().parents[1]))})\n'
-        'from clinicalclawbench.public_nhanes3_gastro_001 import run_reference\n'
+        'from clinicalrepbench.public_nhanes3_gastro_001 import run_reference\n'
         'def main():\n'
         '    assert EXTRACT.exists() or (WORKSPACE / "data/source").exists(), "stage NHANES III source data first"\n'
         '    result = run_reference(WORKSPACE)\n'

@@ -32,7 +32,7 @@ def download_events(search: str, output_path: str | Path, limit: int = 1000) -> 
     destination.parent.mkdir(parents=True, exist_ok=True)
     request = urllib.request.Request(
         url,
-        headers={"User-Agent": "ClinicalClawBench-open-data-prep/0.3"},
+        headers={"User-Agent": "ClinicalRepBench-open-data-prep/0.3"},
     )
     with urllib.request.urlopen(request, timeout=DOWNLOAD_TIMEOUT_SECONDS) as response:
         destination.write_bytes(response.read())

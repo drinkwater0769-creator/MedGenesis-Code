@@ -7,8 +7,8 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-from clinicalclawbench.evaluate import score_submission
-from clinicalclawbench.validate import validate_task
+from clinicalrepbench.evaluate import score_submission
+from clinicalrepbench.validate import validate_task
 
 
 VISIBLE_TASK_PATHS = (

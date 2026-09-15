@@ -19,7 +19,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-from clinicalclawbench.nhanes_mortality import stage_lmf, UCOD_HEART, UCOD_CEREBROVASCULAR
+from clinicalrepbench.nhanes_mortality import stage_lmf, UCOD_HEART, UCOD_CEREBROVASCULAR
 
 SFX = {"1999-2000": "", "2001-2002": "_B", "2003-2004": "_C", "2005-2006": "_D",
        "2007-2008": "_E", "2009-2010": "_F", "2011-2012": "_G", "2013-2014": "_H",

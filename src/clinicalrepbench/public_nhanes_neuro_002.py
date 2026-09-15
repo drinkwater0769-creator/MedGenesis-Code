@@ -21,8 +21,8 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-from clinicalclawbench.nhanes3 import read_nh3, stage_nh3, apply_bounds
-from clinicalclawbench.nhanes_mortality import parse_lmf, stage_lmf
+from clinicalrepbench.nhanes3 import read_nh3, stage_nh3, apply_bounds
+from clinicalrepbench.nhanes_mortality import parse_lmf, stage_lmf
 
 BASE = "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public"
 FILES = {
@@ -111,7 +111,7 @@ def build_extract(cache_dir: str | Path, nh3_cache: str | Path,
                      ["SEQN", "HSSEX", "HSAGEIR", "DMARETHN", "DMPPIR", "HFA8R",
                       "HAR1", "HAR3", "HAD1", "HAE2", "HAE7"])
     pos = None
-    from clinicalclawbench.nhanes3 import parse_sas_positions
+    from clinicalrepbench.nhanes3 import parse_sas_positions
     epos = parse_sas_positions(nh3 / "exam.sas")
     perio_vars = [v for v in epos if re.match(r"DEP[UL][MB](PC|LA)\d+$", v)]
     exam = read_nh3(nh3 / "exam.dat", nh3 / "exam.sas",
@@ -313,7 +313,7 @@ def run_reference(workspace: str | Path, cache_dir: str | Path | None = None) ->
         'WORKSPACE = Path(__file__).resolve().parents[1]\n'
         'EXTRACT = WORKSPACE / "data/analytic_extract.csv"\n'
         f'sys.path.insert(0, {json.dumps(str(Path(__file__).resolve().parents[1]))})\n'
-        'from clinicalclawbench.public_nhanes_neuro_002 import run_reference\n'
+        'from clinicalrepbench.public_nhanes_neuro_002 import run_reference\n'
         'def main():\n'
         '    assert EXTRACT.exists(), "stage the pooled NHANES source data first"\n'
         '    result = run_reference(WORKSPACE)\n'

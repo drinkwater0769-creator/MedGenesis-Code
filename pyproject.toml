@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "clinicalrepbench"
-version = "0.4.2.dev2"
+version = "0.4.3.dev1"
 description = "Clinical paper-reproduction tasks and local evaluation tools."
 readme = "README.md"
 license = {file = "LICENSE"}
@@ -16,7 +16,7 @@ analysis = ["statsmodels>=0.14", "scikit-learn>=1.2", "lifelines>=0.27"]
 ukb = ["pyarrow>=12", "pandas>=2"]
 
 [project.scripts]
-ccb = "clinicalclawbench.cli:main"
+ccb = "clinicalrepbench.cli:main"
 
 [tool.setuptools]
 license-files = ["LICENSE", "NOTICE.md", "LICENSES/*.txt"]

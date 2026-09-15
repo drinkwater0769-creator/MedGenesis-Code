@@ -11,7 +11,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-from clinicalclawbench.public_nhanes_hematology_001_prep import prepare_public_nhanes_hema001_extract
+from clinicalrepbench.public_nhanes_hematology_001_prep import prepare_public_nhanes_hema001_extract
 
 MODEL_COLS = ["followup_years", "death_allcause", "anemia", "hyperuricemia", "ridageyr",
               "female_flag", "race_eth", "married_partner", "indfmpir", "smoking",
@@ -163,7 +163,7 @@ def run_public_nhanes_hema001_reference(workspace: str | Path) -> dict:
         'WORKSPACE = Path(__file__).resolve().parents[1]\n'
         'EXTRACT = WORKSPACE / "data/analytic_extract.csv"\n'
         f'sys.path.insert(0, {json.dumps(str(Path(__file__).resolve().parents[1]))})\n'
-        'from clinicalclawbench.public_nhanes_hematology_001_reference import run_public_nhanes_hema001_reference\n'
+        'from clinicalrepbench.public_nhanes_hematology_001_reference import run_public_nhanes_hema001_reference\n'
         'def main():\n'
         '    assert EXTRACT.exists() or (WORKSPACE / "data/source").exists(), "stage NHANES source data first"\n'
         '    result = run_public_nhanes_hema001_reference(WORKSPACE)\n'

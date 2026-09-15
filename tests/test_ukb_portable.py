@@ -5,8 +5,8 @@ from pathlib import Path
 
 import pandas as pd
 
-from clinicalclawbench.ukb_io import canonical_column, inspect_inputs, prepare_inputs, verify_prepared
-from clinicalclawbench.ukb_diagnostic import paired_death, endpoint_masks, parse_dates, run_neurology_diagnostic
+from clinicalrepbench.ukb_io import canonical_column, inspect_inputs, prepare_inputs, verify_prepared
+from clinicalrepbench.ukb_diagnostic import paired_death, endpoint_masks, parse_dates, run_neurology_diagnostic
 
 TASK = Path(__file__).resolve().parents[1] / "tasks/Neurology_000"
 PROFILE = "neurology000-crude-v1"

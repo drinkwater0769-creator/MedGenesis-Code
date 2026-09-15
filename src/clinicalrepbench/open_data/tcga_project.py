@@ -175,7 +175,7 @@ care, are not a clinical decision tool, and are not actionable for individual tr
         'WORKSPACE = Path(__file__).resolve().parents[1]\n'
         'EXTRACT = WORKSPACE / "data/analytic_extract.csv"\n'
         f'sys.path.insert(0, {json.dumps(str(Path(__file__).resolve().parents[2]))})\n'
-        'from clinicalclawbench.open_data.tcga_project import prepare_project_profile\n'
+        'from clinicalrepbench.open_data.tcga_project import prepare_project_profile\n'
         'import json as _json\n'
         'MANIFEST = _json.load(open(WORKSPACE / "task_manifest.json"))\n'
         'def main():\n'

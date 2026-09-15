@@ -4,7 +4,7 @@ import textwrap
 import unittest
 from pathlib import Path
 
-from clinicalclawbench.runner import prepare_run, run_reference
+from clinicalrepbench.runner import prepare_run, run_reference
 
 
 def write_json(path: Path, payload: dict) -> None:

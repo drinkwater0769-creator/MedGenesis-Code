@@ -1,6 +1,6 @@
 import unittest
 
-from clinicalclawbench.evaluate import score_metric, score_metrics
+from clinicalrepbench.evaluate import score_metric, score_metrics
 
 
 class EvaluateTest(unittest.TestCase):

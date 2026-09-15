@@ -7,7 +7,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-from clinicalclawbench.ukb_io import iter_projected, verify_prepared
+from clinicalrepbench.ukb_io import iter_projected, verify_prepared
 
 CUTOFF = pd.Timestamp("2020-06-01")
 SPECIAL_DATES = {"1900-01-01", "1901-01-01", "1902-02-02", "1903-03-03", "1909-09-09", "2037-07-07"}

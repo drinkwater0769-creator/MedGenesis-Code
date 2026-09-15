@@ -8,7 +8,7 @@
   "extract": {
     "analysis": "nhanes_periodontitis_depression_mortality",
     "output": "data/analytic_extract.csv",
-    "reference_runner": "clinicalclawbench.public_nhanes_neuro_002.run_reference",
+    "reference_runner": "clinicalrepbench.public_nhanes_neuro_002.run_reference",
     "script": "scripts/prepare_open_data_task.py"
   },
   "license_note": "Public-use NHANES files; comply with CDC/NCHS analytic guidance.",

@@ -19,7 +19,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-from clinicalclawbench.nhanes_mortality import stage_lmf
+from clinicalrepbench.nhanes_mortality import stage_lmf
 
 SFX = {"2009-2010": "_F", "2011-2012": "_G", "2013-2014": "_H",
        "2015-2016": "_I", "2017-2018": "_J"}
